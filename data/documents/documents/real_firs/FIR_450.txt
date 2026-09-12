@@ -1,12 +1,12 @@
 FIR No: FIR_450
 
-Source: public FIR dataset (structured record rendered for M8 NLP testing).
+Source: public FIR dataset (structured record rendered for M8 NLP testing; person identities in this demo are fictionalized).
 Image ID: 450
-Police Station: Unknown police station
+Police Station: Lalbazar Police Station
 Year: 2021
 
 Persons / linked FIR subjects:
-- FIR_P_0012
+- Rohan Khanna (FIR_P_0012)
 
 Crime records:
 - CRIME_450

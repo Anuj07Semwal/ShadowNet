@@ -1,12 +1,12 @@
 FIR No: FIR_141
 
-Source: public FIR dataset (structured record rendered for M8 NLP testing).
+Source: public FIR dataset (structured record rendered for M8 NLP testing; person identities in this demo are fictionalized).
 Image ID: 141
-Police Station: Baguiati
+Police Station: Baguiati Police Station
 Year: 2019
 
 Persons / linked FIR subjects:
-- FIR_P_0129
+- Aman Joshi (FIR_P_0129)
 
 Crime records:
 - CRIME_141

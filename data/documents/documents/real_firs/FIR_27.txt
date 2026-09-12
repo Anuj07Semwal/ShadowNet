@@ -1,12 +1,12 @@
 FIR No: FIR_27
 
-Source: public FIR dataset (structured record rendered for M8 NLP testing).
+Source: public FIR dataset (structured record rendered for M8 NLP testing; person identities in this demo are fictionalized).
 Image ID: 27
-Police Station: Airport
+Police Station: NSCBI Airport Police Station
 Year: 2018
 
 Persons / linked FIR subjects:
-- FIR_P_0110
+- Kavita Mishra (FIR_P_0110)
 
 Crime records:
 - CRIME_27

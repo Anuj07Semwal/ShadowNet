@@ -1,8 +1,8 @@
 FIR No: FIR_278
 
-Source: public FIR dataset (structured record rendered for M8 NLP testing).
+Source: public FIR dataset (structured record rendered for M8 NLP testing; person identities in this demo are fictionalized).
 Image ID: 278
-Police Station: Bidhannagar South
+Police Station: Bidhannagar South Police Station
 Year: 2017
 
 Crime records:

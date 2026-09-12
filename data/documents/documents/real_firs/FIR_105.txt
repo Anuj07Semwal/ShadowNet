@@ -1,12 +1,12 @@
 FIR No: FIR_105
 
-Source: public FIR dataset (structured record rendered for M8 NLP testing).
+Source: public FIR dataset (structured record rendered for M8 NLP testing; person identities in this demo are fictionalized).
 Image ID: 105
-Police Station: Baguiati
+Police Station: Baguiati Police Station
 Year: 2019
 
 Persons / linked FIR subjects:
-- FIR_P_0126
+- Suresh Tiwari (FIR_P_0126)
 
 Crime records:
 - CRIME_105

@@ -1,12 +1,12 @@
 FIR No: FIR_160
 
-Source: public FIR dataset (structured record rendered for M8 NLP testing).
+Source: public FIR dataset (structured record rendered for M8 NLP testing; person identities in this demo are fictionalized).
 Image ID: 160
-Police Station: Baguiati
+Police Station: Baguiati Police Station
 Year: 2018
 
 Persons / linked FIR subjects:
-- FIR_P_0008
+- Vikas Jain (FIR_P_0008)
 
 Crime records:
 - CRIME_160

@@ -1,12 +1,12 @@
 FIR No: FIR_444
 
-Source: public FIR dataset (structured record rendered for M8 NLP testing).
+Source: public FIR dataset (structured record rendered for M8 NLP testing; person identities in this demo are fictionalized).
 Image ID: 444
-Police Station: Rajarhat
+Police Station: Rajarhat Police Station
 Year: 2022
 
 Persons / linked FIR subjects:
-- FIR_P_0329
+- Rohit Agarwal (FIR_P_0329)
 
 Crime records:
 - CRIME_444

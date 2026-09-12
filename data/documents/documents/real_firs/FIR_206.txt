@@ -1,12 +1,12 @@
 FIR No: FIR_206
 
-Source: public FIR dataset (structured record rendered for M8 NLP testing).
+Source: public FIR dataset (structured record rendered for M8 NLP testing; person identities in this demo are fictionalized).
 Image ID: 206
-Police Station: Baguiati
+Police Station: Baguiati Police Station
 Year: 2021
 
 Persons / linked FIR subjects:
-- FIR_P_0384
+- Aditya Sethi (FIR_P_0384)
 
 Crime records:
 - CRIME_206

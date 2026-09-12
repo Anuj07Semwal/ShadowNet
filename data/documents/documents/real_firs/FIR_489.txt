@@ -1,12 +1,12 @@
 FIR No: FIR_489
 
-Source: public FIR dataset (structured record rendered for M8 NLP testing).
+Source: public FIR dataset (structured record rendered for M8 NLP testing; person identities in this demo are fictionalized).
 Image ID: 489
-Police Station: Lake Town
+Police Station: Lake Town Police Station
 Year: 2020
 
 Persons / linked FIR subjects:
-- FIR_P_0447
+- Arnav Dutta (FIR_P_0447)
 
 Crime records:
 - CRIME_489

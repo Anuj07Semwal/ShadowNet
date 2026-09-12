@@ -1,12 +1,12 @@
 FIR No: FIR_41
 
-Source: public FIR dataset (structured record rendered for M8 NLP testing).
+Source: public FIR dataset (structured record rendered for M8 NLP testing; person identities in this demo are fictionalized).
 Image ID: 41
-Police Station: Airport
+Police Station: NSCBI Airport Police Station
 Year: 2018
 
 Persons / linked FIR subjects:
-- FIR_P_0115
+- Manish Chopra (FIR_P_0115)
 
 Crime records:
 - CRIME_41

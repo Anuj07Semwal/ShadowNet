@@ -1,12 +1,12 @@
 FIR No: FIR_537
 
-Source: public FIR dataset (structured record rendered for M8 NLP testing).
+Source: public FIR dataset (structured record rendered for M8 NLP testing; person identities in this demo are fictionalized).
 Image ID: 537
-Police Station: Women
+Police Station: Bidhannagar Women Police Station
 Year: 2018
 
 Persons / linked FIR subjects:
-- FIR_P_0178
+- Sneha Deshmukh (FIR_P_0178)
 
 Crime records:
 - CRIME_537

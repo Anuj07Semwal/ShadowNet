@@ -1,12 +1,12 @@
 FIR No: FIR_283
 
-Source: public FIR dataset (structured record rendered for M8 NLP testing).
+Source: public FIR dataset (structured record rendered for M8 NLP testing; person identities in this demo are fictionalized).
 Image ID: 283
-Police Station: Bidhannagar South
+Police Station: Bidhannagar South Police Station
 Year: 2017
 
 Persons / linked FIR subjects:
-- FIR_P_0034
+- Rajesh Nair (FIR_P_0034)
 
 Crime records:
 - CRIME_283

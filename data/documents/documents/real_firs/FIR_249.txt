@@ -1,12 +1,12 @@
 FIR No: FIR_249
 
-Source: public FIR dataset (structured record rendered for M8 NLP testing).
+Source: public FIR dataset (structured record rendered for M8 NLP testing; person identities in this demo are fictionalized).
 Image ID: 249
-Police Station: Bidhannagar North
+Police Station: Bidhannagar North Police Station
 Year: 2017
 
 Persons / linked FIR subjects:
-- FIR_P_0382
+- Yash Jain (FIR_P_0382)
 
 Crime records:
 - CRIME_249

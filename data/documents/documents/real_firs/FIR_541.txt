@@ -1,12 +1,12 @@
 FIR No: FIR_541
 
-Source: public FIR dataset (structured record rendered for M8 NLP testing).
+Source: public FIR dataset (structured record rendered for M8 NLP testing; person identities in this demo are fictionalized).
 Image ID: 541
-Police Station: Nscbi Airport
+Police Station: NSCBI Airport Police Station
 Year: Unknown
 
 Persons / linked FIR subjects:
-- FIR_P_0220
+- Riya Kulkarni (FIR_P_0220)
 
 Crime records:
 - CRIME_541

@@ -1,12 +1,12 @@
 FIR No: FIR_426
 
-Source: public FIR dataset (structured record rendered for M8 NLP testing).
+Source: public FIR dataset (structured record rendered for M8 NLP testing; person identities in this demo are fictionalized).
 Image ID: 426
-Police Station: Electronics Complex
+Police Station: Electronics Complex Police Station
 Year: 2022
 
 Persons / linked FIR subjects:
-- FIR_P_0413
+- Akshay Srivastava (FIR_P_0413)
 
 Crime records:
 - CRIME_426

@@ -1,12 +1,12 @@
 FIR No: FIR_479
 
-Source: public FIR dataset (structured record rendered for M8 NLP testing).
+Source: public FIR dataset (structured record rendered for M8 NLP testing; person identities in this demo are fictionalized).
 Image ID: 479
-Police Station: Lake Town
+Police Station: Lake Town Police Station
 Year: 2020
 
 Persons / linked FIR subjects:
-- FIR_P_0361
+- Pankaj Jadhav (FIR_P_0361)
 
 Crime records:
 - CRIME_479

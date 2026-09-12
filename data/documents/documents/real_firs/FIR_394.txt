@@ -1,12 +1,12 @@
 FIR No: FIR_394
 
-Source: public FIR dataset (structured record rendered for M8 NLP testing).
+Source: public FIR dataset (structured record rendered for M8 NLP testing; person identities in this demo are fictionalized).
 Image ID: 394
-Police Station: Eco Park
+Police Station: Eco Park Police Station
 Year: 2020
 
 Persons / linked FIR subjects:
-- FIR_P_0373
+- Vinay Tripathi (FIR_P_0373)
 
 Crime records:
 - CRIME_394

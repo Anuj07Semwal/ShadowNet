@@ -1,12 +1,12 @@
 FIR No: FIR_498
 
-Source: public FIR dataset (structured record rendered for M8 NLP testing).
+Source: public FIR dataset (structured record rendered for M8 NLP testing; person identities in this demo are fictionalized).
 Image ID: 498
-Police Station: Unknown police station
+Police Station: Lalbazar Police Station
 Year: Unknown
 
 Persons / linked FIR subjects:
-- FIR_P_0369
+- Nandini Deshmukh (FIR_P_0369)
 
 Crime records:
 - CRIME_498

@@ -1,12 +1,12 @@
 FIR No: FIR_69
 
-Source: public FIR dataset (structured record rendered for M8 NLP testing).
+Source: public FIR dataset (structured record rendered for M8 NLP testing; person identities in this demo are fictionalized).
 Image ID: 69
-Police Station: Airport
+Police Station: NSCBI Airport Police Station
 Year: 2017
 
 Persons / linked FIR subjects:
-- FIR_P_0374
+- Yashika Tiwari (FIR_P_0374)
 
 Crime records:
 - CRIME_69

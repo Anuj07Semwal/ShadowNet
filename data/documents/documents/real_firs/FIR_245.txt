@@ -1,12 +1,12 @@
 FIR No: FIR_245
 
-Source: public FIR dataset (structured record rendered for M8 NLP testing).
+Source: public FIR dataset (structured record rendered for M8 NLP testing; person identities in this demo are fictionalized).
 Image ID: 245
-Police Station: Bidhannagar North
+Police Station: Bidhannagar North Police Station
 Year: 2017
 
 Persons / linked FIR subjects:
-- FIR_P_0432
+- Sneha Thakur (FIR_P_0432)
 
 Crime records:
 - CRIME_245

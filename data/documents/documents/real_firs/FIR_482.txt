@@ -1,12 +1,12 @@
 FIR No: FIR_482
 
-Source: public FIR dataset (structured record rendered for M8 NLP testing).
+Source: public FIR dataset (structured record rendered for M8 NLP testing; person identities in this demo are fictionalized).
 Image ID: 482
-Police Station: Lake Town
+Police Station: Lake Town Police Station
 Year: 2020
 
 Persons / linked FIR subjects:
-- FIR_P_0155
+- Suresh Shah (FIR_P_0155)
 
 Crime records:
 - CRIME_482

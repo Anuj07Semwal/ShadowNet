@@ -1,12 +1,12 @@
 FIR No: FIR_445
 
-Source: public FIR dataset (structured record rendered for M8 NLP testing).
+Source: public FIR dataset (structured record rendered for M8 NLP testing; person identities in this demo are fictionalized).
 Image ID: 445
-Police Station: Electronics Complex
+Police Station: Electronics Complex Police Station
 Year: 2021
 
 Persons / linked FIR subjects:
-- FIR_P_0078
+- Gaurav Banerjee (FIR_P_0078)
 
 Crime records:
 - CRIME_445

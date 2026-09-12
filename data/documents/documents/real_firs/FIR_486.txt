@@ -1,12 +1,12 @@
 FIR No: FIR_486
 
-Source: public FIR dataset (structured record rendered for M8 NLP testing).
+Source: public FIR dataset (structured record rendered for M8 NLP testing; person identities in this demo are fictionalized).
 Image ID: 486
-Police Station: Unknown police station
+Police Station: Lalbazar Police Station
 Year: 2022
 
 Persons / linked FIR subjects:
-- FIR_P_0370
+- Pradeep Mehta (FIR_P_0370)
 
 Crime records:
 - CRIME_486

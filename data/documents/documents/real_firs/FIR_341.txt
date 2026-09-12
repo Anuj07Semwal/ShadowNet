@@ -1,12 +1,12 @@
 FIR No: FIR_341
 
-Source: public FIR dataset (structured record rendered for M8 NLP testing).
+Source: public FIR dataset (structured record rendered for M8 NLP testing; person identities in this demo are fictionalized).
 Image ID: 341
-Police Station: Cyber-Crime
+Police Station: Bidhannagar Cyber Crime Police Station
 Year: 2021
 
 Persons / linked FIR subjects:
-- FIR_P_0236
+- Priya Ghosh (FIR_P_0236)
 
 Crime records:
 - CRIME_341

@@ -1,12 +1,12 @@
 FIR No: FIR_438
 
-Source: public FIR dataset (structured record rendered for M8 NLP testing).
+Source: public FIR dataset (structured record rendered for M8 NLP testing; person identities in this demo are fictionalized).
 Image ID: 438
-Police Station: Electronics Complex
+Police Station: Electronics Complex Police Station
 Year: 2020
 
 Persons / linked FIR subjects:
-- FIR_P_0218
+- Akash Desai (FIR_P_0218)
 
 Crime records:
 - CRIME_438

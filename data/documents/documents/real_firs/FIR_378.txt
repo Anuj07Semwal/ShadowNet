@@ -1,12 +1,12 @@
 FIR No: FIR_378
 
-Source: public FIR dataset (structured record rendered for M8 NLP testing).
+Source: public FIR dataset (structured record rendered for M8 NLP testing; person identities in this demo are fictionalized).
 Image ID: 378
-Police Station: Eco Park
+Police Station: Eco Park Police Station
 Year: 2020
 
 Persons / linked FIR subjects:
-- FIR_P_0259
+- Aman Singh (FIR_P_0259)
 
 Crime records:
 - CRIME_378

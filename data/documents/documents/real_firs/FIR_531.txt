@@ -1,12 +1,12 @@
 FIR No: FIR_531
 
-Source: public FIR dataset (structured record rendered for M8 NLP testing).
+Source: public FIR dataset (structured record rendered for M8 NLP testing; person identities in this demo are fictionalized).
 Image ID: 531
-Police Station: Women
+Police Station: Bidhannagar Women Police Station
 Year: 2018
 
 Persons / linked FIR subjects:
-- FIR_P_0475
+- Ashish Arora (FIR_P_0475)
 
 Crime records:
 - CRIME_531

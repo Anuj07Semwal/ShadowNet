@@ -1,12 +1,12 @@
 FIR No: FIR_179
 
-Source: public FIR dataset (structured record rendered for M8 NLP testing).
+Source: public FIR dataset (structured record rendered for M8 NLP testing; person identities in this demo are fictionalized).
 Image ID: 179
-Police Station: Baguiati
+Police Station: Baguiati Police Station
 Year: 2019
 
 Persons / linked FIR subjects:
-- FIR_P_0122
+- Pankaj Saxena (FIR_P_0122)
 
 Crime records:
 - CRIME_179

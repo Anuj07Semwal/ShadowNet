@@ -1,12 +1,12 @@
 FIR No: FIR_330
 
-Source: public FIR dataset (structured record rendered for M8 NLP testing).
+Source: public FIR dataset (structured record rendered for M8 NLP testing; person identities in this demo are fictionalized).
 Image ID: 330
-Police Station: Cyber-Crime
+Police Station: Bidhannagar Cyber Crime Police Station
 Year: 2020
 
 Persons / linked FIR subjects:
-- FIR_P_0022
+- Deepika Dubey (FIR_P_0022)
 
 Crime records:
 - CRIME_330

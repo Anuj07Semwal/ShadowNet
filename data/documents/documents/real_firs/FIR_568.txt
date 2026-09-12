@@ -1,12 +1,12 @@
 FIR No: FIR_568
 
-Source: public FIR dataset (structured record rendered for M8 NLP testing).
+Source: public FIR dataset (structured record rendered for M8 NLP testing; person identities in this demo are fictionalized).
 Image ID: 568
-Police Station: Women
+Police Station: Bidhannagar Women Police Station
 Year: 2017
 
 Persons / linked FIR subjects:
-- FIR_P_0454
+- Yash Patel (FIR_P_0454)
 
 Crime records:
 - CRIME_568

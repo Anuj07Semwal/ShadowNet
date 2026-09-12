@@ -1,12 +1,12 @@
 FIR No: FIR_68
 
-Source: public FIR dataset (structured record rendered for M8 NLP testing).
+Source: public FIR dataset (structured record rendered for M8 NLP testing; person identities in this demo are fictionalized).
 Image ID: 68
-Police Station: Airport
+Police Station: NSCBI Airport Police Station
 Year: 2018
 
 Persons / linked FIR subjects:
-- FIR_P_0261
+- Vinay Shah (FIR_P_0261)
 
 Crime records:
 - CRIME_68

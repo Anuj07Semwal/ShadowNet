@@ -1,0 +1,7 @@
+CNAS FIR dataset entity update
+================================
+Person IDs are preserved for graph/database referential integrity.
+Synthetic FIR person IDs are mapped to realistic Indian names for demonstration.
+The names are fictionalized and are not intended to identify real individuals.
+Police-station labels were normalized to recognizable Indian/Kolkata-area station names.
+Crime/statute identifiers and legal sections were preserved from the source dataset.

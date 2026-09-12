@@ -1,12 +1,12 @@
 FIR No: FIR_307
 
-Source: public FIR dataset (structured record rendered for M8 NLP testing).
+Source: public FIR dataset (structured record rendered for M8 NLP testing; person identities in this demo are fictionalized).
 Image ID: 307
-Police Station: Unknown police station
+Police Station: Lalbazar Police Station
 Year: 2017
 
 Persons / linked FIR subjects:
-- FIR_P_0375
+- Meera Arora (FIR_P_0375)
 
 Crime records:
 - CRIME_307

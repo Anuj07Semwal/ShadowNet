@@ -1,12 +1,12 @@
 FIR No: FIR_465
 
-Source: public FIR dataset (structured record rendered for M8 NLP testing).
+Source: public FIR dataset (structured record rendered for M8 NLP testing; person identities in this demo are fictionalized).
 Image ID: 465
-Police Station: Lake Town
+Police Station: Lake Town Police Station
 Year: 2020
 
 Persons / linked FIR subjects:
-- FIR_P_0091
+- Arnav Agarwal (FIR_P_0091)
 
 Crime records:
 - CRIME_465

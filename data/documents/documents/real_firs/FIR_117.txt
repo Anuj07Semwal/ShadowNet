@@ -1,12 +1,12 @@
 FIR No: FIR_117
 
-Source: public FIR dataset (structured record rendered for M8 NLP testing).
+Source: public FIR dataset (structured record rendered for M8 NLP testing; person identities in this demo are fictionalized).
 Image ID: 117
-Police Station: Baguiati
+Police Station: Baguiati Police Station
 Year: 2019
 
 Persons / linked FIR subjects:
-- FIR_P_0098
+- Aditya Kulkarni (FIR_P_0098)
 
 Crime records:
 - CRIME_117

@@ -1,12 +1,12 @@
 FIR No: FIR_400
 
-Source: public FIR dataset (structured record rendered for M8 NLP testing).
+Source: public FIR dataset (structured record rendered for M8 NLP testing; person identities in this demo are fictionalized).
 Image ID: 400
-Police Station: Eco Park
+Police Station: Eco Park Police Station
 Year: Unknown
 
 Persons / linked FIR subjects:
-- FIR_P_0048
+- Meera Reddy (FIR_P_0048)
 
 Crime records:
 - CRIME_400

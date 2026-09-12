@@ -1,12 +1,12 @@
 FIR No: FIR_75
 
-Source: public FIR dataset (structured record rendered for M8 NLP testing).
+Source: public FIR dataset (structured record rendered for M8 NLP testing; person identities in this demo are fictionalized).
 Image ID: 75
-Police Station: Airport
+Police Station: NSCBI Airport Police Station
 Year: Unknown
 
 Persons / linked FIR subjects:
-- FIR_P_0349
+- Varun Arora (FIR_P_0349)
 
 Crime records:
 - CRIME_75

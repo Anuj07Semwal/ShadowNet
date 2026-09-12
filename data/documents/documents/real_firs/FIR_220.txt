@@ -1,12 +1,12 @@
 FIR No: FIR_220
 
-Source: public FIR dataset (structured record rendered for M8 NLP testing).
+Source: public FIR dataset (structured record rendered for M8 NLP testing; person identities in this demo are fictionalized).
 Image ID: 220
-Police Station: Baguiati
+Police Station: Baguiati Police Station
 Year: 2021
 
 Persons / linked FIR subjects:
-- FIR_P_0379
+- Divya Sharma (FIR_P_0379)
 
 Crime records:
 - CRIME_220

@@ -1,12 +1,12 @@
 FIR No: FIR_26
 
-Source: public FIR dataset (structured record rendered for M8 NLP testing).
+Source: public FIR dataset (structured record rendered for M8 NLP testing; person identities in this demo are fictionalized).
 Image ID: 26
-Police Station: Airport
+Police Station: NSCBI Airport Police Station
 Year: 2017
 
 Persons / linked FIR subjects:
-- FIR_P_0438
+- Raj Kumar (FIR_P_0438)
 
 Crime records:
 - CRIME_26

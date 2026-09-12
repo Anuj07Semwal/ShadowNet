@@ -1,12 +1,12 @@
 FIR No: FIR_391
 
-Source: public FIR dataset (structured record rendered for M8 NLP testing).
+Source: public FIR dataset (structured record rendered for M8 NLP testing; person identities in this demo are fictionalized).
 Image ID: 391
-Police Station: Eco Park
+Police Station: Eco Park Police Station
 Year: 2020
 
 Persons / linked FIR subjects:
-- FIR_P_0079
+- Bhavna Nair (FIR_P_0079)
 
 Crime records:
 - CRIME_391

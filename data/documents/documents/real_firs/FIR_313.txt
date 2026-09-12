@@ -1,12 +1,12 @@
 FIR No: FIR_313
 
-Source: public FIR dataset (structured record rendered for M8 NLP testing).
+Source: public FIR dataset (structured record rendered for M8 NLP testing; person identities in this demo are fictionalized).
 Image ID: 313
-Police Station: Bidhannagar South
+Police Station: Bidhannagar South Police Station
 Year: 2017
 
 Persons / linked FIR subjects:
-- FIR_P_0479
+- Aditi Mehta (FIR_P_0479)
 
 Crime records:
 - CRIME_313

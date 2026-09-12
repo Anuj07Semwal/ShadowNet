@@ -1,12 +1,12 @@
 FIR No: FIR_133
 
-Source: public FIR dataset (structured record rendered for M8 NLP testing).
+Source: public FIR dataset (structured record rendered for M8 NLP testing; person identities in this demo are fictionalized).
 Image ID: 133
-Police Station: Baguiati
+Police Station: Baguiati Police Station
 Year: 2021
 
 Persons / linked FIR subjects:
-- FIR_P_0386
+- Sonia Arora (FIR_P_0386)
 
 Crime records:
 - CRIME_133

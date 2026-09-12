@@ -1,12 +1,12 @@
 FIR No: FIR_372
 
-Source: public FIR dataset (structured record rendered for M8 NLP testing).
+Source: public FIR dataset (structured record rendered for M8 NLP testing; person identities in this demo are fictionalized).
 Image ID: 372
-Police Station: Eco Park
+Police Station: Eco Park Police Station
 Year: 2021
 
 Persons / linked FIR subjects:
-- FIR_P_0291
+- Shivam Jadhav (FIR_P_0291)
 
 Crime records:
 - CRIME_372

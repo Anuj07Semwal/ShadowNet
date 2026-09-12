@@ -1,12 +1,12 @@
 FIR No: FIR_336
 
-Source: public FIR dataset (structured record rendered for M8 NLP testing).
+Source: public FIR dataset (structured record rendered for M8 NLP testing; person identities in this demo are fictionalized).
 Image ID: 336
-Police Station: Cyber-Crime
+Police Station: Bidhannagar Cyber Crime Police Station
 Year: 2020
 
 Persons / linked FIR subjects:
-- FIR_P_0148
+- Aman Pillai (FIR_P_0148)
 
 Crime records:
 - CRIME_336

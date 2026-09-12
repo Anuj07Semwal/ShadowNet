@@ -1,12 +1,12 @@
 FIR No: FIR_271
 
-Source: public FIR dataset (structured record rendered for M8 NLP testing).
+Source: public FIR dataset (structured record rendered for M8 NLP testing; person identities in this demo are fictionalized).
 Image ID: 271
-Police Station: Bidhannagar North
+Police Station: Bidhannagar North Police Station
 Year: 2017
 
 Persons / linked FIR subjects:
-- FIR_P_0249
+- Shivam Bansal (FIR_P_0249)
 
 Crime records:
 - CRIME_271

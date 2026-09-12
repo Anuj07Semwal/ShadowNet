@@ -1,12 +1,12 @@
 FIR No: FIR_204
 
-Source: public FIR dataset (structured record rendered for M8 NLP testing).
+Source: public FIR dataset (structured record rendered for M8 NLP testing; person identities in this demo are fictionalized).
 Image ID: 204
-Police Station: Baguiati
+Police Station: Baguiati Police Station
 Year: 2021
 
 Persons / linked FIR subjects:
-- FIR_P_0385
+- Rohit Pillai (FIR_P_0385)
 
 Crime records:
 - CRIME_204

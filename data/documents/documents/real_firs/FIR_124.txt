@@ -1,12 +1,12 @@
 FIR No: FIR_124
 
-Source: public FIR dataset (structured record rendered for M8 NLP testing).
+Source: public FIR dataset (structured record rendered for M8 NLP testing; person identities in this demo are fictionalized).
 Image ID: 124
-Police Station: Baguiati
+Police Station: Baguiati Police Station
 Year: 2021
 
 Persons / linked FIR subjects:
-- FIR_P_0376
+- Arjun Deshmukh (FIR_P_0376)
 
 Crime records:
 - CRIME_124

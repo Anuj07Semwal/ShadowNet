@@ -1,12 +1,12 @@
 FIR No: FIR_354
 
-Source: public FIR dataset (structured record rendered for M8 NLP testing).
+Source: public FIR dataset (structured record rendered for M8 NLP testing; person identities in this demo are fictionalized).
 Image ID: 354
-Police Station: Unknown police station
+Police Station: Lalbazar Police Station
 Year: 2018
 
 Persons / linked FIR subjects:
-- FIR_P_0172
+- Aarav Gupta (FIR_P_0172)
 
 Crime records:
 - CRIME_354
