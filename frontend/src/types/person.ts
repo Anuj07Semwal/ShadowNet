@@ -1,5 +1,5 @@
 export interface Person {
-  id: string;
+  person_id: string;
   name: string | null;
   source?: string | null;
   source_role?: string | null;
@@ -30,7 +30,7 @@ export interface PersonNetwork {
   person_id: string;
   name: string | null;
 
-  degree: number;
+  degree: number | null;
   degree_centrality: number | null;
   betweenness: number | null;
   pagerank: number | null;

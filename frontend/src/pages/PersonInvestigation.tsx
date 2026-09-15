@@ -16,7 +16,8 @@ const itemVariants: Variants = {
 };
 
 export default function PersonInvestigation() {
-  const { id } = useParams<{ id: string }>();
+ const params = useParams<{ personId?: string; id?: string }>();
+ const id = params.personId ?? params.id;
   const navigate = useNavigate();
 
   const [details, setDetails] = useState<PersonNetwork | null>(null);

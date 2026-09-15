@@ -35,7 +35,7 @@ export default function Persons() {
   }, []);
 
   const filtered = persons.filter((person) => {
-    const value = `${person.id} ${person.name || ""}`.toLowerCase();
+  const value = `${person.person_id} ${person.name || ""}`.toLowerCase();
     return value.includes(search.toLowerCase());
   });
 
@@ -93,8 +93,8 @@ export default function Persons() {
               filtered.map((person) => (
                 <motion.tr
                   variants={rowVariants}
-                  key={person.id}
-                  onClick={() => navigate(`/persons/${encodeURIComponent(person.id)}`)}
+                  key={person.person_id}
+                  onClick={() => navigate(`/persons/${encodeURIComponent(person.person_id)}`)}
                   className="cursor-pointer transition-colors hover:bg-[var(--color-muted)]"
                 >
                   <td className="px-6 py-4">
@@ -104,7 +104,7 @@ export default function Persons() {
                       </div>
                       <div>
                         <p className="text-sm font-medium text-[var(--color-foreground)]">{person.name || "Unknown entity"}</p>
-                        <p className="font-mono text-xs text-[var(--color-muted-foreground)]">{person.id}</p>
+                        <p className="font-mono text-xs text-[var(--color-muted-foreground)]">{person.person_id}</p>
                       </div>
                     </div>
                   </td>

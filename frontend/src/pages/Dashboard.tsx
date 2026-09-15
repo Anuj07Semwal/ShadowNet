@@ -87,7 +87,7 @@ export default function Dashboard() {
         <StatCard title="Total Nodes" value={stats.total_nodes} />
         <StatCard title="Persons" value={stats.entities?.Person} />
         <StatCard title="FIRs" value={stats.entities?.FIR} />
-        <StatCard title="Transactions" value={stats.entities?.Transaction} />
+        <StatCard title="Transactions" value={stats.relationships?.TRANSFERRED_MONEY} />
       </motion.div>
 
       <motion.div 

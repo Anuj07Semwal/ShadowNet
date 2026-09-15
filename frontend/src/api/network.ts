@@ -3,8 +3,8 @@ import { api } from "./client";
 export interface NetworkStatsResponse {
   total_nodes: number;
   entities?: Record<string, number>;
+  relationships?: Record<string, number>;
 }
-
 export interface NetworkPerson {
   person_id: string;
   name?: string;

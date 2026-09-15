@@ -47,7 +47,7 @@ def intelligence_summary():
 
         anomaly_count = anomaly_rows[0].get("anomaly_count", 0) if anomaly_rows else 0
         avg_risk = anomaly_rows[0].get("avg_risk", 0) if anomaly_rows else 0
-        overall_score = min(100, round((float(avg_risk) or 0) * 100, 1))
+        overall_score = min(100, round((float(avg_risk) if avg_risk is not None else 0) * 100, 1))
 
         high_priority_entities = neo4j.execute(
             """
