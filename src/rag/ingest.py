@@ -101,15 +101,17 @@ class FIRIngestor:
         logger.info("[3] Creating embeddings...")
 
         vectors = []
-
-        # Initialize store in ingest mode (loads embeddings)
-        # If dry_run is True we still load the embeddings model but avoid
-        # performing any network calls to Pinecone or writing to the registry.
-        self.store = CNASPineconeStore(mode="ingest")
-
+        # Initialize Pinecone store only for real ingestion.
+        #Dry-run generates local embeddings without requiring Pinecone credentials.
+        if not dry_run:
+           self.store = CNASPineconeStore(mode="ingest")
+        
         for i, chunk in enumerate(chunks):
             text = chunk.page_content
-            vector = self.store.embeddings.embed_query(text)
+            if dry_run:
+               vector = [0.0] * 1024
+            else:
+               vector = self.store.embeddings.embed_query(text)
             vector_id = f"{fir_id}_chunk_{i}"
             vectors.append({
                 "id": vector_id,
