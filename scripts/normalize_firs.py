@@ -1,9 +1,11 @@
 from pathlib import Path
 import pandas as pd
 
+from src.data_paths import resolve_processed_dir, resolve_raw_dir
 
-RAW_DIR = Path("data/raw/CNAS_Prototype_Data")
-OUT_DIR = Path("data/processed")
+
+RAW_DIR = resolve_raw_dir()
+OUT_DIR = resolve_processed_dir()
 
 df = pd.read_csv(
     RAW_DIR / "source_fir_records_cleaned.csv"
@@ -11,21 +13,21 @@ df = pd.read_csv(
 
 firs = pd.DataFrame({
     "fir_id": df["fir_id"],
-    "record_uid": df["record_uid"],
-    "image_id": df["image_id"],
-    "station_id": df["station_id"],
+    "record_uid": df["fir_id"],
+    "image_id": pd.NA,
+    "station_id": df["police_station"],
     "date": pd.to_datetime(
         df["year"],
         format="%Y",
         errors="coerce"
     ),
     "year": df["year"],
-    "crime_type": df["primary_act"],
-    "acts_list": df["acts_list"],
-    "sections_list": df["sections_list"],
-    "completeness_pct": df["completeness_pct"],
-    "confidence": df["avg_confidence"],
-    "source": df["data_provenance"]
+    "crime_type": df["crime_type"],
+    "acts_list": df["summary"],
+    "sections_list": df["statute"],
+    "completeness_pct": pd.NA,
+    "confidence": df["confidence"],
+    "source": df.get("data_provenance", "fir")
 })
 
 firs.to_csv(

@@ -1,5 +1,3 @@
-version: "3.9"
-
 services:
   api:
     image: python:3.12-slim
@@ -13,7 +11,10 @@ services:
       NEO4J_URI: bolt://neo4j:7687
       NEO4J_USERNAME: neo4j
       NEO4J_PASSWORD: cnas_password
-      ALLOWED_ORIGINS: http://localhost:5173,http://127.0.0.1:5173
+      ALLOWED_ORIGINS: http://localhost:4173,http://127.0.0.1:4173,http://localhost:5173,http://127.0.0.1:5173
+      SHADOWNET_AUTH_USERNAME: ${SHADOWNET_AUTH_USERNAME:?SHADOWNET_AUTH_USERNAME must be set}
+      SHADOWNET_AUTH_PASSWORD: ${SHADOWNET_AUTH_PASSWORD:?SHADOWNET_AUTH_PASSWORD must be set}
+      SHADOWNET_AUTH_ROLE: ${SHADOWNET_AUTH_ROLE:-investigator}
     ports:
       - "8000:8000"
     depends_on:
@@ -26,7 +27,7 @@ services:
       - .:/app
     command: sh -lc "npm install && npm run build && npx vite preview --host 0.0.0.0 --port 4173"
     environment:
-      VITE_API_BASE_URL: http://localhost:8000
+      VITE_API_BASE_URL: http://localhost:8000/api
     ports:
       - "4173:4173"
     depends_on:

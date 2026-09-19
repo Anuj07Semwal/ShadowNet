@@ -42,7 +42,8 @@ class Neo4jClient:
             with self._get_driver().session() as session:
                 result = session.run(query, parameters or {})
                 return result.consume()
-        except Exception:
+        except Exception as exc:
+            print(f"⚠ Neo4j query failed: {exc}")
             return None
 
     def execute_read(self, query, parameters=None):

@@ -1,93 +1,23 @@
-import { useEffect, useState } from "react";
-import { motion, type Variants } from "framer-motion";
-import { getLiveGraphStats } from "../api/intelligence";
-
-interface GraphStats {
-  graph_name: string;
-  node_count: number;
-  relationship_count: number;
-  community_count: number;
-  top_risk_areas: string[];
-}
-
-const containerVariants: Variants = {
-  hidden: { opacity: 0 },
-  show: { opacity: 1, transition: { staggerChildren: 0.1 } }
-};
-
-const itemVariants: Variants = {
-  hidden: { opacity: 0, y: 20 },
-  show: { opacity: 1, y: 0, transition: { type: "spring", stiffness: 300, damping: 24 } }
-};
-
-export default function NetworkExplorer() {
-  const [stats, setStats] = useState<GraphStats | null>(null);
-
-  useEffect(() => {
-    getLiveGraphStats()
-      .then((data) => setStats(data))
-      .catch((error) => console.error("Graph stats error:", error));
-  }, []);
-
-  if (!stats) {
-    return (
-      <div className="flex min-h-[60vh] items-center justify-center">
-        <div className="text-xl font-semibold text-[var(--color-muted-foreground)] flex items-center gap-3">
-          <div className="h-5 w-5 rounded-full border-2 border-[var(--color-primary)] border-t-transparent animate-spin" />
-          Loading network intelligence...
-        </div>
-      </div>
-    );
-  }
-
-  return (
-    <div className="pb-10 space-y-8">
-      <div>
-        <h1 className="text-3xl font-bold tracking-tight text-[var(--color-foreground)]">Network Explorer</h1>
-        <p className="mt-2 text-[var(--color-muted-foreground)]">{stats.graph_name}</p>
-      </div>
-
-      <motion.div 
-        variants={containerVariants}
-        initial="hidden"
-        animate="show"
-        className="grid gap-6 md:grid-cols-4"
-      >
-        <Panel title="Nodes" value={String(stats.node_count)} detail="Graph entities"/>
-        <Panel title="Links" value={String(stats.relationship_count)} detail="Relationships"/>
-        <Panel title="Communities" value={String(stats.community_count)} detail="Active clusters"/>
-        <Panel title="Risk Areas" value={String(stats.top_risk_areas.length)} detail="Priority domains"/>
-      </motion.div>
-
-      <motion.div 
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.4, duration: 0.4 }}
-        className="rounded-xl border border-[var(--color-border)] bg-[var(--color-card)] p-6 shadow-sm"
-      >
-        <h2 className="text-lg font-semibold text-[var(--color-foreground)]">Top Risk Areas</h2>
-        <div className="mt-6 flex flex-wrap gap-3">
-          {stats.top_risk_areas.map((area) => (
-            <span key={area} className="border border-[var(--color-destructive)]/30 bg-[var(--color-destructive)]/10 px-4 py-1.5 text-sm font-medium text-[var(--color-destructive)] rounded-lg shadow-sm">
-              {area}
-            </span>
-          ))}
-        </div>
-      </motion.div>
-    </div>
-  );
-}
-
-function Panel({ title, value, detail }: { title: string; value: string; detail: string }) {
-  return (
-    <motion.div 
-      variants={itemVariants}
-      className="rounded-xl border border-[var(--color-border)] bg-[var(--color-card)] p-6 hover:border-[var(--color-primary)]/50 transition-all duration-300 relative overflow-hidden group shadow-sm hover:shadow-md"
-    >
-      <div className="absolute -right-10 -top-10 h-32 w-32 rounded-full bg-[var(--color-primary)]/5 blur-3xl group-hover:bg-[var(--color-primary)]/15 transition-colors duration-500" />
-      <p className="text-xs font-medium uppercase tracking-wider text-[var(--color-muted-foreground)]">{title}</p>
-      <h2 className="mt-4 text-3xl font-bold text-[var(--color-foreground)]">{value}</h2>
-      <p className="mt-2 text-sm text-[var(--color-muted-foreground)]">{detail}</p>
-    </motion.div>
-  );
+import { lazy, Suspense, useEffect, useState } from "react";
+import { ArrowRight, Network } from "lucide-react";
+import { Link, useSearchParams } from "react-router-dom";
+import { getPersons,getPersonNetwork } from "../api/persons";
+import type {Person,PersonNetwork} from "../types/person";
+import {useLanguage} from "../i18n/LanguageContext";
+import {recordLabel} from "../utils/displayLabels";
+const NetworkGraph=lazy(()=>import("../components/network/NetworkGraph"));
+export default function NetworkExplorer(){
+ const {t,language}=useLanguage();const [params]=useSearchParams();
+ const [persons,setPersons]=useState<Person[]>([]);const [selected,setSelected]=useState(params.get("person")??"");
+ const [filter,setFilter]=useState("");const [network,setNetwork]=useState<PersonNetwork|null>(null);const [busy,setBusy]=useState(false);const [error,setError]=useState(false);const [retry,setRetry]=useState(0);
+ useEffect(()=>{let active=true;getPersons(500).then(data=>{if(active){setPersons(data.persons);setError(false);}}).catch(()=>{if(active)setError(true);});return()=>{active=false;};},[retry]);
+ async function generate(){if(!selected)return;setBusy(true);setError(false);setNetwork(null);try{setNetwork(await getPersonNetwork(selected));}catch{setError(true);}finally{setBusy(false);}}
+ const visible=persons.filter(p=>recordLabel(p.person_id,p.name,language).toLowerCase().includes(filter.toLowerCase()));
+ return <div className="workspace-page"><h1>{t("network")}</h1><p>{t("graphHelp")}</p><small>{t("sourceNote")}</small>
+  <section className="settings-card graph-generator"><label htmlFor="record-filter">{t("search")}</label><input id="record-filter" value={filter} onChange={e=>setFilter(e.target.value)}/>
+  <label htmlFor="person-select">{t("selectPerson")}</label><select id="person-select" value={selected} onChange={e=>{setSelected(e.target.value);setNetwork(null);}}><option value="">{t("selectPerson")}</option>{visible.map(p=><option key={p.person_id} value={p.person_id}>{recordLabel(p.person_id,p.name,language)} · {p.degree??0} {t("connections")}</option>)}</select>
+  <button className="primary-action" onClick={()=>void generate()} disabled={!selected||busy}><Network size={18}/>{busy?t("working"):t("generate")}</button></section>
+  {error&&<div className="login-error" role="alert">{t("backendReason")} <button onClick={()=>setRetry(n=>n+1)}>{t("retry")}</button></div>}
+    {network&&<section className="data-panel"><div className="panel-heading"><div><p className="eyebrow">Selected person</p><h2>{recordLabel(network.person_id,network.name,language)}</h2><small>Person ID: {network.person_id}</small></div><Link className="secondary-action" to={`/persons/${encodeURIComponent(network.person_id)}`}>View Profile <ArrowRight size={16}/></Link></div><Suspense fallback={<p role="status">{t("working")}</p>}><NetworkGraph key={network.person_id} network={network}/></Suspense></section>}
+ </div>;
 }

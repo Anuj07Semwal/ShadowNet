@@ -20,6 +20,7 @@ def list_cases():
                  coalesce(p.degree, 0) AS degree
             RETURN
                 p.person_id AS id,
+                coalesce(p.name, p.person_id) AS name,
                 coalesce(p.name, p.person_id) AS title,
                 CASE
                     WHEN pagerank >= 0.05 THEN 'High'
@@ -54,6 +55,7 @@ def case_evidence(case_id: str):
             RETURN
                 type(r) AS type,
                 coalesce(
+                    n.name,
                     n.person_id,
                     n.fir_id,
                     n.account_id,
@@ -63,6 +65,8 @@ def case_evidence(case_id: str):
                     n.organization_id,
                     labels(n)[0]
                 ) AS title,
+                coalesce(n.person_id, n.id, n.fir_id, n.account_id, n.phone_id, n.vehicle_id, n.location_id, n.organization_id) AS entity_id,
+                n.name AS entity_name,
                 coalesce(r.evidence, 'Linked to network entity') AS summary,
                 coalesce(r.confidence, 0.75) AS confidence
             LIMIT 20

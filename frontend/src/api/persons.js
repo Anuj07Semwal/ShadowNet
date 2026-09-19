@@ -10,13 +10,13 @@ export async function getPerson(personId) {
   return response.data;
 }
 
-export async function getPersonNetwork(personId) {
-  const response = await api.get(`/persons/${encodeURIComponent(personId)}/network`);
+export async function getPersonProfile(personId) {
+  const response = await api.get(`/persons/${encodeURIComponent(personId)}/profile`);
   return response.data;
 }
 
-export async function getPersonAnomalies(personId) {
-  const response = await api.get(`/persons/${encodeURIComponent(personId)}/anomalies`);
+export async function getPersonNetwork(personId) {
+  const response = await api.get(`/persons/${encodeURIComponent(personId)}/network`);
   return response.data;
 }
 

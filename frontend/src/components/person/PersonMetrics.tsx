@@ -20,7 +20,7 @@ export default function PersonMetrics({
  const metrics = [
  {
  label:"Degree",
- value: network.degree ??"—",
+ value: network.degree ??"Not available",
  icon: <GitBranch size={18} />,
  },
 
@@ -29,7 +29,7 @@ export default function PersonMetrics({
  value:
  network.betweenness !== null
  ? network.betweenness.toFixed(4)
- :"—",
+ :"Not available",
  icon: <Activity size={18} />,
  },
 
@@ -38,7 +38,7 @@ export default function PersonMetrics({
  value:
  network.pagerank !== null
  ? network.pagerank.toFixed(6)
- :"—",
+ :"Not available",
  icon: <TrendingUp size={18} />,
  },
 
@@ -47,7 +47,7 @@ export default function PersonMetrics({
  value:
  network.community !== null
  ? network.community
- :"—",
+ :"Not available",
  icon: <Users size={18} />,
  },
 ];

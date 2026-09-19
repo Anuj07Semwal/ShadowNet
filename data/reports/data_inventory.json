@@ -1,428 +1,207 @@
 [
     {
-        "file": "source_crime_statute_edges.csv",
-        "rows": 1594,
-        "columns": 3,
-        "column_names": [
-            "crime_id",
-            "statute_id",
-            "relationship"
-        ],
-        "missing_values": {
-            "crime_id": 0,
-            "statute_id": 0,
-            "relationship": 0
-        },
-        "duplicate_rows": 0,
-        "dtypes": {
-            "crime_id": "str",
-            "statute_id": "str",
-            "relationship": "str"
-        },
-        "duplicate_ids": {
-            "crime_id": 1144,
-            "statute_id": 1345
-        }
-    },
-    {
-        "file": "source_email_eu_core_edges.csv",
-        "rows": 25571,
-        "columns": 2,
-        "column_names": [
-            "source",
-            "target"
-        ],
-        "missing_values": {
-            "source": 0,
-            "target": 0
-        },
-        "duplicate_rows": 0,
-        "dtypes": {
-            "source": "int64",
-            "target": "int64"
-        },
-        "duplicate_ids": {}
-    },
-    {
-        "file": "source_email_eu_core_labels.csv",
-        "rows": 1005,
-        "columns": 2,
-        "column_names": [
-            "node",
-            "department"
-        ],
-        "missing_values": {
-            "node": 0,
-            "department": 0
-        },
-        "duplicate_rows": 0,
-        "dtypes": {
-            "node": "int64",
-            "department": "int64"
-        },
-        "duplicate_ids": {}
-    },
-    {
-        "file": "source_fir_crime_edges.csv",
-        "rows": 544,
-        "columns": 3,
-        "column_names": [
-            "fir_id",
-            "crime_id",
-            "relationship"
-        ],
-        "missing_values": {
-            "fir_id": 0,
-            "crime_id": 0,
-            "relationship": 0
-        },
-        "duplicate_rows": 0,
-        "dtypes": {
-            "fir_id": "str",
-            "crime_id": "str",
-            "relationship": "str"
-        },
-        "duplicate_ids": {
-            "fir_id": 0,
-            "crime_id": 0
-        }
-    },
-    {
-        "file": "source_fir_person_edges.csv",
-        "rows": 512,
-        "columns": 3,
-        "column_names": [
-            "person_id",
-            "fir_id",
-            "relationship"
-        ],
-        "missing_values": {
-            "person_id": 0,
-            "fir_id": 0,
-            "relationship": 0
-        },
-        "duplicate_rows": 0,
-        "dtypes": {
-            "person_id": "str",
-            "fir_id": "str",
-            "relationship": "str"
-        },
-        "duplicate_ids": {
-            "person_id": 30,
-            "fir_id": 0
-        }
-    },
-    {
         "file": "source_fir_records_cleaned.csv",
-        "rows": 544,
-        "columns": 18,
-        "column_names": [
-            "fir_id",
-            "record_uid",
-            "image_id",
-            "station_id",
-            "year",
-            "primary_act",
-            "n_distinct_acts",
-            "n_statute_clauses",
-            "acts_list",
-            "sections_list",
-            "n_fields_present",
-            "completeness_pct",
-            "is_complete_record",
-            "avg_confidence",
-            "min_confidence",
-            "low_confidence_flag",
-            "person_id",
-            "data_provenance"
-        ],
-        "missing_values": {
-            "fir_id": 0,
-            "record_uid": 0,
-            "image_id": 0,
-            "station_id": 48,
-            "year": 65,
-            "primary_act": 94,
-            "n_distinct_acts": 94,
-            "n_statute_clauses": 94,
-            "acts_list": 94,
-            "sections_list": 94,
-            "n_fields_present": 0,
-            "completeness_pct": 0,
-            "is_complete_record": 0,
-            "avg_confidence": 0,
-            "min_confidence": 0,
-            "low_confidence_flag": 0,
-            "person_id": 32,
-            "data_provenance": 0
-        },
-        "duplicate_rows": 0,
-        "dtypes": {
-            "fir_id": "str",
-            "record_uid": "str",
-            "image_id": "int64",
-            "station_id": "str",
-            "year": "float64",
-            "primary_act": "str",
-            "n_distinct_acts": "float64",
-            "n_statute_clauses": "float64",
-            "acts_list": "str",
-            "sections_list": "str",
-            "n_fields_present": "int64",
-            "completeness_pct": "float64",
-            "is_complete_record": "int64",
-            "avg_confidence": "float64",
-            "min_confidence": "float64",
-            "low_confidence_flag": "int64",
-            "person_id": "str",
-            "data_provenance": "str"
-        },
-        "duplicate_ids": {
-            "fir_id": 0,
-            "image_id": 0,
-            "station_id": 532,
-            "person_id": 61
-        }
-    },
-    {
-        "file": "source_fir_station_edges.csv",
         "rows": 496,
-        "columns": 3,
+        "columns": 10,
         "column_names": [
             "fir_id",
-            "station_id",
-            "relationship"
+            "year",
+            "police_station",
+            "city",
+            "state",
+            "crime_type",
+            "statute",
+            "person_id",
+            "summary",
+            "confidence"
         ],
         "missing_values": {
             "fir_id": 0,
-            "station_id": 0,
-            "relationship": 0
+            "year": 0,
+            "police_station": 0,
+            "city": 0,
+            "state": 0,
+            "crime_type": 0,
+            "statute": 0,
+            "person_id": 0,
+            "summary": 0,
+            "confidence": 0
         },
         "duplicate_rows": 0,
         "dtypes": {
             "fir_id": "str",
-            "station_id": "str",
-            "relationship": "str"
+            "year": "int64",
+            "police_station": "str",
+            "city": "str",
+            "state": "str",
+            "crime_type": "str",
+            "statute": "str",
+            "person_id": "str",
+            "summary": "str",
+            "confidence": "float64"
         },
         "duplicate_ids": {
             "fir_id": 0,
-            "station_id": 485
+            "person_id": 100
         }
     },
     {
         "file": "source_persons_pseudonymized.csv",
-        "rows": 482,
-        "columns": 9,
+        "rows": 1040,
+        "columns": 4,
         "column_names": [
+            "source_person_id",
             "person_id",
-            "source_fir_count",
-            "source_station_count",
-            "source_year_count",
-            "source_avg_confidence",
-            "source_low_confidence_firs",
-            "source_complete_firs",
-            "data_provenance",
-            "source_role"
+            "name",
+            "identity_status"
         ],
         "missing_values": {
+            "source_person_id": 0,
             "person_id": 0,
-            "source_fir_count": 0,
-            "source_station_count": 0,
-            "source_year_count": 0,
-            "source_avg_confidence": 0,
-            "source_low_confidence_firs": 0,
-            "source_complete_firs": 0,
-            "data_provenance": 0,
-            "source_role": 0
+            "name": 0,
+            "identity_status": 0
         },
         "duplicate_rows": 0,
         "dtypes": {
+            "source_person_id": "str",
             "person_id": "str",
-            "source_fir_count": "int64",
-            "source_station_count": "int64",
-            "source_year_count": "int64",
-            "source_avg_confidence": "float64",
-            "source_low_confidence_firs": "int64",
-            "source_complete_firs": "int64",
-            "data_provenance": "str",
-            "source_role": "str"
+            "name": "str",
+            "identity_status": "str"
         },
         "duplicate_ids": {
+            "source_person_id": 0,
             "person_id": 0
         }
     },
     {
-        "file": "source_statutes.csv",
-        "rows": 249,
-        "columns": 4,
-        "column_names": [
-            "statute_id",
-            "act",
-            "section",
-            "data_provenance"
-        ],
-        "missing_values": {
-            "statute_id": 0,
-            "act": 0,
-            "section": 0,
-            "data_provenance": 0
-        },
-        "duplicate_rows": 0,
-        "dtypes": {
-            "statute_id": "str",
-            "act": "str",
-            "section": "str",
-            "data_provenance": "str"
-        },
-        "duplicate_ids": {
-            "statute_id": 0
-        }
-    },
-    {
         "file": "synthetic_accounts.csv",
-        "rows": 650,
-        "columns": 3,
+        "rows": 1040,
+        "columns": 6,
         "column_names": [
             "account_id",
-            "account_type",
-            "data_provenance"
+            "account_number_masked",
+            "bank_name",
+            "person_id",
+            "city",
+            "currency"
         ],
         "missing_values": {
             "account_id": 0,
-            "account_type": 0,
-            "data_provenance": 0
+            "account_number_masked": 0,
+            "bank_name": 0,
+            "person_id": 0,
+            "city": 0,
+            "currency": 0
         },
         "duplicate_rows": 0,
         "dtypes": {
             "account_id": "str",
-            "account_type": "str",
-            "data_provenance": "str"
+            "account_number_masked": "str",
+            "bank_name": "str",
+            "person_id": "str",
+            "city": "str",
+            "currency": "str"
         },
         "duplicate_ids": {
-            "account_id": 0
-        }
-    },
-    {
-        "file": "synthetic_bridge_edges.csv",
-        "rows": 40,
-        "columns": 5,
-        "column_names": [
-            "bridge_id",
-            "source_id",
-            "target_id",
-            "relationship",
-            "data_provenance"
-        ],
-        "missing_values": {
-            "bridge_id": 0,
-            "source_id": 0,
-            "target_id": 0,
-            "relationship": 0,
-            "data_provenance": 0
-        },
-        "duplicate_rows": 0,
-        "dtypes": {
-            "bridge_id": "str",
-            "source_id": "str",
-            "target_id": "str",
-            "relationship": "str",
-            "data_provenance": "str"
-        },
-        "duplicate_ids": {
-            "bridge_id": 0,
-            "source_id": 1,
-            "target_id": 1
+            "account_id": 0,
+            "person_id": 0
         }
     },
     {
         "file": "synthetic_calls.csv",
         "rows": 20400,
-        "columns": 7,
+        "columns": 6,
         "column_names": [
             "call_id",
-            "caller_id",
-            "receiver_id",
+            "caller_person_id",
+            "receiver_person_id",
             "timestamp",
-            "duration_sec",
-            "communication_type",
-            "data_provenance"
+            "duration_seconds",
+            "call_type"
         ],
         "missing_values": {
             "call_id": 0,
-            "caller_id": 0,
-            "receiver_id": 0,
+            "caller_person_id": 0,
+            "receiver_person_id": 0,
             "timestamp": 0,
-            "duration_sec": 0,
-            "communication_type": 0,
-            "data_provenance": 0
+            "duration_seconds": 0,
+            "call_type": 0
         },
         "duplicate_rows": 0,
         "dtypes": {
             "call_id": "str",
-            "caller_id": "str",
-            "receiver_id": "str",
+            "caller_person_id": "str",
+            "receiver_person_id": "str",
             "timestamp": "str",
-            "duration_sec": "int64",
-            "communication_type": "str",
-            "data_provenance": "str"
+            "duration_seconds": "int64",
+            "call_type": "str"
         },
         "duplicate_ids": {
             "call_id": 0,
-            "caller_id": 19600,
-            "receiver_id": 19600
+            "caller_person_id": 19360,
+            "receiver_person_id": 19360
         }
     },
     {
         "file": "synthetic_emails.csv",
         "rows": 10000,
-        "columns": 4,
+        "columns": 6,
         "column_names": [
             "email_id",
-            "sender_id",
-            "receiver_id",
-            "data_provenance"
+            "sender_person_id",
+            "receiver_person_id",
+            "timestamp",
+            "subject",
+            "direction"
         ],
         "missing_values": {
             "email_id": 0,
-            "sender_id": 0,
-            "receiver_id": 0,
-            "data_provenance": 0
+            "sender_person_id": 0,
+            "receiver_person_id": 0,
+            "timestamp": 0,
+            "subject": 0,
+            "direction": 0
         },
         "duplicate_rows": 0,
         "dtypes": {
             "email_id": "str",
-            "sender_id": "str",
-            "receiver_id": "str",
-            "data_provenance": "str"
+            "sender_person_id": "str",
+            "receiver_person_id": "str",
+            "timestamp": "str",
+            "subject": "str",
+            "direction": "str"
         },
         "duplicate_ids": {
             "email_id": 0,
-            "sender_id": 9200,
-            "receiver_id": 9200
+            "sender_person_id": 8960,
+            "receiver_person_id": 8960
         }
     },
     {
         "file": "synthetic_locations.csv",
-        "rows": 120,
-        "columns": 4,
+        "rows": 84,
+        "columns": 5,
         "column_names": [
             "location_id",
+            "location_name",
             "city",
-            "location_type",
-            "data_provenance"
+            "state",
+            "country"
         ],
         "missing_values": {
             "location_id": 0,
+            "location_name": 0,
             "city": 0,
-            "location_type": 0,
-            "data_provenance": 0
+            "state": 0,
+            "country": 0
         },
         "duplicate_rows": 0,
         "dtypes": {
             "location_id": "str",
+            "location_name": "str",
             "city": "str",
-            "location_type": "str",
-            "data_provenance": "str"
+            "state": "str",
+            "country": "str"
         },
         "duplicate_ids": {
             "location_id": 0
@@ -430,298 +209,184 @@
     },
     {
         "file": "synthetic_organizations.csv",
-        "rows": 80,
-        "columns": 3,
+        "rows": 60,
+        "columns": 5,
         "column_names": [
             "organization_id",
-            "organization_type",
-            "data_provenance"
+            "organization_name",
+            "city",
+            "state",
+            "country"
         ],
         "missing_values": {
             "organization_id": 0,
-            "organization_type": 0,
-            "data_provenance": 0
+            "organization_name": 0,
+            "city": 0,
+            "state": 0,
+            "country": 0
         },
         "duplicate_rows": 0,
         "dtypes": {
             "organization_id": "str",
-            "organization_type": "str",
-            "data_provenance": "str"
+            "organization_name": "str",
+            "city": "str",
+            "state": "str",
+            "country": "str"
         },
         "duplicate_ids": {
             "organization_id": 0
         }
     },
     {
-        "file": "synthetic_person_features.csv",
-        "rows": 800,
-        "columns": 38,
+        "file": "synthetic_persons.csv",
+        "rows": 1040,
+        "columns": 8,
         "column_names": [
             "person_id",
-            "community_id_x",
-            "data_provenance",
-            "source_role",
-            "call_count",
-            "total_call_duration_sec",
-            "avg_call_duration_sec",
-            "unique_call_receivers",
-            "calls_received",
-            "unique_call_senders",
-            "email_sent",
-            "unique_email_receivers",
-            "transactions_sent",
-            "total_money_sent",
-            "avg_money_sent",
-            "max_money_sent",
-            "unique_transaction_receivers",
-            "transactions_received",
-            "total_money_received",
-            "unique_transaction_senders",
-            "unique_locations",
-            "visit_count",
-            "degree_centrality",
-            "betweenness_centrality",
-            "pagerank",
-            "graph_degree",
-            "community_id_y",
-            "transaction_anomaly_score",
-            "communication_anomaly_score",
-            "network_bridge_score",
-            "location_anomaly_score",
-            "transaction_anomaly_score_norm",
-            "communication_anomaly_score_norm",
-            "network_bridge_score_norm",
-            "location_anomaly_score_norm",
-            "risk_score",
-            "risk_band",
-            "is_known_synthetic_anomaly"
+            "name",
+            "gender",
+            "date_of_birth",
+            "age",
+            "city",
+            "state",
+            "country"
         ],
         "missing_values": {
             "person_id": 0,
-            "community_id_x": 0,
-            "data_provenance": 0,
-            "source_role": 0,
-            "call_count": 0,
-            "total_call_duration_sec": 0,
-            "avg_call_duration_sec": 0,
-            "unique_call_receivers": 0,
-            "calls_received": 0,
-            "unique_call_senders": 0,
-            "email_sent": 0,
-            "unique_email_receivers": 0,
-            "transactions_sent": 0,
-            "total_money_sent": 0,
-            "avg_money_sent": 0,
-            "max_money_sent": 0,
-            "unique_transaction_receivers": 0,
-            "transactions_received": 0,
-            "total_money_received": 0,
-            "unique_transaction_senders": 0,
-            "unique_locations": 0,
-            "visit_count": 0,
-            "degree_centrality": 0,
-            "betweenness_centrality": 0,
-            "pagerank": 0,
-            "graph_degree": 0,
-            "community_id_y": 0,
-            "transaction_anomaly_score": 0,
-            "communication_anomaly_score": 0,
-            "network_bridge_score": 0,
-            "location_anomaly_score": 0,
-            "transaction_anomaly_score_norm": 0,
-            "communication_anomaly_score_norm": 0,
-            "network_bridge_score_norm": 0,
-            "location_anomaly_score_norm": 0,
-            "risk_score": 0,
-            "risk_band": 0,
-            "is_known_synthetic_anomaly": 0
+            "name": 0,
+            "gender": 0,
+            "date_of_birth": 0,
+            "age": 0,
+            "city": 0,
+            "state": 0,
+            "country": 0
         },
         "duplicate_rows": 0,
         "dtypes": {
             "person_id": "str",
-            "community_id_x": "int64",
-            "data_provenance": "str",
-            "source_role": "str",
-            "call_count": "int64",
-            "total_call_duration_sec": "int64",
-            "avg_call_duration_sec": "float64",
-            "unique_call_receivers": "int64",
-            "calls_received": "int64",
-            "unique_call_senders": "int64",
-            "email_sent": "int64",
-            "unique_email_receivers": "int64",
-            "transactions_sent": "int64",
-            "total_money_sent": "float64",
-            "avg_money_sent": "float64",
-            "max_money_sent": "float64",
-            "unique_transaction_receivers": "int64",
-            "transactions_received": "int64",
-            "total_money_received": "float64",
-            "unique_transaction_senders": "int64",
-            "unique_locations": "int64",
-            "visit_count": "int64",
-            "degree_centrality": "float64",
-            "betweenness_centrality": "float64",
-            "pagerank": "float64",
-            "graph_degree": "int64",
-            "community_id_y": "int64",
-            "transaction_anomaly_score": "float64",
-            "communication_anomaly_score": "float64",
-            "network_bridge_score": "float64",
-            "location_anomaly_score": "float64",
-            "transaction_anomaly_score_norm": "float64",
-            "communication_anomaly_score_norm": "float64",
-            "network_bridge_score_norm": "float64",
-            "location_anomaly_score_norm": "float64",
-            "risk_score": "float64",
-            "risk_band": "str",
-            "is_known_synthetic_anomaly": "int64"
+            "name": "str",
+            "gender": "str",
+            "date_of_birth": "str",
+            "age": "int64",
+            "city": "str",
+            "state": "str",
+            "country": "str"
         },
         "duplicate_ids": {
             "person_id": 0
         }
     },
     {
-        "file": "synthetic_persons.csv",
-        "rows": 800,
+        "file": "synthetic_phones.csv",
+        "rows": 1040,
         "columns": 4,
         "column_names": [
-            "person_id",
-            "community_id",
-            "data_provenance",
-            "source_role"
-        ],
-        "missing_values": {
-            "person_id": 0,
-            "community_id": 0,
-            "data_provenance": 0,
-            "source_role": 0
-        },
-        "duplicate_rows": 0,
-        "dtypes": {
-            "person_id": "str",
-            "community_id": "int64",
-            "data_provenance": "str",
-            "source_role": "str"
-        },
-        "duplicate_ids": {
-            "person_id": 0,
-            "community_id": 790
-        }
-    },
-    {
-        "file": "synthetic_phones.csv",
-        "rows": 1000,
-        "columns": 3,
-        "column_names": [
             "phone_id",
-            "phone_type",
-            "data_provenance"
+            "phone_number",
+            "person_id",
+            "phone_type"
         ],
         "missing_values": {
             "phone_id": 0,
-            "phone_type": 0,
-            "data_provenance": 0
+            "phone_number": 0,
+            "person_id": 0,
+            "phone_type": 0
         },
         "duplicate_rows": 0,
         "dtypes": {
             "phone_id": "str",
-            "phone_type": "str",
-            "data_provenance": "str"
+            "phone_number": "str",
+            "person_id": "str",
+            "phone_type": "str"
         },
         "duplicate_ids": {
-            "phone_id": 0
+            "phone_id": 0,
+            "person_id": 0
         }
     },
     {
         "file": "synthetic_transactions.csv",
         "rows": 15000,
-        "columns": 9,
+        "columns": 6,
         "column_names": [
             "transaction_id",
-            "sender_id",
-            "receiver_id",
-            "amount",
+            "sender_account_id",
+            "receiver_account_id",
             "timestamp",
-            "channel",
-            "is_injected_anomaly",
-            "anomaly_type",
-            "data_provenance"
+            "amount",
+            "transaction_type"
         ],
         "missing_values": {
             "transaction_id": 0,
-            "sender_id": 0,
-            "receiver_id": 0,
-            "amount": 0,
+            "sender_account_id": 0,
+            "receiver_account_id": 0,
             "timestamp": 0,
-            "channel": 0,
-            "is_injected_anomaly": 0,
-            "anomaly_type": 14950,
-            "data_provenance": 0
+            "amount": 0,
+            "transaction_type": 0
         },
         "duplicate_rows": 0,
         "dtypes": {
             "transaction_id": "str",
-            "sender_id": "str",
-            "receiver_id": "str",
-            "amount": "float64",
+            "sender_account_id": "str",
+            "receiver_account_id": "str",
             "timestamp": "str",
-            "channel": "str",
-            "is_injected_anomaly": "int64",
-            "anomaly_type": "str",
-            "data_provenance": "str"
+            "amount": "float64",
+            "transaction_type": "str"
         },
         "duplicate_ids": {
             "transaction_id": 0,
-            "sender_id": 14200,
-            "receiver_id": 14200
+            "sender_account_id": 13960,
+            "receiver_account_id": 13960
         }
     },
     {
         "file": "synthetic_vehicles.csv",
-        "rows": 400,
-        "columns": 3,
+        "rows": 720,
+        "columns": 5,
         "column_names": [
             "vehicle_id",
-            "vehicle_type",
-            "data_provenance"
+            "registration_number",
+            "make",
+            "model",
+            "owner_person_id"
         ],
         "missing_values": {
             "vehicle_id": 0,
-            "vehicle_type": 0,
-            "data_provenance": 0
+            "registration_number": 0,
+            "make": 0,
+            "model": 0,
+            "owner_person_id": 0
         },
         "duplicate_rows": 0,
         "dtypes": {
             "vehicle_id": "str",
-            "vehicle_type": "str",
-            "data_provenance": "str"
+            "registration_number": "str",
+            "make": "str",
+            "model": "str",
+            "owner_person_id": "str"
         },
         "duplicate_ids": {
-            "vehicle_id": 0
+            "vehicle_id": 0,
+            "owner_person_id": 202
         }
     },
     {
         "file": "synthetic_visits.csv",
         "rows": 8000,
-        "columns": 7,
+        "columns": 5,
         "column_names": [
             "visit_id",
             "person_id",
             "location_id",
             "timestamp",
-            "is_injected_anomaly",
-            "anomaly_type",
-            "data_provenance"
+            "purpose"
         ],
         "missing_values": {
             "visit_id": 0,
             "person_id": 0,
             "location_id": 0,
             "timestamp": 0,
-            "is_injected_anomaly": 0,
-            "anomaly_type": 7984,
-            "data_provenance": 0
+            "purpose": 0
         },
         "duplicate_rows": 0,
         "dtypes": {
@@ -729,14 +394,12 @@
             "person_id": "str",
             "location_id": "str",
             "timestamp": "str",
-            "is_injected_anomaly": "int64",
-            "anomaly_type": "str",
-            "data_provenance": "str"
+            "purpose": "str"
         },
         "duplicate_ids": {
             "visit_id": 0,
-            "person_id": 7200,
-            "location_id": 7880
+            "person_id": 6960,
+            "location_id": 7916
         }
     }
 ]

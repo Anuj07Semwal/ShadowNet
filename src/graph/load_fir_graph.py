@@ -2,10 +2,11 @@ from pathlib import Path
 
 import pandas as pd
 
+from src.data_paths import resolve_processed_dir
 from src.graph.neo4j_client import Neo4jClient
 
 
-PROCESSED_DIR = Path("data/processed")
+PROCESSED_DIR = resolve_processed_dir()
 FIR_FILE = PROCESSED_DIR / "firs.csv"
 
 

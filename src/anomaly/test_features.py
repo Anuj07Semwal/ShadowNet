@@ -9,7 +9,7 @@ from src.anomaly.feature_engineering import (
 
 
 DATA_PATH = Path(
-    "data/processed/relationships_transactions.csv"
+    str(resolve_processed_dir() / "relationships_transactions.csv")
 )
 
 

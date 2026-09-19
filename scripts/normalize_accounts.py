@@ -1,19 +1,18 @@
 from pathlib import Path
 import pandas as pd
 
+from src.data_paths import resolve_processed_dir, resolve_raw_dir
 
-RAW_DIR = Path("data/raw/CNAS_Prototype_Data")
-OUT_DIR = Path("data/processed")
+
+RAW_DIR = resolve_raw_dir()
+OUT_DIR = resolve_processed_dir()
 
 df = pd.read_csv(
     RAW_DIR / "synthetic_accounts.csv"
 )
 
-accounts = pd.DataFrame({
-    "account_id": df["account_id"],
-    "account_type": df["account_type"],
-    "source": df["data_provenance"]
-})
+accounts = df.copy()
+accounts["source"] = df.get("data_provenance", "synthetic")
 
 accounts = accounts.drop_duplicates(
     subset=["account_id"]

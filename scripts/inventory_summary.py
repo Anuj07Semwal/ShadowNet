@@ -1,8 +1,10 @@
 from pathlib import Path
 import pandas as pd
 
+from src.data_paths import resolve_raw_dir
 
-RAW_DIR = Path("data/raw/CNAS_Prototype_Data")
+
+RAW_DIR = resolve_raw_dir()
 
 
 def main():

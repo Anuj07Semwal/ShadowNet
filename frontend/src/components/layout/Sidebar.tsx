@@ -1,67 +1,45 @@
 import {
-  LayoutDashboard,
-  Users,
-  Network,
-  ArrowLeftRight,
-  TriangleAlert,
-  Search,
-  FileText,
-  Shield,
+  FileText, LayoutDashboard, Network, Search,
+  Settings, Shield, Users, X,
 } from "lucide-react";
 import { NavLink } from "react-router-dom";
 
+import { useLanguage } from "../../i18n/LanguageContext";
+import BrandLogo from "../BrandLogo";
+
 const navigation = [
-  { name: "Dashboard", path: "/", icon: LayoutDashboard },
-  { name: "Network Explorer", path: "/network", icon: Network },
-  { name: "Cases", path: "/cases", icon: Search },
-  { name: "Persons", path: "/persons", icon: Users },
-  { name: "Transactions", path: "/transactions", icon: ArrowLeftRight },
-  { name: "Anomalies", path: "/anomalies", icon: TriangleAlert },
-  { name: "Investigation", path: "/investigation", icon: Search },
-  { name: "Documents", path: "/documents", icon: FileText },
-];
+  { key: "dashboard", path: "/", icon: LayoutDashboard },
+  { key: "network", path: "/network", icon: Network },
+  { key: "cases", path: "/cases", icon: Search },
+  { key: "persons", path: "/persons", icon: Users },
+  { key: "investigation", path: "/investigation", icon: Shield },
+  { key: "documents", path: "/documents", icon: FileText },
+  { key: "settings", path: "/settings", icon: Settings },
+] as const;
 
-export default function Sidebar() {
+export default function Sidebar({ open, onClose }: { open: boolean; onClose: () => void }) {
+  const { t } = useLanguage();
   return (
-    <aside className="fixed left-0 top-0 z-40 h-screen w-64 border-r border-[var(--color-border)] bg-[var(--color-background)]">
-      <div className="flex h-20 items-center gap-3 border-b border-[var(--color-border)] px-6">
-        <div className="flex h-10 w-10 items-center justify-center bg-[var(--color-primary)]/10 rounded-lg border border-[var(--color-primary)]/20 shadow-sm">
-          <Shield className="text-[var(--color-primary)]" size={22} />
+    <>
+      {open && <button className="nav-scrim" onClick={onClose} aria-label={t("closeMenu")} type="button" />}
+      <aside className={`sidebar ${open ? "sidebar-open" : ""}`}>
+        <div className="brand-row">
+          <BrandLogo className="brand-mark" />
+          <div><strong>ShadowNet</strong></div>
+          <button className="icon-button close-menu" onClick={onClose} aria-label={t("closeMenu")} type="button"><X size={20} /></button>
         </div>
-        <div>
-          <h1 className="font-bold tracking-wide text-[var(--color-foreground)]">CNAS</h1>
-          <p className="text-xs text-[var(--color-muted-foreground)]">
-            Investigation System
-          </p>
-        </div>
-      </div>
-
-      <nav className="space-y-1 p-4">
-        {navigation.map((item) => {
-          const Icon = item.icon;
-          return (
-            <NavLink
-              key={item.path}
-              to={item.path}
-              end={item.path === "/"}
-              className={({ isActive }) =>
-                `
-                  flex items-center gap-3 px-4 py-3 
-                  text-sm font-medium transition-all duration-300 rounded-lg
-                  ${
-                    isActive
-                      ? "bg-[var(--color-card)] text-[var(--color-primary)] border border-[var(--color-primary)]/20 shadow-sm"
-                      : "text-[var(--color-muted-foreground)] border border-transparent hover:bg-[var(--color-card)] hover:text-[var(--color-primary)] hover:border-[var(--color-border)] shadow-none"
-                  }
-                `
-              }
-            >
-              <Icon size={18} />
-              <span>{item.name}</span>
-            </NavLink>
-          );
-        })}
-      </nav>
-    </aside>
+        <nav aria-label="Main navigation">
+          {navigation.map((item) => {
+            const Icon = item.icon;
+            return (
+              <NavLink key={item.path} to={item.path} end={item.path === "/"}>
+                <Icon size={19} aria-hidden="true" />
+                <span>{t(item.key)}</span>
+              </NavLink>
+            );
+          })}
+        </nav>
+      </aside>
+    </>
   );
 }

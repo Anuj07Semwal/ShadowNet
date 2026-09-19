@@ -1,7 +1,8 @@
-import { api } from "./client";
+import { api } from "./client.ts";
 
 export interface CaseItem {
   id: string;
+  name: string;
   title: string;
   status: string;
   priority: string;
@@ -13,6 +14,8 @@ export interface CaseItem {
 export interface CaseEvidenceItem {
   type: string;
   title: string;
+  entity_id?: string | null;
+  entity_name?: string | null;
   summary?: string;
   confidence?: number;
 }

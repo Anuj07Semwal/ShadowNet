@@ -1,5 +1,6 @@
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
+from src.data_paths import resolve_processed_dir
 from src.rag.document_loader import FIRDocumentLoader
 from src.rag.vector_store import CNASPineconeStore
 from src.rag import registry
@@ -66,7 +67,7 @@ class FIRIngestor:
         if existing and existing.get("content_hash") == content_hash:
             logger.info("SKIPPED: Document %s unchanged (content hash matched)", document_id)
             # Attempt to return cached vectors if available
-            cache_dir = os.path.join("data", "processed", "vectors")
+            cache_dir = str(resolve_processed_dir() / "vectors")
             cache_path = os.path.join(cache_dir, f"{document_id}.json")
             try:
                 if os.path.exists(cache_path):
@@ -149,7 +150,7 @@ class FIRIngestor:
             registry.upsert_document(document_id, content_hash, path, status="processed")
 
         # cache vectors locally for idempotent reads
-        cache_dir = os.path.join("data", "processed", "vectors")
+        cache_dir = str(resolve_processed_dir() / "vectors")
         os.makedirs(cache_dir, exist_ok=True)
         cache_path = os.path.join(cache_dir, f"{document_id}.json")
         try:

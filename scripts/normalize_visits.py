@@ -1,9 +1,11 @@
 from pathlib import Path
 import pandas as pd
 
+from src.data_paths import resolve_processed_dir, resolve_raw_dir
 
-RAW_DIR = Path("data/raw/CNAS_Prototype_Data")
-OUT_DIR = Path("data/processed")
+
+RAW_DIR = resolve_raw_dir()
+OUT_DIR = resolve_processed_dir()
 
 df = pd.read_csv(
     RAW_DIR / "synthetic_visits.csv"
@@ -19,9 +21,10 @@ visits = pd.DataFrame({
     "timestamp": df["timestamp"],
     "source_document": pd.NA,
     "confidence": 1.0,
-    "provenance": df["data_provenance"],
-    "is_anomaly": df["is_injected_anomaly"],
-    "anomaly_type": df["anomaly_type"]
+    "provenance": df.get("data_provenance", "synthetic"),
+    "purpose": df.get("purpose", pd.NA),
+    "is_anomaly": df.get("is_injected_anomaly", False),
+    "anomaly_type": df.get("anomaly_type", pd.NA)
 })
 
 visits.to_csv(

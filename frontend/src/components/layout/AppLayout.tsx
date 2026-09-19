@@ -1,37 +1,46 @@
-import { Outlet, useNavigate, useLocation } from "react-router-dom";
-import { motion, AnimatePresence } from "framer-motion";
+import { useEffect, useState } from "react";
+import { Outlet, useLocation, useNavigate } from "react-router-dom";
 
-import Sidebar from "./Sidebar";
+import Footer from "./Footer";
 import Header from "./Header";
+import Sidebar from "./Sidebar";
+import OnboardingTour from "../onboarding/OnboardingTour";
+import AmbientInvestigationBackground from "../motion-primitives/AmbientInvestigationBackground";
+import PageGuide from "../onboarding/PageGuide";
+import { useAuth } from "../../auth/AuthContext";
+import { useLanguage } from "../../i18n/LanguageContext";
 
 export default function AppLayout() {
   const navigate = useNavigate();
   const location = useLocation();
+  const { session } = useAuth();
+  const { t } = useLanguage();
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  useEffect(() => {
+    // Closing mobile navigation after a route change keeps focus and layout predictable.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setMenuOpen(false);
+    window.scrollTo({ top: 0, behavior: "auto" });
+  }, [location.pathname]);
 
   function handleSearch(value: string) {
     const query = value.trim();
     if (!query) return;
-    navigate(`/persons/${encodeURIComponent(query)}`);
+    navigate(`/persons?search=${encodeURIComponent(query)}`);
   }
 
   return (
-    <div className="min-h-screen bg-[var(--color-background)] text-[var(--color-foreground)] selection:bg-[var(--color-primary)] selection:text-white overflow-hidden">
-      <Sidebar />
-      <Header onSearch={handleSearch} />
-      <main className="ml-64 pt-20 min-h-screen overflow-y-auto">
-        <AnimatePresence mode="wait">
-          <motion.div
-            key={location.pathname}
-            initial={{ opacity: 0, y: 15 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -15 }}
-            transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
-            className="p-8 h-full"
-          >
-            <Outlet />
-          </motion.div>
-        </AnimatePresence>
-      </main>
+    <div className="app-shell">
+      <AmbientInvestigationBackground />
+      <Sidebar open={menuOpen} onClose={() => setMenuOpen(false)} />
+      <Header onSearch={handleSearch} onMenu={() => setMenuOpen(true)} />
+      <div className="content-column">
+        {session?.password_review_due && <div className="password-alert" role="status">{t("passwordReminder")} <button onClick={() => navigate("/settings")}>{t("passwordSecurity")}</button></div>}
+        <main id="main-content" className="page-content"><PageGuide key={location.pathname} /><Outlet /></main>
+        <Footer />
+      </div>
+      <OnboardingTour />
     </div>
   );
 }

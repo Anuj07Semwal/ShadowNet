@@ -2,10 +2,11 @@ from pathlib import Path
 
 import pandas as pd
 
+from src.data_paths import resolve_processed_dir
 from src.graph.neo4j_client import Neo4jClient
 
 
-PROCESSED_DIR = Path("data/processed")
+PROCESSED_DIR = resolve_processed_dir()
 
 RELATIONSHIP_FILES = [
     "relationships_calls.csv",
@@ -14,6 +15,26 @@ RELATIONSHIP_FILES = [
     "relationships_visits.csv",
     "relationships_works_for.csv",
 ]
+
+NODE_LABELS = {
+    "Person": "Person",
+    "Phone": "Phone",
+    "Vehicle": "Vehicle",
+    "Location": "Location",
+    "Organization": "Organization",
+    "Account": "Account",
+    "FIR": "FIR",
+}
+
+NODE_ID_PROPERTIES = {
+    "Person": "person_id",
+    "Phone": "phone_id",
+    "Vehicle": "vehicle_id",
+    "Location": "location_id",
+    "Organization": "organization_id",
+    "Account": "account_id",
+    "FIR": "fir_id",
+}
 
 
 def clean_value(value):
@@ -83,16 +104,24 @@ def load_relationship_file(
 
         records.append(record)
 
-    # We use the source/target node IDs.
-    #
-    # Relationship type cannot safely be parameterized
-    # in Cypher, so we group records by relationship type.
+    # Relationship and endpoint labels cannot safely be parameterized in
+    # Cypher, so group by all three values and use indexed node properties.
 
     total = 0
+    skipped = 0
 
-    for relationship_type, group in df.groupby(
-        "relationship"
+    for (relationship_type, source_type, target_type), group in df.groupby(
+        ["relationship", "source_type", "target_type"], dropna=False
     ):
+
+        source_label = NODE_LABELS.get(source_type)
+        target_label = NODE_LABELS.get(target_type)
+        source_property = NODE_ID_PROPERTIES.get(source_type)
+        target_property = NODE_ID_PROPERTIES.get(target_type)
+
+        if not source_label or not target_label:
+            print(f"⚠ Skipping unsupported endpoint types: {source_type} -> {target_type}")
+            continue
 
         rows = []
 
@@ -134,31 +163,8 @@ def load_relationship_file(
         query = f"""
         UNWIND $rows AS row
 
-        MATCH (source)
-        WHERE
-            source.person_id = row.source_id
-            OR source.phone_id = row.source_id
-            OR source.vehicle_id = row.source_id
-            OR source.location_id = row.source_id
-            OR source.organization_id = row.source_id
-            OR source.account_id = row.source_id
-            OR source.fir_id = row.source_id
-            OR source.crime_id = row.source_id
-            OR source.station_id = row.source_id
-            OR source.statute_id = row.source_id
-
-        MATCH (target)
-        WHERE
-            target.person_id = row.target_id
-            OR target.phone_id = row.target_id
-            OR target.vehicle_id = row.target_id
-            OR target.location_id = row.target_id
-            OR target.organization_id = row.target_id
-            OR target.account_id = row.target_id
-            OR target.fir_id = row.target_id
-            OR target.crime_id = row.target_id
-            OR target.station_id = row.target_id
-            OR target.statute_id = row.target_id
+        MATCH (source:{source_label} {{{source_property}: row.source_id}})
+        MATCH (target:{target_label} {{{target_property}: row.target_id}})
 
         MERGE (source)-[r:{relationship_type} {{
             relationship_id: row.relationship_id
@@ -167,10 +173,15 @@ def load_relationship_file(
         SET r += row.properties
         """
 
-        client.execute(
+        summary = client.execute(
             query,
             {"rows": rows}
         )
+
+        if summary is None:
+            skipped += len(rows)
+            print(f"  ⚠ {relationship_type}: Neo4j rejected {len(rows):,} rows")
+            continue
 
         total += len(rows)
 
@@ -182,6 +193,9 @@ def load_relationship_file(
     print(
         f"✓ {filename}: {total:,} relationships"
     )
+
+    if skipped:
+        print(f"⚠ {filename}: {skipped:,} rows skipped after Neo4j errors")
 
     return total
 

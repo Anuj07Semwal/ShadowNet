@@ -20,6 +20,9 @@ from src.api.routes import anomalies
 from src.api.routes import transactions
 from src.api.routes import documents
 from src.api.routes import search
+from src.api.routes import auth
+from src.api.routes import workspace
+from src.api.routes import review_queue
 
 app = FastAPI(
     title="CNAS API",
@@ -83,6 +86,9 @@ app.include_router(anomalies.router)
 app.include_router(transactions.router)
 app.include_router(documents.router)
 app.include_router(search.router)
+app.include_router(auth.router)
+app.include_router(workspace.router)
+app.include_router(review_queue.router)
 
 
 # Some FastAPI router wrappers (used internally) may nest route lists under an

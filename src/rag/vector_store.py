@@ -1,4 +1,4 @@
-import os
+
 from pinecone import Pinecone
 from langchain_huggingface import HuggingFaceEmbeddings
 from src.config import settings
@@ -18,7 +18,7 @@ class CNASPineconeStore:
 
         self.mode = mode
 
-        api_key = os.getenv("PINECONE_API_KEY")
+        api_key = settings.pinecone_api_key
 
         if not api_key:
             raise ValueError("PINECONE_API_KEY is missing")

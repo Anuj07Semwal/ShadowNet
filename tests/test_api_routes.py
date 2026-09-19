@@ -24,6 +24,9 @@ def test_required_api_routes_are_mounted():
         "/api/transactions",
         "/api/search",
         "/api/documents/search",
+        "/api/documents/upload",
+        "/api/workspace/dashboard",
+        "/api/workspace/investigations/{investigation_id}",
     }
 
     missing = sorted(expected_paths - mounted_paths)

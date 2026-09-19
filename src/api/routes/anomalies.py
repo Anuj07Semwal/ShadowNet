@@ -32,8 +32,12 @@ def list_anomalies(
 
     WHERE t.is_anomaly = true
 
+    OPTIONAL MATCH (p:Person)-[]-(t)
+
     RETURN
         t.id AS transaction_id,
+        collect(DISTINCT p.person_id) AS person_ids,
+        collect(DISTINCT p.name) AS person_names,
         t.amount AS amount,
         t.timestamp AS timestamp,
         t.anomaly_score AS anomaly_score,

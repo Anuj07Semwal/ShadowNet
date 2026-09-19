@@ -13,6 +13,13 @@ class Settings(BaseSettings):
     neo4j_password: str = Field(default="cnas_password")
     pinecone_api_key: str | None = Field(default=None)
     google_api_key: str | None = Field(default=None)
+    auth_username: str | None = Field(default=None, alias="SHADOWNET_AUTH_USERNAME")
+    auth_password: str | None = Field(default=None, alias="SHADOWNET_AUTH_PASSWORD")
+    auth_role: str = Field(default="investigator", alias="SHADOWNET_AUTH_ROLE")
+    auth_reset_code: str | None = Field(default=None, alias="SHADOWNET_AUTH_RESET_CODE")
+    auth_session_ttl_seconds: int = Field(default=28800, alias="SHADOWNET_AUTH_SESSION_TTL_SECONDS")
+    auth_password_review_days: int = Field(default=45, alias="SHADOWNET_AUTH_PASSWORD_REVIEW_DAYS")
+    auth_cookie_secure: bool = Field(default=False, alias="SHADOWNET_AUTH_COOKIE_SECURE")
     allow_runtime_embeddings: bool = Field(default=False, alias="ALLOW_RUNTIME_EMBEDDINGS")
     allowed_origins_raw: str = Field(
         default="http://localhost:5173,http://127.0.0.1:5173,http://localhost:3000",

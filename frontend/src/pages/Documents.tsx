@@ -1,109 +1,15 @@
-import { useState } from "react";
-import { Upload, CheckCircle, XCircle } from "lucide-react";
-import { motion } from "framer-motion";
-import { api } from "../api/client";
-
-export default function Documents() {
-  const [file, setFile] = useState<File | null>(null);
-  const [status, setStatus] = useState<"idle" | "uploading" | "success" | "error">("idle");
-  const [message, setMessage] = useState("");
-
-  const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    if (e.target.files && e.target.files.length > 0) {
-      setFile(e.target.files[0]);
-      setStatus("idle");
-      setMessage("");
-    }
-  };
-
-  const handleUpload = async () => {
-    if (!file) return;
-
-    setStatus("uploading");
-    setMessage("");
-
-    const formData = new FormData();
-    formData.append("file", file);
-
-    try {
-      const response = await api.post("/documents/upload", formData, {
-        headers: { "Content-Type": "multipart/form-data" },
-      });
-      setStatus("success");
-      setMessage(`Document "${response.data.filename}" ingested successfully.`);
-    } catch (error: any) {
-      console.error(error);
-      setStatus("error");
-      setMessage(error.response?.data?.detail || "Upload failed. Check backend connection.");
-    }
-  };
-
-  return (
-    <div className="mx-auto max-w-3xl space-y-8 pb-10">
-      <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.3 }}>
-        <h1 className="text-3xl font-bold tracking-tight text-[var(--color-foreground)]">Document Ingestion</h1>
-        <p className="mt-2 text-[var(--color-muted-foreground)]">
-          Upload unstructured evidence (PDFs, TXT, CSV) to enrich the graph network automatically.
-        </p>
-      </motion.div>
-
-      <motion.div 
-        initial={{ opacity: 0, y: 15 }} 
-        animate={{ opacity: 1, y: 0 }} 
-        transition={{ delay: 0.1, duration: 0.3 }}
-        className="rounded-2xl border border-[var(--color-border)] bg-[var(--color-card)] p-8 shadow-sm"
-      >
-        <div className="relative flex flex-col items-center justify-center rounded-xl border-2 border-dashed border-[var(--color-border)] bg-[var(--color-muted)] py-16 transition-colors hover:border-[var(--color-primary)]/50 hover:bg-slate-50 group">
-          <input
-            type="file"
-            onChange={handleFileChange}
-            className="absolute inset-0 z-50 h-full w-full cursor-pointer opacity-0"
-            accept=".txt,.csv,.pdf,.json"
-          />
-
-          <div className="rounded-full bg-[var(--color-card)] p-4 shadow-sm border border-[var(--color-border)] group-hover:bg-[var(--color-primary)]/10 group-hover:border-[var(--color-primary)]/30 group-hover:text-[var(--color-primary)] transition-all duration-300">
-             <Upload size={32} className="text-[var(--color-muted-foreground)] group-hover:text-[var(--color-primary)]" />
-          </div>
-
-          <h3 className="mt-6 text-lg font-semibold text-[var(--color-foreground)]">
-            {file ? file.name : "Drag & drop evidence files here"}
-          </h3>
-          <p className="mt-2 text-sm text-[var(--color-muted-foreground)]">
-            {file ? `${(file.size / 1024).toFixed(2)} KB` : "Supports PDF, TXT, CSV, JSON"}
-          </p>
-        </div>
-
-        <div className="mt-8 flex justify-end">
-          <button
-            onClick={handleUpload}
-            disabled={!file || status === "uploading"}
-            className="flex items-center gap-2 rounded-xl bg-[var(--color-primary)] px-8 py-3 text-sm font-semibold text-white transition-all duration-300 hover:bg-blue-600 hover:shadow-[0_4px_14px_rgba(59,130,246,0.3)] disabled:opacity-50 disabled:hover:bg-[var(--color-primary)] disabled:hover:shadow-none shadow-sm"
-          >
-            {status === "uploading" ? (
-              <>
-                <div className="h-4 w-4 rounded-full border-2 border-white border-t-transparent animate-spin" />
-                Ingesting...
-              </>
-            ) : (
-              "Ingest to Graph"
-            )}
-          </button>
-        </div>
-
-        {status === "success" && (
-          <motion.div initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }} className="mt-6 flex items-center gap-3 rounded-xl border border-emerald-500/30 bg-emerald-50 text-emerald-600 p-4 shadow-sm">
-            <CheckCircle size={20} />
-            <p className="text-sm font-medium">{message}</p>
-          </motion.div>
-        )}
-
-        {status === "error" && (
-          <motion.div initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }} className="mt-6 flex items-center gap-3 rounded-xl border border-[var(--color-destructive)]/30 bg-[var(--color-destructive)]/10 text-[var(--color-destructive)] p-4 shadow-sm">
-            <XCircle size={20} />
-            <p className="text-sm font-medium">{message}</p>
-          </motion.div>
-        )}
-      </motion.div>
-    </div>
-  );
+import {useRef,useState,type DragEvent,type ChangeEvent} from "react";
+import {CheckCircle2,FileUp,Upload, XCircle} from "lucide-react";
+import {api} from "../api/client.ts";
+import {useLanguage} from "../i18n/LanguageContext";
+export default function Documents(){
+ const {t}=useLanguage();const inputRef=useRef<HTMLInputElement>(null);const [file,setFile]=useState<File|null>(null);const [status,setStatus]=useState("");const [busy,setBusy]=useState(false);const [progress,setProgress]=useState(0);const [dragging,setDragging]=useState(false);
+ function choose(next:File|null){setFile(next);setStatus("");setProgress(0);}
+ function handleFiles(files:FileList|null){choose(files?.[0]??null);}
+ function onDrop(event:DragEvent<HTMLLabelElement>){event.preventDefault();setDragging(false);handleFiles(event.dataTransfer.files);}
+ function onChange(event:ChangeEvent<HTMLInputElement>){handleFiles(event.target.files);}
+ function formatSize(bytes:number){if(bytes<1024)return `${bytes} B`;if(bytes<1024*1024)return `${(bytes/1024).toFixed(1)} KB`;return `${(bytes/(1024*1024)).toFixed(1)} MB`;}
+ function valid(next=file){return Boolean(next&&next.size&&next.size<=10*1024*1024&&/\.(pdf|txt|csv|json)$/i.test(next.name));}
+ async function upload(){if(!valid()){setStatus("uploadInvalid");return;}setBusy(true);setProgress(0);setStatus("");try{const data=new FormData();data.append("file",file as File);await api.post("/documents/upload",data,{headers:{"Content-Type":"multipart/form-data"},onUploadProgress:event=>{if(event.total)setProgress(Math.round((event.loaded/event.total)*100));}});setProgress(100);setStatus("uploadSuccess");}catch{setStatus("error");}finally{setBusy(false);}}
+ return <div className="workspace-page evidence-intake-page"><div><p className="eyebrow">Evidence workspace</p><h1>Evidence Intake</h1><p>{t("uploadHelp")}</p></div><section className="settings-card upload-card"><div className="upload-card-heading"><span className="upload-icon"><FileUp size={25}/></span><div><h2>Upload Evidence</h2><p>Bring a source file into your authorized workspace.</p></div></div><label className={`upload-dropzone ${dragging?"is-dragging":""}`} htmlFor="evidence-file" onDragOver={event=>{event.preventDefault();setDragging(true);}} onDragLeave={()=>setDragging(false)} onDrop={onDrop} tabIndex={0} onKeyDown={event=>{if(event.key==="Enter"||event.key===" "){event.preventDefault();inputRef.current?.click();}}}><Upload size={30}/><strong>Drag &amp; drop evidence here or click to browse</strong><span>Supported: PDF, TXT, CSV, JSON · Maximum size: 10 MB</span><input ref={inputRef} id="evidence-file" type="file" accept=".pdf,.txt,.csv,.json" onChange={onChange}/></label>{file&&<div className="selected-upload"><span className="selected-upload-icon"><FileUp size={18}/></span><div><strong>{file.name}</strong><small>{formatSize(file.size)}</small></div><button type="button" className="clear-upload" onClick={()=>choose(null)} aria-label="Remove selected file"><XCircle size={19}/></button></div>}{busy&&<div className="upload-progress" role="status"><div className="upload-progress-label"><span>Uploading evidence</span><strong>{progress}%</strong></div><div className="upload-progress-track"><span style={{width:`${progress}%`}}/></div></div>}<button className="primary-action upload-submit" disabled={!file||busy} onClick={()=>void upload()}><Upload size={17}/>{busy?"Uploading...":"Upload Evidence"}</button>{status==="uploadSuccess"&&<p className="upload-feedback success" role="status"><CheckCircle2 size={18}/>{t(status)}</p>}{status&&status!=="uploadSuccess"&&<p className="upload-feedback error" role="alert"><XCircle size={18}/>{t(status)}</p>}</section></div>;
 }

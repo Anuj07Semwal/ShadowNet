@@ -1,14 +1,11 @@
 from pathlib import Path
 import pandas as pd
 
+from src.data_paths import resolve_processed_dir, resolve_raw_dir
 
-RAW_FILE = Path(
-    "data/raw/CNAS_Prototype_Data/neo4j/relationships/WORKS_FOR.csv"
-)
 
-OUT_FILE = Path(
-    "data/processed/relationships_works_for.csv"
-)
+RAW_FILE = resolve_raw_dir() / "neo4j" / "relationships" / "WORKS_FOR.csv"
+OUT_FILE = resolve_processed_dir() / "relationships_works_for.csv"
 
 
 def main():
@@ -18,6 +15,9 @@ def main():
     print("=" * 70)
 
     if not RAW_FILE.exists():
+        if OUT_FILE.exists():
+            print(f"Raw WORKS_FOR source missing; keeping existing {OUT_FILE}")
+            return
         raise FileNotFoundError(
             f"Missing input file: {RAW_FILE}"
         )

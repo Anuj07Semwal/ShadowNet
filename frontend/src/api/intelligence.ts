@@ -1,4 +1,4 @@
-import { api } from "./client";
+import { api } from "./client.ts";
 
 export interface NetworkIntelSummary {
   network: {

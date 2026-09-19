@@ -1,164 +1,44 @@
-import { useEffect, useState } from "react";
-import { useParams, useNavigate } from "react-router-dom";
-import { User, AlertTriangle, ArrowLeftRight, Activity, Network } from "lucide-react";
-import { motion, type Variants } from "framer-motion";
-import { getPersonNetwork } from "../api/persons";
-import type { PersonNetwork } from "../types/person";
+import { useEffect, useState, lazy, Suspense } from "react";
+import { Link, useNavigate, useParams } from "react-router-dom";
+import { getPersonProfile, type PersonProfile, type ProfileEntity } from "../api/persons";
+import { useLanguage } from "../i18n/LanguageContext";
+import { recordLabel } from "../utils/displayLabels";
 
-const containerVariants: Variants = {
-  hidden: { opacity: 0 },
-  show: { opacity: 1, transition: { staggerChildren: 0.1 } }
-};
+const ProfileGraph = lazy(() => import("../components/person/ProfileGraph"));
+const RiskProfile = lazy(() => import("../components/person/RiskProfile"));
 
-const itemVariants: Variants = {
-  hidden: { opacity: 0, y: 20 },
-  show: { opacity: 1, y: 0, transition: { type: "spring", stiffness: 300, damping: 24 } }
-};
+function EntityList({ items, empty }: { items: ProfileEntity[]; empty: string }) {
+	if (!items.length) return <p className="profile-empty">{empty}</p>;
+	return <div className="profile-entity-list">{items.map((item) => <article className="profile-entity" key={item.id}><strong>{item.name || item.id}</strong><small>{item.type} · {item.id}</small>{Object.entries(item.properties).filter(([key]) => !["name", "person_id", "organization_id", "vehicle_id", "location_id", "phone_id", "account_id"].includes(key)).slice(0, 5).map(([key, itemValue]) => <span key={key}>{key.replaceAll("_", " ")}: {String(itemValue)}</span>)}</article>)}</div>;
+}
 
 export default function PersonInvestigation() {
- const params = useParams<{ personId?: string; id?: string }>();
- const id = params.personId ?? params.id;
-  const navigate = useNavigate();
+	const { personId } = useParams();
+	const navigate = useNavigate();
+	const { t, language } = useLanguage();
+	const [profile, setProfile] = useState<PersonProfile | null>(null);
+	const [error, setError] = useState(false);
 
-  const [details, setDetails] = useState<PersonNetwork | null>(null);
-  const [error, setError] = useState<string | null>(null);
+	useEffect(() => {
+		let active = true;
+		if (personId) getPersonProfile(personId).then((data) => { if (active) setProfile(data); }).catch(() => { if (active) setError(true); });
+		return () => { active = false; };
+	}, [personId]);
 
-  useEffect(() => {
-    if (!id) return;
-    getPersonNetwork(id)
-      .then((data) => setDetails(data))
-      .catch((err) => {
-        console.error(err);
-        setError("Unable to retrieve person details.");
-      });
-  }, [id]);
+	if (error) return <div className="workspace-page"><Link to="/persons">{t("back")}</Link><p role="alert">{t("noResults")}</p></div>;
+	if (!profile) return <div className="workspace-page"><p role="status">{t("working")}</p></div>;
 
-  if (error) {
-    return (
-      <div className="flex h-full items-center justify-center">
-        <div className="border border-[var(--color-destructive)]/30 bg-[var(--color-destructive)]/10 p-8 rounded-xl text-center shadow-sm">
-          <AlertTriangle className="mx-auto mb-4 text-[var(--color-destructive)]" size={32} />
-          <p className="font-semibold text-[var(--color-destructive)]">{error}</p>
-          <button
-            onClick={() => navigate("/persons")}
-            className="mt-6 rounded-lg bg-[var(--color-destructive)]/20 px-4 py-2 text-sm font-medium text-[var(--color-destructive)] hover:bg-[var(--color-destructive)]/30 transition-colors"
-          >
-            Back to Persons
-          </button>
-        </div>
-      </div>
-    );
-  }
-
-  if (!details) {
-    return (
-      <div className="flex min-h-[60vh] items-center justify-center">
-        <div className="text-xl font-semibold text-[var(--color-muted-foreground)] flex items-center gap-3">
-          <div className="h-5 w-5 rounded-full border-2 border-[var(--color-primary)] border-t-transparent animate-spin" />
-          Retrieving profile...
-        </div>
-      </div>
-    );
-  }
-
-  const { connections } = details;
-
-  return (
-    <div className="mx-auto max-w-6xl space-y-8 pb-10">
-      <div className="flex items-start justify-between">
-        <div>
-          <div className="flex items-center gap-3 text-sm font-medium text-[var(--color-primary)] mb-3">
-            <button onClick={() => navigate("/persons")} className="hover:underline">Persons</button>
-            <span>/</span>
-            <span className="text-[var(--color-muted-foreground)] uppercase tracking-wide">{id}</span>
-          </div>
-          <h1 className="text-3xl font-bold tracking-tight text-[var(--color-foreground)]">
-            {details.name || "Unknown Entity"}
-          </h1>
-          <p className="mt-2 font-mono text-sm text-[var(--color-muted-foreground)]">ID: {details.person_id}</p>
-        </div>
-      </div>
-
-      <motion.div 
-        variants={containerVariants}
-        initial="hidden"
-        animate="show"
-        className="grid gap-6 md:grid-cols-3"
-      >
-        <motion.div variants={itemVariants} className="rounded-xl border border-[var(--color-border)] bg-[var(--color-card)] p-6 shadow-sm">
-          <div className="flex items-center gap-3 text-[var(--color-primary)] mb-4">
-            <Network size={20} />
-            <h2 className="font-semibold text-[var(--color-foreground)]">Graph Metrics</h2>
-          </div>
-          <div className="space-y-4 text-sm mt-6">
-            <div className="flex justify-between border-b border-[var(--color-border)] pb-2">
-              <span className="text-[var(--color-muted-foreground)]">Degree</span>
-              <span className="font-medium text-[var(--color-foreground)]">{details.degree ?? "—"}</span>
-            </div>
-            <div className="flex justify-between border-b border-[var(--color-border)] pb-2">
-              <span className="text-[var(--color-muted-foreground)]">PageRank</span>
-              <span className="font-mono text-[var(--color-foreground)]">{details.pagerank?.toFixed(6) ?? "—"}</span>
-            </div>
-            <div className="flex justify-between">
-              <span className="text-[var(--color-muted-foreground)]">Community</span>
-              <span className="rounded-lg border border-[var(--color-primary)]/30 bg-[var(--color-primary)]/10 px-2 py-0.5 text-xs font-medium text-[var(--color-primary)]">
-                {details.community ?? "—"}
-              </span>
-            </div>
-          </div>
-        </motion.div>
-
-        <motion.div variants={itemVariants} className="md:col-span-2 rounded-xl border border-[var(--color-border)] bg-[var(--color-card)] p-6 shadow-sm">
-          <div className="flex items-center gap-3 text-[var(--color-foreground)] border-b border-[var(--color-border)] pb-4 mb-4">
-            <ArrowLeftRight size={20} className="text-emerald-500" />
-            <h2 className="font-semibold text-[var(--color-foreground)]">Known Relationships ({connections.length})</h2>
-          </div>
-
-          <div className="mt-4 max-h-[300px] overflow-y-auto pr-2">
-            {connections.length === 0 ? (
-              <p className="py-8 text-center text-sm text-[var(--color-muted-foreground)]">
-                No relationships recorded in the graph.
-              </p>
-            ) : (
-              <div className="space-y-3">
-                {connections.map((conn, index) => {
-                  const isTransaction = conn.type.includes("TRANSACTED") || conn.relationship.toLowerCase().includes("transact");
-
-                  return (
-                    <div
-                      key={index}
-                      className="flex items-center justify-between rounded-xl border border-[var(--color-border)] bg-[var(--color-muted)] p-4 transition-colors hover:border-[var(--color-primary)]/40 hover:bg-[var(--color-card)] shadow-sm"
-                    >
-                      <div className="flex items-center gap-4">
-                        <div className="rounded-lg border border-[var(--color-primary)]/20 bg-[var(--color-primary)]/10 p-2 text-[var(--color-primary)]">
-                          {isTransaction ? <Activity size={16} /> : <User size={16} />}
-                        </div>
-                        <div>
-                          <p className="text-sm font-semibold text-[var(--color-foreground)]">
-                            {conn.type.join(", ") || "Related"}
-                          </p>
-                          <button 
-                            onClick={() => navigate(`/persons/${encodeURIComponent(conn.id)}`)}
-                            className="text-xs font-mono text-[var(--color-primary)] hover:underline mt-0.5 inline-block"
-                          >
-                            {conn.id} {conn.name ? `(${conn.name})` : ""}
-                          </button>
-                        </div>
-                      </div>
-
-                      <div className="text-right">
-                        <span className="rounded-md border border-[var(--color-border)] bg-white px-2.5 py-1 text-[10px] font-medium uppercase tracking-wide text-[var(--color-muted-foreground)]">
-                          {conn.relationship || "Connection"}
-                        </span>
-                      </div>
-                    </div>
-                  );
-                })}
-              </div>
-            )}
-          </div>
-        </motion.div>
-      </motion.div>
-    </div>
-  );
+	const basic = profile.basic;
+	return <div className="workspace-page profile-page">
+		<nav className="profile-breadcrumbs" aria-label="Breadcrumb"><Link to="/">Dashboard</Link><span>/</span><Link to="/persons">People</Link><span>/</span><strong>{recordLabel(profile.id, profile.name, language)}</strong></nav>
+		<Link className="profile-back-link" to="/persons">← Back to People</Link>
+		<header className="profile-header"><div><p className="eyebrow">Person profile</p><h1>{recordLabel(profile.id, profile.name, language)}</h1><p className="profile-id">Person ID: {profile.id}</p></div><div className="profile-summary"><strong>{profile.relationships.length}</strong><span>relationships</span><strong>{profile.transactions.length}</strong><span>transactions</span></div></header>
+		<nav className="profile-section-nav" aria-label="Person profile sections"><a href="#overview">Overview</a><a href="#risk-profile">Risk &amp; anomalies</a><a href="#relationship-graph">Relationships</a><a href="#details">Details</a><a href="#transactions">Transactions</a><a href="#verified-cases">Verified cases</a></nav>
+		<section className="profile-basic-grid" id="overview"><article className="data-panel"><h2>Basic information</h2><dl className="profile-fields">{["gender", "date_of_birth", "age", "city", "state", "country"].map((key) => basic[key] !== undefined && basic[key] !== null && <div key={key}><dt>{key.replaceAll("_", " ")}</dt><dd>{String(basic[key])}</dd></div>)}</dl></article><article className="data-panel"><h2>Data provenance</h2><dl className="profile-fields"><div><dt>Source</dt><dd>{String(basic.source ?? "Unknown")}</dd></div><div><dt>Confidence</dt><dd>{String(basic.confidence ?? "Not recorded")}</dd></div><div><dt>Community</dt><dd>{String(basic.community_id ?? "Unassigned")}</dd></div></dl></article></section>
+		<Suspense fallback={<p className="state-panel" role="status">{t("working")}</p>}><RiskProfile risk={profile.risk} /></Suspense>
+		<Suspense fallback={<p className="state-panel" role="status">{t("working")}</p>}><ProfileGraph profile={profile} onPersonSelect={(id) => navigate(`/persons/${encodeURIComponent(id)}`)} /></Suspense>
+		<section className="profile-section-grid" id="details"><article className="data-panel"><h2>Contact information</h2><h3>Phone numbers</h3><EntityList items={profile.phones} empty="No phone records available." /><h3>Email activity</h3>{profile.emails.length ? <div className="profile-event-list">{profile.emails.map((email) => <div key={String(email.email_id)}><strong>{String(email.other_person_name ?? email.other_person_id)}</strong><span>{String(email.email_id)} · {String(email.timestamp ?? "")}</span></div>)}</div> : <p className="profile-empty">No email events available. Email addresses are not present in the source data.</p>}</article><article className="data-panel"><h2>Location</h2><EntityList items={profile.locations} empty="No location history available." /></article><article className="data-panel"><h2>Vehicles</h2><EntityList items={profile.vehicles} empty="No vehicle records available." /></article><article className="data-panel"><h2>Organizations</h2><EntityList items={profile.organizations} empty="No organization relationships available." /></article></section>
+		<section className="data-panel" id="transactions"><h2>Transactions</h2>{profile.transactions.length ? <div className="profile-table-wrap"><table className="profile-table"><thead><tr><th>ID</th><th>Date/time</th><th>Amount</th><th>Type</th><th>Sender</th><th>Receiver</th></tr></thead><tbody>{profile.transactions.map((item) => <tr key={String(item.transaction_id)}><td>{String(item.transaction_id)}</td><td>{String(item.timestamp ?? "")}</td><td>{String(item.amount ?? "")}</td><td>{String(item.transaction_type ?? "")}</td><td>{String(item.sender_person_id ?? item.sender_account_id ?? "")}</td><td>{String(item.receiver_person_id ?? item.receiver_account_id ?? "")}</td></tr>)}</tbody></table></div> : <p className="profile-empty">No transactions available for this person.</p>}</section>
+		<section className="data-panel" id="verified-cases"><h2>Relationships and verified cases</h2>{profile.relationships.length ? <div className="profile-relationship-list">{profile.relationships.map((item) => <div key={`${item.id}-${item.relationship}`}><strong>{item.name || item.id}</strong><span>{item.relationship} · {item.direction ?? "unknown direction"}{item.confidence !== null && item.confidence !== undefined ? ` · confidence ${item.confidence}` : ""}</span></div>)}</div> : <p className="profile-empty">No relationships available.</p>}</section>
+	</div>;
 }

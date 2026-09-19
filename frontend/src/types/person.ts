@@ -30,7 +30,7 @@ export interface PersonNetwork {
   person_id: string;
   name: string | null;
 
-  degree: number | null;
+  degree: number;
   degree_centrality: number | null;
   betweenness: number | null;
   pagerank: number | null;
@@ -40,11 +40,4 @@ export interface PersonNetwork {
   connections: NetworkConnection[];
 }
 
-export interface PersonAnomaly {
-  transaction_id: string;
-  amount: number | null;
-  timestamp: string | null;
-  anomaly_score: number | null;
-  is_anomaly: boolean;
-}
 

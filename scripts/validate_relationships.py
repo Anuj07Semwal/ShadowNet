@@ -1,8 +1,10 @@
 from pathlib import Path
 import pandas as pd
 
+from src.data_paths import resolve_processed_dir
 
-DIR = Path("data/processed")
+
+DIR = resolve_processed_dir()
 
 
 def main():

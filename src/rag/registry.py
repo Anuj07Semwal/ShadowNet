@@ -4,7 +4,9 @@ import hashlib
 from typing import Optional
 from datetime import datetime
 
-DB_PATH = os.getenv("CNAS_REGISTRY_DB", "data/processed/registry.db")
+from src.data_paths import resolve_processed_dir
+
+DB_PATH = os.getenv("CNAS_REGISTRY_DB") or str(resolve_processed_dir() / "registry.db")
 
 
 def _connect():
