@@ -10,7 +10,7 @@ class Settings(BaseSettings):
     environment: str = Field(default="development")
     neo4j_uri: str = Field(default="bolt://localhost:7687")
     neo4j_username: str = Field(default="neo4j")
-    neo4j_password: str = Field(default="cnas_password")
+    neo4j_password: str | None = Field(default=None)
     pinecone_api_key: str | None = Field(default=None)
     google_api_key: str | None = Field(default=None)
     auth_username: str | None = Field(default=None, alias="SHADOWNET_AUTH_USERNAME")

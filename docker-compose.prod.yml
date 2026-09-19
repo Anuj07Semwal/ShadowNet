@@ -1,50 +1,50 @@
 services:
   api:
-    image: python:3.12-slim
-    working_dir: /app
-    volumes:
-      - .:/app
-    command: bash -lc "pip install -r requirements.txt && uvicorn src.api.main:app --host 0.0.0.0 --port 8000"
+    build:
+      context: .
+      dockerfile: Dockerfile
     environment:
       APP_ENV: production
       APP_VERSION: 1.0.0
       NEO4J_URI: bolt://neo4j:7687
       NEO4J_USERNAME: neo4j
-      NEO4J_PASSWORD: cnas_password
-      ALLOWED_ORIGINS: http://localhost:4173,http://127.0.0.1:4173,http://localhost:5173,http://127.0.0.1:5173
+      NEO4J_PASSWORD: ${NEO4J_PASSWORD:?NEO4J_PASSWORD must be set}
+      ALLOWED_ORIGINS: ${ALLOWED_ORIGINS:?ALLOWED_ORIGINS must be set}
       SHADOWNET_AUTH_USERNAME: ${SHADOWNET_AUTH_USERNAME:?SHADOWNET_AUTH_USERNAME must be set}
       SHADOWNET_AUTH_PASSWORD: ${SHADOWNET_AUTH_PASSWORD:?SHADOWNET_AUTH_PASSWORD must be set}
       SHADOWNET_AUTH_ROLE: ${SHADOWNET_AUTH_ROLE:-investigator}
-    ports:
-      - "8000:8000"
+    expose:
+      - "8000"
     depends_on:
-      - neo4j
+      neo4j:
+        condition: service_healthy
 
   frontend:
-    image: node:20-alpine
-    working_dir: /app/frontend
-    volumes:
-      - .:/app
-    command: sh -lc "npm install && npm run build && npx vite preview --host 0.0.0.0 --port 4173"
-    environment:
-      VITE_API_BASE_URL: http://localhost:8000/api
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
     ports:
-      - "4173:4173"
+      - "4173:80"
     depends_on:
       - api
 
   neo4j:
     image: neo4j:5-community
-    container_name: cnas-neo4j
     environment:
-      NEO4J_AUTH: neo4j/cnas_password
-      NEO4J_PLUGINS: '"[\"graph-data-science\"]"'
-    ports:
-      - "7474:7474"
-      - "7687:7687"
+      NEO4J_AUTH: neo4j/${NEO4J_PASSWORD:?NEO4J_PASSWORD must be set}
+      NEO4J_PLUGINS: '[ "graph-data-science" ]'
+    expose:
+      - "7474"
+      - "7687"
     volumes:
       - neo4j_data:/data
       - neo4j_logs:/logs
+    healthcheck:
+      test: ["CMD-SHELL", "wget -q --spider http://localhost:7474 || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+      start_period: 30s
 
 volumes:
   neo4j_data:

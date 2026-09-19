@@ -12,7 +12,7 @@ class Neo4jClient:
     def __init__(self):
         self.uri = os.getenv("NEO4J_URI", "bolt://localhost:7687")
         self.username = os.getenv("NEO4J_USERNAME", "neo4j")
-        self.password = os.getenv("NEO4J_PASSWORD", "cnas_password")
+        self.password = os.environ["NEO4J_PASSWORD"]
         self.driver = None
 
     def _get_driver(self):
