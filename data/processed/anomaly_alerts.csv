@@ -1,0 +1,17 @@
+alerts = df[
+    df["is_anomaly"]
+][
+    [
+        "transaction_id",
+        "person_id",
+        "amount",
+        "timestamp",
+        "anomaly_score",
+        "reason",
+    ]
+]
+
+alerts.to_csv(
+    "data/processed/anomaly_alerts.csv",
+    index=False
+)

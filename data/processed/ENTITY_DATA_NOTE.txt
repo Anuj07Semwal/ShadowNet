@@ -1,0 +1,9 @@
+CNAS realistic synthetic entity update
+========================================
+Person records with SYN_P_* IDs were populated with fictional, realistic Indian names and locations.
+SYN_LOC_* records referenced by relationship data were populated with realistic Indian cities/locations.
+The malformed WORKS_FOR organization target IDs that conflicted with person IDs were moved to SYN_ORG_* IDs,
+and corresponding fictional Indian organization records were added.
+
+These names and organizations are synthetic examples intended for testing/demo use; they are not claims
+about real individuals or organizations. Stable IDs are preserved for person/location records where possible.

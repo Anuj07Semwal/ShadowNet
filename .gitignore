@@ -73,11 +73,18 @@ data/processed/*
 !data/processed/.gitkeep
 
 # Large datasets
-*.csv
 *.parquet
 *.jsonl
 *.zip
 *.gz
+*.csv
+
+# Whitelist data files required by API and knowledge graph
+!data/processed/*.csv
+!data/processed/*.txt
+!data/processed/registry.db
+!data/documents/raw/CNAS_Prototype_Data/**
+!data/documents/processed/**
 
 # =========================
 # Logs
@@ -121,4 +128,3 @@ Thumbs.db
 *.temp
 *.swp
 *.swo
-data/documents/raw/CNAS_Prototype_Data/

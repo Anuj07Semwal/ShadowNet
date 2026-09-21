@@ -1,0 +1,13 @@
+relationship_id,source_id,source_type,relationship,target_id,target_type,confidence,provenance
+WORKS_FOR_000000,SYN_P_0020,Person,WORKS_FOR,SYN_ORG_0006,Organization,1.0,realistic_indian_subset
+WORKS_FOR_000001,SYN_P_0167,Person,WORKS_FOR,SYN_ORG_0001,Organization,1.0,realistic_indian_subset
+WORKS_FOR_000002,IND_P_00162,Person,WORKS_FOR,SYN_ORG_0011,Organization,1.0,realistic_indian_subset
+WORKS_FOR_000003,IND_P_00148,Person,WORKS_FOR,SYN_ORG_0002,Organization,1.0,realistic_indian_subset
+WORKS_FOR_000004,SYN_P_0565,Person,WORKS_FOR,SYN_ORG_0008,Organization,1.0,realistic_indian_subset
+WORKS_FOR_000005,IND_P_00023,Person,WORKS_FOR,SYN_ORG_0004,Organization,1.0,realistic_indian_subset
+WORKS_FOR_000006,SYN_P_0628,Person,WORKS_FOR,SYN_ORG_0012,Organization,1.0,realistic_indian_subset
+WORKS_FOR_000007,SYN_P_0268,Person,WORKS_FOR,SYN_ORG_0005,Organization,1.0,realistic_indian_subset
+WORKS_FOR_000008,SYN_P_0550,Person,WORKS_FOR,SYN_ORG_0009,Organization,1.0,realistic_indian_subset
+WORKS_FOR_000009,SYN_P_0727,Person,WORKS_FOR,SYN_ORG_0010,Organization,1.0,realistic_indian_subset
+WORKS_FOR_000010,SYN_P_0666,Person,WORKS_FOR,SYN_ORG_0007,Organization,1.0,realistic_indian_subset
+WORKS_FOR_000011,SYN_P_0750,Person,WORKS_FOR,SYN_ORG_0003,Organization,1.0,realistic_indian_subset

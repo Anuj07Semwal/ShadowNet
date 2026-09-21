@@ -1,0 +1,497 @@
+fir_id,year,police_station,city,state,crime_type,statute,person_id,summary,confidence
+FIR_0001,2024,Noida Sector 20 Police Station,Surat,Gujarat,Money Laundering,IPC 471,SYN_P_0476,Fictional demo FIR describing reported money laundering activity involving Manish Rao.,0.85
+FIR_0002,2022,Lucknow Hazratganj Police Station,Meerut,Uttar Pradesh,Smuggling,IT Act 66D,SYN_P_0172,Fictional demo FIR describing reported smuggling activity involving Muskan Iyer.,0.905
+FIR_0003,2025,Hyderabad Central Crime Police Station,Lucknow,Uttar Pradesh,Theft,Arms Act 25,SYN_P_0172,Fictional demo FIR describing reported theft activity involving Muskan Iyer.,0.932
+FIR_0004,2023,Ahmedabad Navrangpura Police Station,Noida,Uttar Pradesh,Forgery,IPC 471,SYN_P_0477,Fictional demo FIR describing reported forgery activity involving Pranav Mehta.,0.936
+FIR_0005,2025,Ahmedabad Navrangpura Police Station,Noida,Uttar Pradesh,Money Laundering,IPC 420,SYN_P_0309,Fictional demo FIR describing reported money laundering activity involving Komal Gupta.,0.836
+FIR_0006,2025,Hyderabad Central Crime Police Station,Chennai,Tamil Nadu,Forgery,IPC 506,SYN_P_0429,Fictional demo FIR describing reported forgery activity involving Saurabh Deshmukh.,0.981
+FIR_0007,2024,Chennai Anna Nagar Police Station,Mumbai,Maharashtra,Forgery,Arms Act 25,SYN_P_0483,Fictional demo FIR describing reported forgery activity involving Sameer Dubey.,0.96
+FIR_0008,2021,Pune Shivajinagar Police Station,Meerut,Uttar Pradesh,Theft,IPC 392,SYN_P_0167,Fictional demo FIR describing reported theft activity involving Kavya Dutta.,0.939
+FIR_0009,2022,Lucknow Hazratganj Police Station,Hyderabad,Telangana,Extortion,IT Act 66D,SYN_P_0332,Fictional demo FIR describing reported extortion activity involving Muskan Patil.,0.963
+FIR_0010,2024,Meerut Civil Lines Police Station,Noida,Uttar Pradesh,Theft,Arms Act 25,SYN_P_0233,Fictional demo FIR describing reported theft activity involving Rishabh Naidu.,0.882
+FIR_0011,2023,Noida Sector 20 Police Station,Nagpur,Maharashtra,Fraud,IT Act 66C,SYN_P_0857,Fictional demo FIR describing reported fraud activity involving Manish Bansal.,0.989
+FIR_0012,2025,Mumbai Colaba Police Station,Hyderabad,Telangana,Money Laundering,PMLA 3,SYN_P_0556,Fictional demo FIR describing reported money laundering activity involving Aditi Sarkar.,0.917
+FIR_0013,2022,Mumbai Colaba Police Station,Haridwar,Uttarakhand,Smuggling,Arms Act 25,SYN_P_0290,Fictional demo FIR describing reported smuggling activity involving Pranav Sinha.,0.907
+FIR_0014,2023,Ghaziabad Kotwali Police Station,Surat,Gujarat,Illegal Arms,IPC 392,SYN_P_0967,Fictional demo FIR describing reported illegal arms activity involving Karan Saxena.,0.89
+FIR_0015,2024,Meerut Civil Lines Police Station,Delhi,Delhi,Money Laundering,IPC 392,SYN_P_0971,Fictional demo FIR describing reported money laundering activity involving Rahul Gupta.,0.879
+FIR_0016,2022,Noida Sector 20 Police Station,Haridwar,Uttarakhand,Illegal Arms,Arms Act 25,SYN_P_0012,Fictional demo FIR describing reported illegal arms activity involving Isha Verma.,0.876
+FIR_0017,2024,Meerut Civil Lines Police Station,Noida,Uttar Pradesh,Assault,IPC 384,SYN_P_0194,Fictional demo FIR describing reported assault activity involving Naveen Joshi.,0.854
+FIR_0018,2022,Jaipur Sanganer Police Station,Pune,Maharashtra,Fraud,IPC 471,SYN_P_0463,Fictional demo FIR describing reported fraud activity involving Arjun Reddy.,0.952
+FIR_0019,2023,Pune Shivajinagar Police Station,Kolkata,West Bengal,Cyber Fraud,IPC 471,SYN_P_0873,Fictional demo FIR describing reported cyber fraud activity involving Aditi Menon.,0.898
+FIR_0020,2022,Noida Sector 20 Police Station,Ghaziabad,Uttar Pradesh,Assault,IPC 468,SYN_P_0415,Fictional demo FIR describing reported assault activity involving Naveen Sarkar.,0.839
+FIR_0021,2022,Chennai Anna Nagar Police Station,Kolkata,West Bengal,Extortion,PMLA 3,SYN_P_0539,Fictional demo FIR describing reported extortion activity involving Rajat Joshi.,0.915
+FIR_0022,2025,Jaipur Sanganer Police Station,Mumbai,Maharashtra,Assault,PMLA 3,SYN_P_0785,Fictional demo FIR describing reported assault activity involving Nisha Pandey.,0.92
+FIR_0023,2021,Kanpur Kotwali Police Station,Jaipur,Rajasthan,Robbery,IPC 468,SYN_P_0970,Fictional demo FIR describing reported robbery activity involving Naveen Reddy.,0.799
+FIR_0024,2024,Connaught Place Police Station,Lucknow,Uttar Pradesh,Robbery,IPC 506,SYN_P_0301,Fictional demo FIR describing reported robbery activity involving Aditi Dutta.,0.796
+FIR_0025,2024,Ahmedabad Navrangpura Police Station,Lucknow,Uttar Pradesh,Smuggling,IT Act 66D,SYN_P_0107,Fictional demo FIR describing reported smuggling activity involving Rahul Mehta.,0.849
+FIR_0026,2025,Pune Shivajinagar Police Station,Meerut,Uttar Pradesh,Illegal Arms,IT Act 66C,SYN_P_1025,Fictional demo FIR describing reported illegal arms activity involving Shubham Nair.,0.943
+FIR_0027,2025,Haridwar Kotwali Police Station,Pune,Maharashtra,Cyber Fraud,Arms Act 25,SYN_P_0972,Fictional demo FIR describing reported cyber fraud activity involving Swati Kohli.,0.796
+FIR_0028,2022,Ahmedabad Navrangpura Police Station,Kanpur,Uttar Pradesh,Cyber Fraud,Arms Act 25,SYN_P_0439,Fictional demo FIR describing reported cyber fraud activity involving Shreya Sarkar.,0.873
+FIR_0029,2025,Ahmedabad Navrangpura Police Station,Patna,Bihar,Extortion,IPC 506,SYN_P_0514,Fictional demo FIR describing reported extortion activity involving Sameer Mehta.,0.817
+FIR_0030,2024,Lucknow Hazratganj Police Station,Surat,Gujarat,Money Laundering,PMLA 3,SYN_P_0749,Fictional demo FIR describing reported money laundering activity involving Varun Khanna.,0.898
+FIR_0031,2022,Connaught Place Police Station,Nagpur,Maharashtra,Money Laundering,IPC 468,SYN_P_0392,Fictional demo FIR describing reported money laundering activity involving Isha Das.,0.873
+FIR_0032,2023,Haridwar Kotwali Police Station,Delhi,Delhi,Assault,IPC 384,SYN_P_0400,Fictional demo FIR describing reported assault activity involving Swati Saxena.,0.971
+FIR_0033,2025,Jaipur Sanganer Police Station,Hyderabad,Telangana,Fraud,IPC 420,SYN_P_0520,Fictional demo FIR describing reported fraud activity involving Riya Verma.,0.916
+FIR_0034,2023,Jaipur Sanganer Police Station,Nagpur,Maharashtra,Fraud,IPC 420,SYN_P_0981,Fictional demo FIR describing reported fraud activity involving Neha Kapoor.,0.984
+FIR_0035,2025,Bengaluru Cubbon Park Police Station,Ranchi,Jharkhand,Forgery,IT Act 66D,SYN_P_0063,Fictional demo FIR describing reported forgery activity involving Ananya Sinha.,0.816
+FIR_0036,2021,Ghaziabad Kotwali Police Station,Noida,Uttar Pradesh,Money Laundering,IPC 392,SYN_P_0213,Fictional demo FIR describing reported money laundering activity involving Manish Yadav.,0.963
+FIR_0037,2021,Lajpat Nagar Police Station,Ghaziabad,Uttar Pradesh,Theft,IT Act 66D,SYN_P_0270,Fictional demo FIR describing reported theft activity involving Shubham Rao.,0.914
+FIR_0038,2025,Jaipur Sanganer Police Station,Mumbai,Maharashtra,Extortion,IPC 468,SYN_P_0128,Fictional demo FIR describing reported extortion activity involving Riya Mishra.,0.918
+FIR_0039,2022,Mumbai Colaba Police Station,Mumbai,Maharashtra,Money Laundering,Arms Act 25,SYN_P_0035,Fictional demo FIR describing reported money laundering activity involving Swati Gupta.,0.783
+FIR_0040,2021,Lucknow Hazratganj Police Station,Ahmedabad,Gujarat,Fraud,Arms Act 25,SYN_P_0826,Fictional demo FIR describing reported fraud activity involving Nikhil Arora.,0.811
+FIR_0041,2024,Lajpat Nagar Police Station,Ghaziabad,Uttar Pradesh,Robbery,IPC 471,SYN_P_0547,Fictional demo FIR describing reported robbery activity involving Varun Yadav.,0.908
+FIR_0042,2021,Dehradun City Police Station,Ahmedabad,Gujarat,Robbery,IPC 471,SYN_P_1036,Fictional demo FIR describing reported robbery activity involving Sneha Rana.,0.898
+FIR_0043,2025,Saket Police Station,Mumbai,Maharashtra,Forgery,PMLA 3,SYN_P_0242,Fictional demo FIR describing reported forgery activity involving Simran Ahuja.,0.975
+FIR_0044,2022,Saket Police Station,Meerut,Uttar Pradesh,Extortion,IPC 392,SYN_P_0181,Fictional demo FIR describing reported extortion activity involving Karan Rao.,0.847
+FIR_0045,2022,Mumbai Colaba Police Station,Kanpur,Uttar Pradesh,Fraud,IT Act 66D,SYN_P_0042,Fictional demo FIR describing reported fraud activity involving Rishabh Bansal.,0.797
+FIR_0046,2022,Dehradun City Police Station,Haridwar,Uttarakhand,Illegal Arms,IPC 420,SYN_P_0506,Fictional demo FIR describing reported illegal arms activity involving Arjun Bansal.,0.86
+FIR_0047,2022,Haridwar Kotwali Police Station,Kanpur,Uttar Pradesh,Cyber Fraud,IT Act 66C,SYN_P_0588,Fictional demo FIR describing reported cyber fraud activity involving Simran Bose.,0.827
+FIR_0048,2022,Dehradun City Police Station,Dehradun,Uttarakhand,Illegal Arms,IPC 471,SYN_P_0386,Fictional demo FIR describing reported illegal arms activity involving Vivaan Mukherjee.,0.926
+FIR_0049,2023,Mumbai Colaba Police Station,Ghaziabad,Uttar Pradesh,Forgery,IPC 506,SYN_P_0542,Fictional demo FIR describing reported forgery activity involving Anurag Kumar.,0.942
+FIR_0050,2021,Pune Shivajinagar Police Station,Indore,Madhya Pradesh,Robbery,IPC 392,SYN_P_0921,Fictional demo FIR describing reported robbery activity involving Komal Chatterjee.,0.893
+FIR_0051,2023,Dehradun City Police Station,Ranchi,Jharkhand,Theft,IPC 468,SYN_P_0432,Fictional demo FIR describing reported theft activity involving Akash Das.,0.852
+FIR_0052,2021,Chennai Anna Nagar Police Station,Chennai,Tamil Nadu,Cyber Fraud,IPC 468,SYN_P_1032,Fictional demo FIR describing reported cyber fraud activity involving Naveen Kapoor.,0.834
+FIR_0053,2021,Chennai Anna Nagar Police Station,Dehradun,Uttarakhand,Fraud,IPC 392,SYN_P_0958,Fictional demo FIR describing reported fraud activity involving Vikram Gupta.,0.88
+FIR_0054,2023,Pune Shivajinagar Police Station,Kolkata,West Bengal,Money Laundering,PMLA 3,SYN_P_0957,Fictional demo FIR describing reported money laundering activity involving Mohit Jain.,0.969
+FIR_0055,2023,Connaught Place Police Station,Ranchi,Jharkhand,Extortion,IPC 392,SYN_P_0661,Fictional demo FIR describing reported extortion activity involving Raj Iyer.,0.868
+FIR_0056,2022,Mumbai Colaba Police Station,Mumbai,Maharashtra,Extortion,IPC 471,SYN_P_0686,Fictional demo FIR describing reported extortion activity involving Abhishek Tiwari.,0.814
+FIR_0057,2025,Bengaluru Cubbon Park Police Station,Delhi,Delhi,Forgery,PMLA 3,SYN_P_0382,Fictional demo FIR describing reported forgery activity involving Rohan Gill.,0.901
+FIR_0058,2024,Kanpur Kotwali Police Station,Bhubaneswar,Odisha,Theft,IPC 471,SYN_P_0891,Fictional demo FIR describing reported theft activity involving Simran Sharma.,0.932
+FIR_0059,2023,Lajpat Nagar Police Station,Bengaluru,Karnataka,Theft,IPC 468,SYN_P_0692,Fictional demo FIR describing reported theft activity involving Sameer Gill.,0.94
+FIR_0060,2024,Jaipur Sanganer Police Station,Meerut,Uttar Pradesh,Theft,PMLA 3,SYN_P_1039,Fictional demo FIR describing reported theft activity involving Pranav Kohli.,0.864
+FIR_0061,2022,Dehradun City Police Station,Kanpur,Uttar Pradesh,Smuggling,PMLA 3,SYN_P_0059,Fictional demo FIR describing reported smuggling activity involving Akash Gupta.,0.983
+FIR_0062,2022,Haridwar Kotwali Police Station,Kolkata,West Bengal,Robbery,IPC 420,SYN_P_0407,Fictional demo FIR describing reported robbery activity involving Sneha Singh.,0.984
+FIR_0063,2024,Pune Shivajinagar Police Station,Lucknow,Uttar Pradesh,Money Laundering,IPC 392,SYN_P_0634,Fictional demo FIR describing reported money laundering activity involving Saurabh Saxena.,0.877
+FIR_0064,2023,Dehradun City Police Station,Jaipur,Rajasthan,Robbery,IPC 384,SYN_P_0303,Fictional demo FIR describing reported robbery activity involving Harsh Mehta.,0.819
+FIR_0065,2022,Ghaziabad Kotwali Police Station,Ahmedabad,Gujarat,Extortion,Arms Act 25,SYN_P_0417,Fictional demo FIR describing reported extortion activity involving Saurabh Kohli.,0.958
+FIR_0066,2022,Mumbai Colaba Police Station,Delhi,Delhi,Forgery,IPC 384,SYN_P_0767,Fictional demo FIR describing reported forgery activity involving Varun Rana.,0.879
+FIR_0067,2024,Pune Shivajinagar Police Station,Ranchi,Jharkhand,Illegal Arms,IT Act 66D,SYN_P_0808,Fictional demo FIR describing reported illegal arms activity involving Nisha Joshi.,0.928
+FIR_0068,2023,Ghaziabad Kotwali Police Station,Nagpur,Maharashtra,Robbery,IT Act 66C,SYN_P_0197,Fictional demo FIR describing reported robbery activity involving Simran Rao.,0.942
+FIR_0069,2025,Pune Shivajinagar Police Station,Patna,Bihar,Theft,Arms Act 25,SYN_P_0580,Fictional demo FIR describing reported theft activity involving Aditya Malhotra.,0.795
+FIR_0070,2021,Kanpur Kotwali Police Station,Patna,Bihar,Assault,PMLA 3,SYN_P_1001,Fictional demo FIR describing reported assault activity involving Rohan Bose.,0.817
+FIR_0071,2023,Chennai Anna Nagar Police Station,Pune,Maharashtra,Money Laundering,IPC 420,SYN_P_0482,Fictional demo FIR describing reported money laundering activity involving Neha Khanna.,0.908
+FIR_0072,2022,Hyderabad Central Crime Police Station,Ghaziabad,Uttar Pradesh,Illegal Arms,IPC 468,SYN_P_0816,Fictional demo FIR describing reported illegal arms activity involving Rohan Ghosh.,0.789
+FIR_0073,2023,Pune Shivajinagar Police Station,Ahmedabad,Gujarat,Extortion,IPC 392,SYN_P_0619,Fictional demo FIR describing reported extortion activity involving Arjun Das.,0.869
+FIR_0074,2024,Lajpat Nagar Police Station,Haridwar,Uttarakhand,Theft,IPC 471,SYN_P_0584,Fictional demo FIR describing reported theft activity involving Neha Jadhav.,0.981
+FIR_0075,2024,Chennai Anna Nagar Police Station,Kanpur,Uttar Pradesh,Robbery,IPC 384,SYN_P_0864,Fictional demo FIR describing reported robbery activity involving Simran Chauhan.,0.878
+FIR_0076,2024,Connaught Place Police Station,Pune,Maharashtra,Extortion,IPC 392,SYN_P_0170,Fictional demo FIR describing reported extortion activity involving Deepak Srivastava.,0.847
+FIR_0077,2021,Hyderabad Central Crime Police Station,Nagpur,Maharashtra,Forgery,IT Act 66C,SYN_P_1039,Fictional demo FIR describing reported forgery activity involving Pranav Kohli.,0.869
+FIR_0078,2023,Noida Sector 20 Police Station,Haridwar,Uttarakhand,Theft,PMLA 3,SYN_P_0112,Fictional demo FIR describing reported theft activity involving Meera Patil.,0.949
+FIR_0079,2024,Haridwar Kotwali Police Station,Hyderabad,Telangana,Money Laundering,Arms Act 25,SYN_P_0923,Fictional demo FIR describing reported money laundering activity involving Komal Jadhav.,0.984
+FIR_0080,2025,Pune Shivajinagar Police Station,Kanpur,Uttar Pradesh,Theft,IPC 384,SYN_P_0229,Fictional demo FIR describing reported theft activity involving Kavya Sharma.,0.812
+FIR_0081,2023,Lucknow Hazratganj Police Station,Ranchi,Jharkhand,Assault,Arms Act 25,SYN_P_0691,Fictional demo FIR describing reported assault activity involving Anurag Menon.,0.951
+FIR_0082,2024,Dehradun City Police Station,Ahmedabad,Gujarat,Fraud,IPC 420,SYN_P_0932,Fictional demo FIR describing reported fraud activity involving Akash Mehta.,0.806
+FIR_0083,2021,Mumbai Colaba Police Station,Surat,Gujarat,Money Laundering,IPC 471,SYN_P_1003,Fictional demo FIR describing reported money laundering activity involving Yash Kohli.,0.869
+FIR_0084,2023,Meerut Civil Lines Police Station,Delhi,Delhi,Smuggling,IPC 471,SYN_P_0607,Fictional demo FIR describing reported smuggling activity involving Tanvi Chopra.,0.855
+FIR_0085,2023,Lajpat Nagar Police Station,Surat,Gujarat,Money Laundering,PMLA 3,SYN_P_0036,Fictional demo FIR describing reported money laundering activity involving Aditya Dutta.,0.803
+FIR_0086,2022,Meerut Civil Lines Police Station,Chennai,Tamil Nadu,Theft,IPC 384,SYN_P_0075,Fictional demo FIR describing reported theft activity involving Manish Banerjee.,0.892
+FIR_0087,2024,Ahmedabad Navrangpura Police Station,Bhubaneswar,Odisha,Robbery,IPC 471,SYN_P_0259,Fictional demo FIR describing reported robbery activity involving Komal Yadav.,0.853
+FIR_0088,2022,Chennai Anna Nagar Police Station,Ranchi,Jharkhand,Assault,PMLA 3,SYN_P_0939,Fictional demo FIR describing reported assault activity involving Abhishek Dubey.,0.876
+FIR_0089,2021,Ghaziabad Kotwali Police Station,Mumbai,Maharashtra,Money Laundering,PMLA 3,SYN_P_0157,Fictional demo FIR describing reported money laundering activity involving Kavya Agarwal.,0.985
+FIR_0090,2021,Haridwar Kotwali Police Station,Nagpur,Maharashtra,Smuggling,IPC 471,SYN_P_0208,Fictional demo FIR describing reported smuggling activity involving Aarav Dutta.,0.869
+FIR_0091,2021,Ahmedabad Navrangpura Police Station,Kanpur,Uttar Pradesh,Cyber Fraud,IPC 384,SYN_P_0046,Fictional demo FIR describing reported cyber fraud activity involving Tanvi Ghosh.,0.947
+FIR_0092,2025,Kolkata Park Street Police Station,Haridwar,Uttarakhand,Assault,IPC 468,SYN_P_0535,Fictional demo FIR describing reported assault activity involving Meera Sinha.,0.926
+FIR_0093,2024,Lucknow Hazratganj Police Station,Pune,Maharashtra,Assault,IT Act 66C,SYN_P_0101,Fictional demo FIR describing reported assault activity involving Aarav Das.,0.838
+FIR_0094,2021,Pune Shivajinagar Police Station,Dehradun,Uttarakhand,Smuggling,IPC 392,SYN_P_0381,Fictional demo FIR describing reported smuggling activity involving Amit Ghosh.,0.922
+FIR_0095,2022,Connaught Place Police Station,Delhi,Delhi,Theft,IT Act 66C,SYN_P_0559,Fictional demo FIR describing reported theft activity involving Shubham Saxena.,0.918
+FIR_0096,2025,Haridwar Kotwali Police Station,Dehradun,Uttarakhand,Forgery,IPC 384,SYN_P_0563,Fictional demo FIR describing reported forgery activity involving Komal Pandey.,0.826
+FIR_0097,2022,Saket Police Station,Ranchi,Jharkhand,Money Laundering,PMLA 3,SYN_P_0038,Fictional demo FIR describing reported money laundering activity involving Deepak Mehta.,0.84
+FIR_0098,2025,Haridwar Kotwali Police Station,Kolkata,West Bengal,Theft,Arms Act 25,SYN_P_0944,Fictional demo FIR describing reported theft activity involving Muskan Chatterjee.,0.862
+FIR_0099,2023,Mumbai Colaba Police Station,Mumbai,Maharashtra,Money Laundering,IT Act 66D,SYN_P_0026,Fictional demo FIR describing reported money laundering activity involving Abhishek Sethi.,0.812
+FIR_0100,2022,Pune Shivajinagar Police Station,Jaipur,Rajasthan,Smuggling,IPC 471,SYN_P_1022,Fictional demo FIR describing reported smuggling activity involving Aditya Sinha.,0.865
+FIR_0101,2025,Mumbai Colaba Police Station,Indore,Madhya Pradesh,Forgery,IPC 384,SYN_P_0161,Fictional demo FIR describing reported forgery activity involving Priya Srivastava.,0.824
+FIR_0102,2023,Bengaluru Cubbon Park Police Station,Haridwar,Uttarakhand,Cyber Fraud,IT Act 66D,SYN_P_0757,Fictional demo FIR describing reported cyber fraud activity involving Sameer Pandey.,0.786
+FIR_0103,2025,Ahmedabad Navrangpura Police Station,Bhopal,Madhya Pradesh,Money Laundering,IT Act 66C,SYN_P_0342,Fictional demo FIR describing reported money laundering activity involving Yash Iyer.,0.989
+FIR_0104,2024,Kanpur Kotwali Police Station,Haridwar,Uttarakhand,Smuggling,IT Act 66C,SYN_P_0048,Fictional demo FIR describing reported smuggling activity involving Nisha Bansal.,0.973
+FIR_0105,2021,Noida Sector 20 Police Station,Nagpur,Maharashtra,Assault,IT Act 66C,SYN_P_0270,Fictional demo FIR describing reported assault activity involving Shubham Rao.,0.826
+FIR_0106,2022,Meerut Civil Lines Police Station,Kolkata,West Bengal,Cyber Fraud,IT Act 66C,SYN_P_0227,Fictional demo FIR describing reported cyber fraud activity involving Sameer Reddy.,0.896
+FIR_0107,2025,Jaipur Sanganer Police Station,Jaipur,Rajasthan,Theft,IPC 506,SYN_P_0721,Fictional demo FIR describing reported theft activity involving Yash Shukla.,0.942
+FIR_0108,2025,Kolkata Park Street Police Station,Patna,Bihar,Money Laundering,Arms Act 25,SYN_P_0217,Fictional demo FIR describing reported money laundering activity involving Tanvi Banerjee.,0.862
+FIR_0109,2023,Bengaluru Cubbon Park Police Station,Bengaluru,Karnataka,Forgery,IPC 392,SYN_P_0828,Fictional demo FIR describing reported forgery activity involving Tanvi Das.,0.974
+FIR_0110,2021,Kolkata Park Street Police Station,Nagpur,Maharashtra,Cyber Fraud,IPC 506,SYN_P_0364,Fictional demo FIR describing reported cyber fraud activity involving Shubham Bhatia.,0.94
+FIR_0111,2024,Ahmedabad Navrangpura Police Station,Patna,Bihar,Extortion,IT Act 66C,SYN_P_0353,Fictional demo FIR describing reported extortion activity involving Divya Verma.,0.866
+FIR_0112,2022,Chennai Anna Nagar Police Station,Bhopal,Madhya Pradesh,Illegal Arms,IPC 384,SYN_P_0060,Fictional demo FIR describing reported illegal arms activity involving Varun Rao.,0.906
+FIR_0113,2025,Kanpur Kotwali Police Station,Delhi,Delhi,Money Laundering,IPC 392,SYN_P_0838,Fictional demo FIR describing reported money laundering activity involving Ayush Malhotra.,0.9
+FIR_0114,2023,Connaught Place Police Station,Patna,Bihar,Extortion,PMLA 3,SYN_P_0967,Fictional demo FIR describing reported extortion activity involving Karan Saxena.,0.966
+FIR_0115,2022,Meerut Civil Lines Police Station,Chennai,Tamil Nadu,Smuggling,IT Act 66D,SYN_P_0798,Fictional demo FIR describing reported smuggling activity involving Komal Sethi.,0.858
+FIR_0116,2022,Haridwar Kotwali Police Station,Kanpur,Uttar Pradesh,Forgery,IPC 392,SYN_P_0491,Fictional demo FIR describing reported forgery activity involving Raj Chopra.,0.842
+FIR_0117,2024,Bengaluru Cubbon Park Police Station,Jaipur,Rajasthan,Assault,IPC 468,SYN_P_0064,Fictional demo FIR describing reported assault activity involving Shreya Jadhav.,0.924
+FIR_0118,2024,Chennai Anna Nagar Police Station,Chandigarh,Chandigarh,Robbery,IPC 384,SYN_P_0909,Fictional demo FIR describing reported robbery activity involving Pooja Nair.,0.949
+FIR_0119,2024,Saket Police Station,Kanpur,Uttar Pradesh,Illegal Arms,IPC 420,SYN_P_0679,Fictional demo FIR describing reported illegal arms activity involving Harsh Gill.,0.937
+FIR_0120,2024,Saket Police Station,Hyderabad,Telangana,Forgery,IT Act 66C,SYN_P_0833,Fictional demo FIR describing reported forgery activity involving Deepak Tripathi.,0.981
+FIR_0121,2025,Connaught Place Police Station,Ranchi,Jharkhand,Assault,IT Act 66D,SYN_P_0248,Fictional demo FIR describing reported assault activity involving Meera Ahuja.,0.881
+FIR_0122,2021,Mumbai Colaba Police Station,Haridwar,Uttarakhand,Theft,IT Act 66C,SYN_P_0123,Fictional demo FIR describing reported theft activity involving Sameer Jain.,0.93
+FIR_0123,2021,Ghaziabad Kotwali Police Station,Ahmedabad,Gujarat,Extortion,IPC 471,SYN_P_0902,Fictional demo FIR describing reported extortion activity involving Swati Kapoor.,0.939
+FIR_0124,2023,Ahmedabad Navrangpura Police Station,Bhubaneswar,Odisha,Robbery,IPC 506,SYN_P_0229,Fictional demo FIR describing reported robbery activity involving Kavya Sharma.,0.81
+FIR_0125,2023,Noida Sector 20 Police Station,Bengaluru,Karnataka,Illegal Arms,IPC 506,SYN_P_0498,Fictional demo FIR describing reported illegal arms activity involving Deepak Sarkar.,0.915
+FIR_0126,2022,Jaipur Sanganer Police Station,Surat,Gujarat,Forgery,IPC 506,SYN_P_0152,Fictional demo FIR describing reported forgery activity involving Pooja Dubey.,0.842
+FIR_0127,2023,Jaipur Sanganer Police Station,Mumbai,Maharashtra,Forgery,PMLA 3,SYN_P_0911,Fictional demo FIR describing reported forgery activity involving Priya Singh.,0.788
+FIR_0128,2023,Connaught Place Police Station,Lucknow,Uttar Pradesh,Smuggling,IPC 468,SYN_P_0287,Fictional demo FIR describing reported smuggling activity involving Vikram Saxena.,0.965
+FIR_0129,2023,Meerut Civil Lines Police Station,Ranchi,Jharkhand,Cyber Fraud,PMLA 3,SYN_P_0743,Fictional demo FIR describing reported cyber fraud activity involving Kavya Verma.,0.913
+FIR_0130,2023,Ghaziabad Kotwali Police Station,Ranchi,Jharkhand,Forgery,IPC 392,SYN_P_0974,Fictional demo FIR describing reported forgery activity involving Yash Ghosh.,0.811
+FIR_0131,2022,Connaught Place Police Station,Nagpur,Maharashtra,Cyber Fraud,IPC 468,SYN_P_0599,Fictional demo FIR describing reported cyber fraud activity involving Ankit Dubey.,0.902
+FIR_0132,2023,Mumbai Colaba Police Station,Kolkata,West Bengal,Fraud,Arms Act 25,SYN_P_0304,Fictional demo FIR describing reported fraud activity involving Pallavi Tiwari.,0.937
+FIR_0133,2022,Mumbai Colaba Police Station,Bengaluru,Karnataka,Assault,IPC 392,SYN_P_0832,Fictional demo FIR describing reported assault activity involving Tanvi Khanna.,0.903
+FIR_0134,2023,Pune Shivajinagar Police Station,Mumbai,Maharashtra,Smuggling,IT Act 66D,SYN_P_1027,Fictional demo FIR describing reported smuggling activity involving Kavya Yadav.,0.916
+FIR_0135,2024,Connaught Place Police Station,Kanpur,Uttar Pradesh,Forgery,IPC 384,SYN_P_0988,Fictional demo FIR describing reported forgery activity involving Simran Iyer.,0.852
+FIR_0136,2022,Jaipur Sanganer Police Station,Jaipur,Rajasthan,Illegal Arms,PMLA 3,SYN_P_0634,Fictional demo FIR describing reported illegal arms activity involving Saurabh Saxena.,0.943
+FIR_0137,2023,Hyderabad Central Crime Police Station,Indore,Madhya Pradesh,Illegal Arms,IT Act 66D,SYN_P_0245,Fictional demo FIR describing reported illegal arms activity involving Anurag Verma.,0.9
+FIR_0138,2022,Lucknow Hazratganj Police Station,Bhubaneswar,Odisha,Smuggling,IPC 506,SYN_P_0025,Fictional demo FIR describing reported smuggling activity involving Shubham Agarwal.,0.919
+FIR_0139,2023,Chennai Anna Nagar Police Station,Indore,Madhya Pradesh,Extortion,IPC 384,SYN_P_0817,Fictional demo FIR describing reported extortion activity involving Riya Reddy.,0.837
+FIR_0140,2025,Chennai Anna Nagar Police Station,Noida,Uttar Pradesh,Forgery,IPC 468,SYN_P_0163,Fictional demo FIR describing reported forgery activity involving Nikhil Khanna.,0.831
+FIR_0141,2022,Bengaluru Cubbon Park Police Station,Ranchi,Jharkhand,Illegal Arms,IPC 392,SYN_P_0375,Fictional demo FIR describing reported illegal arms activity involving Yash Srivastava.,0.788
+FIR_0142,2021,Lucknow Hazratganj Police Station,Chennai,Tamil Nadu,Cyber Fraud,IPC 384,SYN_P_0545,Fictional demo FIR describing reported cyber fraud activity involving Nisha Dubey.,0.97
+FIR_0143,2021,Lucknow Hazratganj Police Station,Hyderabad,Telangana,Cyber Fraud,IPC 468,SYN_P_0272,Fictional demo FIR describing reported cyber fraud activity involving Aditya Sarkar.,0.831
+FIR_0144,2025,Lajpat Nagar Police Station,Surat,Gujarat,Extortion,IPC 506,SYN_P_0978,Fictional demo FIR describing reported extortion activity involving Kavya Banerjee.,0.946
+FIR_0145,2021,Bengaluru Cubbon Park Police Station,Jaipur,Rajasthan,Forgery,IPC 384,SYN_P_0150,Fictional demo FIR describing reported forgery activity involving Ankit Tiwari.,0.88
+FIR_0146,2022,Hyderabad Central Crime Police Station,Chennai,Tamil Nadu,Assault,IPC 471,SYN_P_0205,Fictional demo FIR describing reported assault activity involving Pooja Sarkar.,0.9
+FIR_0147,2022,Bengaluru Cubbon Park Police Station,Meerut,Uttar Pradesh,Forgery,IPC 420,SYN_P_0881,Fictional demo FIR describing reported forgery activity involving Vivaan Pandey.,0.833
+FIR_0148,2024,Meerut Civil Lines Police Station,Bhopal,Madhya Pradesh,Cyber Fraud,IPC 506,SYN_P_0834,Fictional demo FIR describing reported cyber fraud activity involving Sakshi Dutta.,0.887
+FIR_0149,2023,Kolkata Park Street Police Station,Indore,Madhya Pradesh,Cyber Fraud,IPC 468,SYN_P_0582,Fictional demo FIR describing reported cyber fraud activity involving Harsh Agarwal.,0.852
+FIR_0150,2021,Meerut Civil Lines Police Station,Haridwar,Uttarakhand,Forgery,IT Act 66D,SYN_P_1031,Fictional demo FIR describing reported forgery activity involving Swati Bhatia.,0.781
+FIR_0151,2022,Saket Police Station,Bengaluru,Karnataka,Robbery,IT Act 66C,SYN_P_0964,Fictional demo FIR describing reported robbery activity involving Swati Sarkar.,0.921
+FIR_0152,2025,Meerut Civil Lines Police Station,Surat,Gujarat,Money Laundering,IPC 468,SYN_P_0194,Fictional demo FIR describing reported money laundering activity involving Naveen Joshi.,0.944
+FIR_0153,2025,Dehradun City Police Station,Jaipur,Rajasthan,Cyber Fraud,IPC 506,SYN_P_0475,Fictional demo FIR describing reported cyber fraud activity involving Arjun Kapoor.,0.941
+FIR_0154,2025,Lucknow Hazratganj Police Station,Meerut,Uttar Pradesh,Cyber Fraud,PMLA 3,SYN_P_0967,Fictional demo FIR describing reported cyber fraud activity involving Karan Saxena.,0.921
+FIR_0155,2024,Meerut Civil Lines Police Station,Kanpur,Uttar Pradesh,Illegal Arms,IPC 392,SYN_P_0664,Fictional demo FIR describing reported illegal arms activity involving Muskan Kohli.,0.908
+FIR_0156,2024,Ahmedabad Navrangpura Police Station,Mumbai,Maharashtra,Smuggling,IPC 471,SYN_P_0322,Fictional demo FIR describing reported smuggling activity involving Kavya Tiwari.,0.828
+FIR_0157,2023,Ghaziabad Kotwali Police Station,Bengaluru,Karnataka,Cyber Fraud,IPC 471,SYN_P_0539,Fictional demo FIR describing reported cyber fraud activity involving Rajat Joshi.,0.85
+FIR_0158,2024,Dehradun City Police Station,Bhubaneswar,Odisha,Money Laundering,IT Act 66C,SYN_P_0725,Fictional demo FIR describing reported money laundering activity involving Ankit Ahuja.,0.898
+FIR_0159,2021,Ahmedabad Navrangpura Police Station,Delhi,Delhi,Theft,IPC 506,SYN_P_0855,Fictional demo FIR describing reported theft activity involving Simran Malhotra.,0.916
+FIR_0160,2021,Lucknow Hazratganj Police Station,Surat,Gujarat,Cyber Fraud,IPC 468,SYN_P_0287,Fictional demo FIR describing reported cyber fraud activity involving Vikram Saxena.,0.919
+FIR_0161,2021,Haridwar Kotwali Police Station,Haridwar,Uttarakhand,Money Laundering,IT Act 66C,SYN_P_0525,Fictional demo FIR describing reported money laundering activity involving Priya Menon.,0.946
+FIR_0162,2022,Lucknow Hazratganj Police Station,Chennai,Tamil Nadu,Smuggling,PMLA 3,SYN_P_0668,Fictional demo FIR describing reported smuggling activity involving Rishabh Srivastava.,0.886
+FIR_0163,2022,Meerut Civil Lines Police Station,Meerut,Uttar Pradesh,Extortion,IPC 506,SYN_P_0562,Fictional demo FIR describing reported extortion activity involving Rohan Yadav.,0.932
+FIR_0164,2024,Kanpur Kotwali Police Station,Noida,Uttar Pradesh,Theft,IPC 471,SYN_P_0963,Fictional demo FIR describing reported theft activity involving Pranav Bansal.,0.987
+FIR_0165,2021,Haridwar Kotwali Police Station,Noida,Uttar Pradesh,Extortion,IPC 471,SYN_P_0769,Fictional demo FIR describing reported extortion activity involving Vikram Wadhwa.,0.893
+FIR_0166,2024,Ghaziabad Kotwali Police Station,Haridwar,Uttarakhand,Extortion,IPC 384,SYN_P_0898,Fictional demo FIR describing reported extortion activity involving Anurag Banerjee.,0.848
+FIR_0167,2025,Dehradun City Police Station,Lucknow,Uttar Pradesh,Robbery,PMLA 3,SYN_P_0848,Fictional demo FIR describing reported robbery activity involving Varun Bhatia.,0.822
+FIR_0168,2023,Kolkata Park Street Police Station,Surat,Gujarat,Illegal Arms,IPC 471,SYN_P_0181,Fictional demo FIR describing reported illegal arms activity involving Karan Rao.,0.897
+FIR_0169,2022,Saket Police Station,Ranchi,Jharkhand,Fraud,IPC 506,SYN_P_0597,Fictional demo FIR describing reported fraud activity involving Rahul Shukla.,0.981
+FIR_0170,2022,Haridwar Kotwali Police Station,Surat,Gujarat,Illegal Arms,IT Act 66D,SYN_P_0740,Fictional demo FIR describing reported illegal arms activity involving Amit Shukla.,0.828
+FIR_0171,2023,Jaipur Sanganer Police Station,Mumbai,Maharashtra,Illegal Arms,PMLA 3,SYN_P_0742,Fictional demo FIR describing reported illegal arms activity involving Simran Mukherjee.,0.937
+FIR_0172,2024,Ahmedabad Navrangpura Police Station,Lucknow,Uttar Pradesh,Extortion,IT Act 66C,SYN_P_0048,Fictional demo FIR describing reported extortion activity involving Nisha Bansal.,0.949
+FIR_0173,2025,Mumbai Colaba Police Station,Hyderabad,Telangana,Fraud,IPC 420,SYN_P_0099,Fictional demo FIR describing reported fraud activity involving Nikhil Iyer.,0.899
+FIR_0174,2025,Hyderabad Central Crime Police Station,Hyderabad,Telangana,Money Laundering,IPC 471,SYN_P_0066,Fictional demo FIR describing reported money laundering activity involving Vikram Tiwari.,0.901
+FIR_0175,2025,Saket Police Station,Bhubaneswar,Odisha,Extortion,Arms Act 25,SYN_P_0138,Fictional demo FIR describing reported extortion activity involving Sakshi Rao.,0.944
+FIR_0176,2025,Bengaluru Cubbon Park Police Station,Hyderabad,Telangana,Extortion,PMLA 3,SYN_P_0325,Fictional demo FIR describing reported extortion activity involving Meera Menon.,0.917
+FIR_0177,2023,Bengaluru Cubbon Park Police Station,Ghaziabad,Uttar Pradesh,Theft,IT Act 66D,SYN_P_0391,Fictional demo FIR describing reported theft activity involving Rajat Gill.,0.967
+FIR_0178,2021,Meerut Civil Lines Police Station,Indore,Madhya Pradesh,Money Laundering,PMLA 3,SYN_P_0312,Fictional demo FIR describing reported money laundering activity involving Mohit Sarkar.,0.851
+FIR_0179,2025,Dehradun City Police Station,Delhi,Delhi,Theft,IPC 420,SYN_P_0886,Fictional demo FIR describing reported theft activity involving Vikram Singh.,0.911
+FIR_0180,2022,Haridwar Kotwali Police Station,Delhi,Delhi,Fraud,IT Act 66C,SYN_P_0799,Fictional demo FIR describing reported fraud activity involving Abhishek Kohli.,0.812
+FIR_0181,2025,Bengaluru Cubbon Park Police Station,Kolkata,West Bengal,Money Laundering,IPC 468,SYN_P_0457,Fictional demo FIR describing reported money laundering activity involving Neha Das.,0.942
+FIR_0182,2022,Lucknow Hazratganj Police Station,Ranchi,Jharkhand,Assault,IPC 392,SYN_P_0727,Fictional demo FIR describing reported assault activity involving Vikram Reddy.,0.823
+FIR_0183,2025,Lajpat Nagar Police Station,Meerut,Uttar Pradesh,Fraud,IPC 392,SYN_P_0372,Fictional demo FIR describing reported fraud activity involving Shreya Shukla.,0.893
+FIR_0184,2022,Lucknow Hazratganj Police Station,Mumbai,Maharashtra,Money Laundering,IPC 468,SYN_P_0142,Fictional demo FIR describing reported money laundering activity involving Ankit Agarwal.,0.844
+FIR_0185,2022,Mumbai Colaba Police Station,Dehradun,Uttarakhand,Illegal Arms,IPC 420,SYN_P_0869,Fictional demo FIR describing reported illegal arms activity involving Mohit Arora.,0.809
+FIR_0186,2021,Bengaluru Cubbon Park Police Station,Meerut,Uttar Pradesh,Theft,IPC 468,SYN_P_0901,Fictional demo FIR describing reported theft activity involving Sneha Tiwari.,0.86
+FIR_0187,2022,Lucknow Hazratganj Police Station,Surat,Gujarat,Theft,IT Act 66C,SYN_P_0916,Fictional demo FIR describing reported theft activity involving Nisha Agarwal.,0.904
+FIR_0188,2025,Chennai Anna Nagar Police Station,Ghaziabad,Uttar Pradesh,Robbery,IPC 384,SYN_P_0256,Fictional demo FIR describing reported robbery activity involving Amit Verma.,0.814
+FIR_0189,2025,Mumbai Colaba Police Station,Meerut,Uttar Pradesh,Forgery,IPC 506,SYN_P_0430,Fictional demo FIR describing reported forgery activity involving Varun Sethi.,0.867
+FIR_0190,2023,Hyderabad Central Crime Police Station,Ghaziabad,Uttar Pradesh,Smuggling,IPC 471,SYN_P_0431,Fictional demo FIR describing reported smuggling activity involving Rajat Bhatia.,0.887
+FIR_0191,2024,Ahmedabad Navrangpura Police Station,Delhi,Delhi,Fraud,IT Act 66C,SYN_P_0936,Fictional demo FIR describing reported fraud activity involving Meera Chauhan.,0.982
+FIR_0192,2023,Saket Police Station,Pune,Maharashtra,Money Laundering,IT Act 66C,SYN_P_0205,Fictional demo FIR describing reported money laundering activity involving Pooja Sarkar.,0.979
+FIR_0193,2024,Hyderabad Central Crime Police Station,Chandigarh,Chandigarh,Extortion,IPC 420,SYN_P_0616,Fictional demo FIR describing reported extortion activity involving Abhishek Rao.,0.98
+FIR_0194,2021,Ghaziabad Kotwali Police Station,Bhubaneswar,Odisha,Money Laundering,IPC 468,SYN_P_0563,Fictional demo FIR describing reported money laundering activity involving Komal Pandey.,0.817
+FIR_0195,2022,Ghaziabad Kotwali Police Station,Lucknow,Uttar Pradesh,Smuggling,IT Act 66D,SYN_P_0019,Fictional demo FIR describing reported smuggling activity involving Pallavi Bansal.,0.94
+FIR_0196,2023,Mumbai Colaba Police Station,Bhopal,Madhya Pradesh,Illegal Arms,PMLA 3,SYN_P_0126,Fictional demo FIR describing reported illegal arms activity involving Vivaan Naidu.,0.867
+FIR_0197,2022,Chennai Anna Nagar Police Station,Ahmedabad,Gujarat,Robbery,IPC 392,SYN_P_0323,Fictional demo FIR describing reported robbery activity involving Karan Jadhav.,0.936
+FIR_0198,2022,Connaught Place Police Station,Pune,Maharashtra,Extortion,IT Act 66D,SYN_P_0372,Fictional demo FIR describing reported extortion activity involving Shreya Shukla.,0.823
+FIR_0199,2023,Haridwar Kotwali Police Station,Indore,Madhya Pradesh,Money Laundering,IPC 420,SYN_P_0827,Fictional demo FIR describing reported money laundering activity involving Komal Bhatia.,0.944
+FIR_0200,2021,Ghaziabad Kotwali Police Station,Delhi,Delhi,Forgery,IT Act 66C,SYN_P_0680,Fictional demo FIR describing reported forgery activity involving Manish Das.,0.79
+FIR_0201,2022,Meerut Civil Lines Police Station,Bhopal,Madhya Pradesh,Smuggling,IPC 384,SYN_P_0773,Fictional demo FIR describing reported smuggling activity involving Muskan Shukla.,0.783
+FIR_0202,2021,Noida Sector 20 Police Station,Ghaziabad,Uttar Pradesh,Theft,IT Act 66D,SYN_P_0457,Fictional demo FIR describing reported theft activity involving Neha Das.,0.878
+FIR_0203,2022,Connaught Place Police Station,Chennai,Tamil Nadu,Forgery,IPC 471,SYN_P_0851,Fictional demo FIR describing reported forgery activity involving Vikram Kapoor.,0.88
+FIR_0204,2025,Mumbai Colaba Police Station,Lucknow,Uttar Pradesh,Money Laundering,PMLA 3,SYN_P_0527,Fictional demo FIR describing reported money laundering activity involving Akash Chopra.,0.92
+FIR_0205,2025,Lucknow Hazratganj Police Station,Bengaluru,Karnataka,Forgery,IPC 392,SYN_P_0198,Fictional demo FIR describing reported forgery activity involving Ankit Gupta.,0.826
+FIR_0206,2021,Noida Sector 20 Police Station,Lucknow,Uttar Pradesh,Illegal Arms,IT Act 66C,SYN_P_0266,Fictional demo FIR describing reported illegal arms activity involving Ankit Das.,0.839
+FIR_0207,2023,Meerut Civil Lines Police Station,Chandigarh,Chandigarh,Illegal Arms,IPC 471,SYN_P_0216,Fictional demo FIR describing reported illegal arms activity involving Harsh Srivastava.,0.849
+FIR_0208,2025,Chennai Anna Nagar Police Station,Patna,Bihar,Assault,PMLA 3,SYN_P_0947,Fictional demo FIR describing reported assault activity involving Rishabh Arora.,0.987
+FIR_0209,2024,Mumbai Colaba Police Station,Lucknow,Uttar Pradesh,Money Laundering,IPC 392,SYN_P_0547,Fictional demo FIR describing reported money laundering activity involving Varun Yadav.,0.902
+FIR_0210,2021,Lucknow Hazratganj Police Station,Bhubaneswar,Odisha,Theft,IPC 392,SYN_P_0071,Fictional demo FIR describing reported theft activity involving Ayush Arora.,0.783
+FIR_0211,2024,Haridwar Kotwali Police Station,Chandigarh,Chandigarh,Robbery,IPC 420,SYN_P_0070,Fictional demo FIR describing reported robbery activity involving Gaurav Naidu.,0.9
+FIR_0212,2025,Pune Shivajinagar Police Station,Pune,Maharashtra,Illegal Arms,IT Act 66D,SYN_P_0991,Fictional demo FIR describing reported illegal arms activity involving Meera Mukherjee.,0.988
+FIR_0213,2025,Bengaluru Cubbon Park Police Station,Bhopal,Madhya Pradesh,Cyber Fraud,IPC 384,SYN_P_0929,Fictional demo FIR describing reported cyber fraud activity involving Karan Arora.,0.936
+FIR_0214,2023,Haridwar Kotwali Police Station,Mumbai,Maharashtra,Robbery,IT Act 66D,SYN_P_0691,Fictional demo FIR describing reported robbery activity involving Anurag Menon.,0.942
+FIR_0215,2023,Chennai Anna Nagar Police Station,Patna,Bihar,Extortion,IPC 471,SYN_P_0935,Fictional demo FIR describing reported extortion activity involving Pooja Chauhan.,0.793
+FIR_0216,2025,Ghaziabad Kotwali Police Station,Ahmedabad,Gujarat,Fraud,IPC 384,SYN_P_0749,Fictional demo FIR describing reported fraud activity involving Varun Khanna.,0.828
+FIR_0217,2025,Dehradun City Police Station,Meerut,Uttar Pradesh,Extortion,IPC 392,SYN_P_0937,Fictional demo FIR describing reported extortion activity involving Gaurav Bansal.,0.963
+FIR_0218,2025,Saket Police Station,Surat,Gujarat,Theft,Arms Act 25,SYN_P_0629,Fictional demo FIR describing reported theft activity involving Aditya Naidu.,0.818
+FIR_0219,2021,Lucknow Hazratganj Police Station,Lucknow,Uttar Pradesh,Illegal Arms,IPC 506,SYN_P_0400,Fictional demo FIR describing reported illegal arms activity involving Swati Saxena.,0.89
+FIR_0220,2025,Lajpat Nagar Police Station,Kolkata,West Bengal,Smuggling,Arms Act 25,SYN_P_0311,Fictional demo FIR describing reported smuggling activity involving Nisha Rao.,0.856
+FIR_0221,2022,Mumbai Colaba Police Station,Ranchi,Jharkhand,Smuggling,IPC 392,SYN_P_0472,Fictional demo FIR describing reported smuggling activity involving Ayush Deshmukh.,0.801
+FIR_0222,2022,Ghaziabad Kotwali Police Station,Indore,Madhya Pradesh,Assault,Arms Act 25,SYN_P_0340,Fictional demo FIR describing reported assault activity involving Deepak Tiwari.,0.978
+FIR_0223,2021,Pune Shivajinagar Police Station,Jaipur,Rajasthan,Cyber Fraud,IPC 471,SYN_P_0869,Fictional demo FIR describing reported cyber fraud activity involving Mohit Arora.,0.862
+FIR_0224,2023,Ghaziabad Kotwali Police Station,Bengaluru,Karnataka,Forgery,IPC 471,SYN_P_0863,Fictional demo FIR describing reported forgery activity involving Raj Dubey.,0.78
+FIR_0225,2023,Lucknow Hazratganj Police Station,Ranchi,Jharkhand,Smuggling,PMLA 3,SYN_P_0515,Fictional demo FIR describing reported smuggling activity involving Gaurav Ahuja.,0.905
+FIR_0226,2022,Ghaziabad Kotwali Police Station,Noida,Uttar Pradesh,Theft,IT Act 66D,SYN_P_0137,Fictional demo FIR describing reported theft activity involving Pooja Malhotra.,0.953
+FIR_0227,2024,Pune Shivajinagar Police Station,Nagpur,Maharashtra,Robbery,PMLA 3,SYN_P_0497,Fictional demo FIR describing reported robbery activity involving Aditya Mishra.,0.821
+FIR_0228,2023,Ghaziabad Kotwali Police Station,Ghaziabad,Uttar Pradesh,Illegal Arms,IT Act 66C,SYN_P_0718,Fictional demo FIR describing reported illegal arms activity involving Harsh Jadhav.,0.806
+FIR_0229,2022,Jaipur Sanganer Police Station,Jaipur,Rajasthan,Forgery,IPC 506,SYN_P_0311,Fictional demo FIR describing reported forgery activity involving Nisha Rao.,0.782
+FIR_0230,2025,Noida Sector 20 Police Station,Hyderabad,Telangana,Cyber Fraud,PMLA 3,SYN_P_0241,Fictional demo FIR describing reported cyber fraud activity involving Kavya Pandey.,0.879
+FIR_0231,2025,Bengaluru Cubbon Park Police Station,Haridwar,Uttarakhand,Extortion,IPC 392,SYN_P_0898,Fictional demo FIR describing reported extortion activity involving Anurag Banerjee.,0.795
+FIR_0232,2024,Jaipur Sanganer Police Station,Dehradun,Uttarakhand,Fraud,IPC 384,SYN_P_0700,Fictional demo FIR describing reported fraud activity involving Ayush Shukla.,0.912
+FIR_0233,2024,Dehradun City Police Station,Kolkata,West Bengal,Robbery,IPC 468,SYN_P_0873,Fictional demo FIR describing reported robbery activity involving Aditi Menon.,0.89
+FIR_0234,2025,Mumbai Colaba Police Station,Bhubaneswar,Odisha,Assault,IPC 468,SYN_P_0182,Fictional demo FIR describing reported assault activity involving Raj Naidu.,0.963
+FIR_0235,2024,Lajpat Nagar Police Station,Ranchi,Jharkhand,Theft,IPC 384,SYN_P_1013,Fictional demo FIR describing reported theft activity involving Raj Srivastava.,0.962
+FIR_0236,2023,Chennai Anna Nagar Police Station,Bhubaneswar,Odisha,Cyber Fraud,IPC 506,SYN_P_0574,Fictional demo FIR describing reported cyber fraud activity involving Sneha Khanna.,0.868
+FIR_0237,2021,Noida Sector 20 Police Station,Pune,Maharashtra,Extortion,IT Act 66D,SYN_P_0515,Fictional demo FIR describing reported extortion activity involving Gaurav Ahuja.,0.831
+FIR_0238,2024,Jaipur Sanganer Police Station,Chandigarh,Chandigarh,Assault,IPC 384,SYN_P_1014,Fictional demo FIR describing reported assault activity involving Riya Sethi.,0.989
+FIR_0239,2025,Pune Shivajinagar Police Station,Chennai,Tamil Nadu,Assault,PMLA 3,SYN_P_1000,Fictional demo FIR describing reported assault activity involving Priya Tiwari.,0.889
+FIR_0240,2021,Noida Sector 20 Police Station,Noida,Uttar Pradesh,Assault,PMLA 3,SYN_P_0784,Fictional demo FIR describing reported assault activity involving Ayush Sarkar.,0.8
+FIR_0241,2025,Ahmedabad Navrangpura Police Station,Pune,Maharashtra,Assault,IT Act 66C,SYN_P_0489,Fictional demo FIR describing reported assault activity involving Rajat Dutta.,0.931
+FIR_0242,2024,Chennai Anna Nagar Police Station,Pune,Maharashtra,Forgery,IPC 420,SYN_P_0082,Fictional demo FIR describing reported forgery activity involving Aarav Chatterjee.,0.977
+FIR_0243,2022,Meerut Civil Lines Police Station,Patna,Bihar,Fraud,IPC 420,SYN_P_0885,Fictional demo FIR describing reported fraud activity involving Harsh Kapoor.,0.912
+FIR_0244,2024,Connaught Place Police Station,Meerut,Uttar Pradesh,Cyber Fraud,IT Act 66D,SYN_P_0674,Fictional demo FIR describing reported cyber fraud activity involving Vivaan Kumar.,0.958
+FIR_0245,2023,Kanpur Kotwali Police Station,Pune,Maharashtra,Money Laundering,IPC 471,SYN_P_0520,Fictional demo FIR describing reported money laundering activity involving Riya Verma.,0.874
+FIR_0246,2023,Meerut Civil Lines Police Station,Mumbai,Maharashtra,Forgery,IPC 468,SYN_P_0098,Fictional demo FIR describing reported forgery activity involving Rishabh Wadhwa.,0.897
+FIR_0247,2023,Meerut Civil Lines Police Station,Bhubaneswar,Odisha,Theft,IT Act 66D,SYN_P_0660,Fictional demo FIR describing reported theft activity involving Pranav Deshmukh.,0.96
+FIR_0248,2025,Kanpur Kotwali Police Station,Pune,Maharashtra,Assault,IPC 506,SYN_P_0684,Fictional demo FIR describing reported assault activity involving Meera Verma.,0.954
+FIR_0249,2024,Haridwar Kotwali Police Station,Bhubaneswar,Odisha,Extortion,PMLA 3,SYN_P_0208,Fictional demo FIR describing reported extortion activity involving Aarav Dutta.,0.884
+FIR_0250,2023,Hyderabad Central Crime Police Station,Nagpur,Maharashtra,Illegal Arms,IPC 506,SYN_P_0382,Fictional demo FIR describing reported illegal arms activity involving Rohan Gill.,0.851
+FIR_0251,2022,Haridwar Kotwali Police Station,Pune,Maharashtra,Robbery,IPC 420,SYN_P_0897,Fictional demo FIR describing reported robbery activity involving Arjun Tiwari.,0.803
+FIR_0252,2023,Kolkata Park Street Police Station,Hyderabad,Telangana,Smuggling,Arms Act 25,SYN_P_0636,Fictional demo FIR describing reported smuggling activity involving Rishabh Menon.,0.817
+FIR_0253,2021,Pune Shivajinagar Police Station,Jaipur,Rajasthan,Extortion,IPC 471,SYN_P_0156,Fictional demo FIR describing reported extortion activity involving Rohan Dubey.,0.811
+FIR_0254,2024,Ghaziabad Kotwali Police Station,Chennai,Tamil Nadu,Money Laundering,IT Act 66C,SYN_P_0697,Fictional demo FIR describing reported money laundering activity involving Pranav Jadhav.,0.802
+FIR_0255,2021,Haridwar Kotwali Police Station,Bhopal,Madhya Pradesh,Assault,IPC 468,SYN_P_0602,Fictional demo FIR describing reported assault activity involving Arjun Chauhan.,0.873
+FIR_0256,2022,Jaipur Sanganer Police Station,Chandigarh,Chandigarh,Smuggling,IPC 420,SYN_P_0084,Fictional demo FIR describing reported smuggling activity involving Tanvi Iyer.,0.884
+FIR_0257,2024,Lucknow Hazratganj Police Station,Chandigarh,Chandigarh,Illegal Arms,IPC 392,SYN_P_0449,Fictional demo FIR describing reported illegal arms activity involving Rajat Mishra.,0.783
+FIR_0258,2024,Bengaluru Cubbon Park Police Station,Delhi,Delhi,Assault,IT Act 66C,SYN_P_0500,Fictional demo FIR describing reported assault activity involving Tanvi Mishra.,0.897
+FIR_0259,2025,Pune Shivajinagar Police Station,Ahmedabad,Gujarat,Robbery,PMLA 3,SYN_P_0394,Fictional demo FIR describing reported robbery activity involving Karan Gill.,0.967
+FIR_0260,2023,Jaipur Sanganer Police Station,Bhubaneswar,Odisha,Cyber Fraud,IT Act 66C,SYN_P_0793,Fictional demo FIR describing reported cyber fraud activity involving Harsh Mishra.,0.858
+FIR_0261,2023,Saket Police Station,Mumbai,Maharashtra,Smuggling,IPC 392,SYN_P_0481,Fictional demo FIR describing reported smuggling activity involving Isha Mukherjee.,0.848
+FIR_0262,2022,Noida Sector 20 Police Station,Chennai,Tamil Nadu,Assault,Arms Act 25,SYN_P_0506,Fictional demo FIR describing reported assault activity involving Arjun Bansal.,0.929
+FIR_0263,2022,Mumbai Colaba Police Station,Meerut,Uttar Pradesh,Assault,Arms Act 25,SYN_P_0643,Fictional demo FIR describing reported assault activity involving Kavya Arora.,0.952
+FIR_0264,2025,Lajpat Nagar Police Station,Surat,Gujarat,Cyber Fraud,IT Act 66D,SYN_P_0459,Fictional demo FIR describing reported cyber fraud activity involving Mohit Chauhan.,0.91
+FIR_0265,2021,Meerut Civil Lines Police Station,Kolkata,West Bengal,Theft,IPC 420,SYN_P_1019,Fictional demo FIR describing reported theft activity involving Deepak Iyer.,0.898
+FIR_0266,2022,Saket Police Station,Pune,Maharashtra,Forgery,IPC 506,SYN_P_0118,Fictional demo FIR describing reported forgery activity involving Divya Saxena.,0.794
+FIR_0267,2021,Hyderabad Central Crime Police Station,Kolkata,West Bengal,Cyber Fraud,IT Act 66C,SYN_P_0566,Fictional demo FIR describing reported cyber fraud activity involving Ananya Kapoor.,0.928
+FIR_0268,2024,Dehradun City Police Station,Nagpur,Maharashtra,Illegal Arms,Arms Act 25,SYN_P_0274,Fictional demo FIR describing reported illegal arms activity involving Neha Iyer.,0.926
+FIR_0269,2025,Chennai Anna Nagar Police Station,Mumbai,Maharashtra,Illegal Arms,IT Act 66C,SYN_P_0624,Fictional demo FIR describing reported illegal arms activity involving Nisha Saxena.,0.81
+FIR_0270,2021,Mumbai Colaba Police Station,Delhi,Delhi,Assault,PMLA 3,SYN_P_0645,Fictional demo FIR describing reported assault activity involving Aarav Tripathi.,0.805
+FIR_0271,2025,Ahmedabad Navrangpura Police Station,Bhopal,Madhya Pradesh,Extortion,IPC 392,SYN_P_0146,Fictional demo FIR describing reported extortion activity involving Sakshi Kumar.,0.934
+FIR_0272,2022,Connaught Place Police Station,Bhopal,Madhya Pradesh,Robbery,IT Act 66D,SYN_P_0510,Fictional demo FIR describing reported robbery activity involving Divya Rana.,0.933
+FIR_0273,2024,Pune Shivajinagar Police Station,Ghaziabad,Uttar Pradesh,Extortion,IT Act 66C,SYN_P_0680,Fictional demo FIR describing reported extortion activity involving Manish Das.,0.86
+FIR_0274,2022,Noida Sector 20 Police Station,Lucknow,Uttar Pradesh,Money Laundering,IPC 471,SYN_P_0972,Fictional demo FIR describing reported money laundering activity involving Swati Kohli.,0.855
+FIR_0275,2021,Meerut Civil Lines Police Station,Dehradun,Uttarakhand,Forgery,IPC 471,SYN_P_0882,Fictional demo FIR describing reported forgery activity involving Raj Khanna.,0.864
+FIR_0276,2023,Bengaluru Cubbon Park Police Station,Pune,Maharashtra,Extortion,IPC 384,SYN_P_0465,Fictional demo FIR describing reported extortion activity involving Vikram Banerjee.,0.89
+FIR_0277,2025,Lajpat Nagar Police Station,Bhopal,Madhya Pradesh,Fraud,IPC 506,SYN_P_0042,Fictional demo FIR describing reported fraud activity involving Rishabh Bansal.,0.8
+FIR_0278,2021,Haridwar Kotwali Police Station,Hyderabad,Telangana,Fraud,IT Act 66C,SYN_P_0004,Fictional demo FIR describing reported fraud activity involving Amit Malhotra.,0.844
+FIR_0279,2022,Hyderabad Central Crime Police Station,Ghaziabad,Uttar Pradesh,Robbery,IPC 392,SYN_P_0768,Fictional demo FIR describing reported robbery activity involving Varun Gill.,0.892
+FIR_0280,2025,Mumbai Colaba Police Station,Meerut,Uttar Pradesh,Robbery,PMLA 3,SYN_P_0708,Fictional demo FIR describing reported robbery activity involving Yash Khanna.,0.817
+FIR_0281,2025,Ghaziabad Kotwali Police Station,Ranchi,Jharkhand,Robbery,IT Act 66D,SYN_P_0903,Fictional demo FIR describing reported robbery activity involving Aarav Mukherjee.,0.786
+FIR_0282,2023,Dehradun City Police Station,Chennai,Tamil Nadu,Extortion,IPC 384,SYN_P_0080,Fictional demo FIR describing reported extortion activity involving Naveen Menon.,0.853
+FIR_0283,2022,Noida Sector 20 Police Station,Kolkata,West Bengal,Smuggling,IT Act 66D,SYN_P_0370,Fictional demo FIR describing reported smuggling activity involving Sneha Dutta.,0.821
+FIR_0284,2024,Kolkata Park Street Police Station,Bhopal,Madhya Pradesh,Money Laundering,IT Act 66C,SYN_P_0318,Fictional demo FIR describing reported money laundering activity involving Komal Shukla.,0.945
+FIR_0285,2021,Haridwar Kotwali Police Station,Patna,Bihar,Smuggling,IPC 468,SYN_P_0239,Fictional demo FIR describing reported smuggling activity involving Tanvi Tiwari.,0.857
+FIR_0286,2024,Lajpat Nagar Police Station,Bengaluru,Karnataka,Illegal Arms,IPC 506,SYN_P_0491,Fictional demo FIR describing reported illegal arms activity involving Raj Chopra.,0.792
+FIR_0287,2021,Chennai Anna Nagar Police Station,Patna,Bihar,Assault,IPC 384,SYN_P_0984,Fictional demo FIR describing reported assault activity involving Rajat Saxena.,0.919
+FIR_0288,2025,Kolkata Park Street Police Station,Hyderabad,Telangana,Assault,Arms Act 25,SYN_P_0657,Fictional demo FIR describing reported assault activity involving Shreya Pandey.,0.863
+FIR_0289,2022,Bengaluru Cubbon Park Police Station,Haridwar,Uttarakhand,Money Laundering,IPC 468,SYN_P_0412,Fictional demo FIR describing reported money laundering activity involving Harsh Sharma.,0.842
+FIR_0290,2024,Saket Police Station,Nagpur,Maharashtra,Theft,IT Act 66D,SYN_P_0874,Fictional demo FIR describing reported theft activity involving Anurag Bansal.,0.785
+FIR_0291,2024,Pune Shivajinagar Police Station,Mumbai,Maharashtra,Smuggling,IPC 471,SYN_P_0214,Fictional demo FIR describing reported smuggling activity involving Deepak Das.,0.884
+FIR_0292,2025,Lajpat Nagar Police Station,Patna,Bihar,Fraud,IPC 468,SYN_P_0589,Fictional demo FIR describing reported fraud activity involving Ayush Ghosh.,0.979
+FIR_0293,2025,Meerut Civil Lines Police Station,Kolkata,West Bengal,Assault,IPC 506,SYN_P_0629,Fictional demo FIR describing reported assault activity involving Aditya Naidu.,0.935
+FIR_0294,2024,Lucknow Hazratganj Police Station,Noida,Uttar Pradesh,Cyber Fraud,IPC 506,SYN_P_0058,Fictional demo FIR describing reported cyber fraud activity involving Yash Sinha.,0.982
+FIR_0295,2025,Chennai Anna Nagar Police Station,Patna,Bihar,Theft,IPC 392,SYN_P_0108,Fictional demo FIR describing reported theft activity involving Sakshi Deshmukh.,0.887
+FIR_0296,2024,Meerut Civil Lines Police Station,Jaipur,Rajasthan,Extortion,IPC 468,SYN_P_0092,Fictional demo FIR describing reported extortion activity involving Aditi Wadhwa.,0.93
+FIR_0297,2024,Lucknow Hazratganj Police Station,Ranchi,Jharkhand,Illegal Arms,PMLA 3,SYN_P_0150,Fictional demo FIR describing reported illegal arms activity involving Ankit Tiwari.,0.914
+FIR_0298,2022,Noida Sector 20 Police Station,Noida,Uttar Pradesh,Theft,IPC 471,SYN_P_0032,Fictional demo FIR describing reported theft activity involving Deepak Banerjee.,0.781
+FIR_0299,2022,Pune Shivajinagar Police Station,Patna,Bihar,Money Laundering,IPC 468,SYN_P_0493,Fictional demo FIR describing reported money laundering activity involving Nikhil Sharma.,0.858
+FIR_0300,2022,Kanpur Kotwali Police Station,Noida,Uttar Pradesh,Robbery,PMLA 3,SYN_P_0824,Fictional demo FIR describing reported robbery activity involving Swati Dubey.,0.92
+FIR_0301,2023,Lucknow Hazratganj Police Station,Patna,Bihar,Assault,IPC 471,SYN_P_0866,Fictional demo FIR describing reported assault activity involving Sameer Mishra.,0.866
+FIR_0302,2024,Jaipur Sanganer Police Station,Ahmedabad,Gujarat,Theft,IPC 468,SYN_P_0021,Fictional demo FIR describing reported theft activity involving Harsh Yadav.,0.952
+FIR_0303,2021,Pune Shivajinagar Police Station,Dehradun,Uttarakhand,Assault,IPC 420,SYN_P_1000,Fictional demo FIR describing reported assault activity involving Priya Tiwari.,0.926
+FIR_0304,2021,Noida Sector 20 Police Station,Lucknow,Uttar Pradesh,Illegal Arms,IPC 384,SYN_P_0920,Fictional demo FIR describing reported illegal arms activity involving Pooja Bhatia.,0.813
+FIR_0305,2025,Haridwar Kotwali Police Station,Ghaziabad,Uttar Pradesh,Robbery,IPC 392,SYN_P_1001,Fictional demo FIR describing reported robbery activity involving Rohan Bose.,0.978
+FIR_0306,2023,Kolkata Park Street Police Station,Patna,Bihar,Theft,IPC 471,SYN_P_0526,Fictional demo FIR describing reported theft activity involving Shreya Dubey.,0.84
+FIR_0307,2024,Lucknow Hazratganj Police Station,Meerut,Uttar Pradesh,Extortion,IPC 384,SYN_P_0536,Fictional demo FIR describing reported extortion activity involving Pallavi Reddy.,0.896
+FIR_0308,2025,Lajpat Nagar Police Station,Jaipur,Rajasthan,Robbery,IT Act 66D,SYN_P_1020,Fictional demo FIR describing reported robbery activity involving Aarav Agarwal.,0.881
+FIR_0309,2024,Meerut Civil Lines Police Station,Chandigarh,Chandigarh,Fraud,IPC 384,SYN_P_0229,Fictional demo FIR describing reported fraud activity involving Kavya Sharma.,0.94
+FIR_0310,2025,Mumbai Colaba Police Station,Chandigarh,Chandigarh,Theft,IT Act 66D,SYN_P_0139,Fictional demo FIR describing reported theft activity involving Sneha Patil.,0.935
+FIR_0311,2025,Lucknow Hazratganj Police Station,Bhopal,Madhya Pradesh,Fraud,IPC 468,SYN_P_0906,Fictional demo FIR describing reported fraud activity involving Meera Mehta.,0.932
+FIR_0312,2022,Haridwar Kotwali Police Station,Kolkata,West Bengal,Fraud,IPC 471,SYN_P_0090,Fictional demo FIR describing reported fraud activity involving Aarav Kohli.,0.974
+FIR_0313,2021,Pune Shivajinagar Police Station,Surat,Gujarat,Illegal Arms,IT Act 66C,SYN_P_0718,Fictional demo FIR describing reported illegal arms activity involving Harsh Jadhav.,0.812
+FIR_0314,2022,Meerut Civil Lines Police Station,Hyderabad,Telangana,Extortion,IPC 468,SYN_P_0598,Fictional demo FIR describing reported extortion activity involving Ankit Wadhwa.,0.851
+FIR_0315,2021,Kanpur Kotwali Police Station,Delhi,Delhi,Forgery,PMLA 3,SYN_P_0899,Fictional demo FIR describing reported forgery activity involving Rohan Jain.,0.891
+FIR_0316,2023,Lajpat Nagar Police Station,Lucknow,Uttar Pradesh,Smuggling,IPC 384,SYN_P_0330,Fictional demo FIR describing reported smuggling activity involving Gaurav Reddy.,0.924
+FIR_0317,2021,Meerut Civil Lines Police Station,Hyderabad,Telangana,Smuggling,IPC 506,SYN_P_0840,Fictional demo FIR describing reported smuggling activity involving Rahul Rana.,0.858
+FIR_0318,2021,Pune Shivajinagar Police Station,Meerut,Uttar Pradesh,Illegal Arms,IPC 420,SYN_P_0294,Fictional demo FIR describing reported illegal arms activity involving Shreya Joshi.,0.898
+FIR_0319,2022,Lajpat Nagar Police Station,Kolkata,West Bengal,Extortion,PMLA 3,SYN_P_0794,Fictional demo FIR describing reported extortion activity involving Nikhil Gupta.,0.895
+FIR_0320,2025,Pune Shivajinagar Police Station,Indore,Madhya Pradesh,Forgery,IPC 471,SYN_P_0041,Fictional demo FIR describing reported forgery activity involving Naveen Banerjee.,0.924
+FIR_0321,2024,Jaipur Sanganer Police Station,Surat,Gujarat,Illegal Arms,IPC 506,SYN_P_0793,Fictional demo FIR describing reported illegal arms activity involving Harsh Mishra.,0.986
+FIR_0322,2024,Kolkata Park Street Police Station,Bengaluru,Karnataka,Robbery,IPC 506,SYN_P_0932,Fictional demo FIR describing reported robbery activity involving Akash Mehta.,0.827
+FIR_0323,2024,Jaipur Sanganer Police Station,Indore,Madhya Pradesh,Robbery,IPC 392,SYN_P_0588,Fictional demo FIR describing reported robbery activity involving Simran Bose.,0.857
+FIR_0324,2022,Lajpat Nagar Police Station,Ahmedabad,Gujarat,Cyber Fraud,IT Act 66D,SYN_P_0043,Fictional demo FIR describing reported cyber fraud activity involving Rishabh Sethi.,0.866
+FIR_0325,2023,Lucknow Hazratganj Police Station,Nagpur,Maharashtra,Robbery,IT Act 66C,SYN_P_0465,Fictional demo FIR describing reported robbery activity involving Vikram Banerjee.,0.868
+FIR_0326,2024,Pune Shivajinagar Police Station,Surat,Gujarat,Forgery,IT Act 66D,SYN_P_0856,Fictional demo FIR describing reported forgery activity involving Isha Khanna.,0.856
+FIR_0327,2022,Chennai Anna Nagar Police Station,Patna,Bihar,Theft,IPC 468,SYN_P_0668,Fictional demo FIR describing reported theft activity involving Rishabh Srivastava.,0.832
+FIR_0328,2025,Mumbai Colaba Police Station,Kolkata,West Bengal,Illegal Arms,IT Act 66D,SYN_P_0392,Fictional demo FIR describing reported illegal arms activity involving Isha Das.,0.895
+FIR_0329,2022,Pune Shivajinagar Police Station,Pune,Maharashtra,Cyber Fraud,IPC 392,SYN_P_0837,Fictional demo FIR describing reported cyber fraud activity involving Divya Dutta.,0.879
+FIR_0330,2024,Lajpat Nagar Police Station,Haridwar,Uttarakhand,Assault,IPC 468,SYN_P_0927,Fictional demo FIR describing reported assault activity involving Pooja Patil.,0.826
+FIR_0331,2025,Ahmedabad Navrangpura Police Station,Patna,Bihar,Theft,IPC 392,SYN_P_0321,Fictional demo FIR describing reported theft activity involving Naveen Kumar.,0.978
+FIR_0332,2024,Meerut Civil Lines Police Station,Ranchi,Jharkhand,Illegal Arms,IPC 471,SYN_P_0049,Fictional demo FIR describing reported illegal arms activity involving Pooja Kohli.,0.987
+FIR_0333,2025,Lucknow Hazratganj Police Station,Indore,Madhya Pradesh,Theft,IPC 392,SYN_P_0320,Fictional demo FIR describing reported theft activity involving Divya Menon.,0.866
+FIR_0334,2024,Haridwar Kotwali Police Station,Chandigarh,Chandigarh,Robbery,PMLA 3,SYN_P_0960,Fictional demo FIR describing reported robbery activity involving Rahul Chatterjee.,0.976
+FIR_0335,2021,Saket Police Station,Patna,Bihar,Extortion,IPC 420,SYN_P_0073,Fictional demo FIR describing reported extortion activity involving Rahul Wadhwa.,0.782
+FIR_0336,2023,Mumbai Colaba Police Station,Mumbai,Maharashtra,Extortion,IPC 468,SYN_P_0109,Fictional demo FIR describing reported extortion activity involving Rohan Wadhwa.,0.936
+FIR_0337,2023,Haridwar Kotwali Police Station,Haridwar,Uttarakhand,Extortion,PMLA 3,SYN_P_0437,Fictional demo FIR describing reported extortion activity involving Ananya Reddy.,0.97
+FIR_0338,2022,Dehradun City Police Station,Bengaluru,Karnataka,Money Laundering,IPC 471,SYN_P_0915,Fictional demo FIR describing reported money laundering activity involving Abhishek Gupta.,0.801
+FIR_0339,2024,Noida Sector 20 Police Station,Lucknow,Uttar Pradesh,Robbery,Arms Act 25,SYN_P_0328,Fictional demo FIR describing reported robbery activity involving Sameer Mukherjee.,0.971
+FIR_0340,2025,Hyderabad Central Crime Police Station,Kanpur,Uttar Pradesh,Smuggling,IPC 471,SYN_P_0840,Fictional demo FIR describing reported smuggling activity involving Rahul Rana.,0.925
+FIR_0341,2024,Noida Sector 20 Police Station,Meerut,Uttar Pradesh,Robbery,IPC 420,SYN_P_0511,Fictional demo FIR describing reported robbery activity involving Divya Sinha.,0.808
+FIR_0342,2024,Meerut Civil Lines Police Station,Bengaluru,Karnataka,Theft,IPC 420,SYN_P_0781,Fictional demo FIR describing reported theft activity involving Gaurav Verma.,0.903
+FIR_0343,2025,Meerut Civil Lines Police Station,Surat,Gujarat,Assault,IT Act 66D,SYN_P_0743,Fictional demo FIR describing reported assault activity involving Kavya Verma.,0.968
+FIR_0344,2023,Haridwar Kotwali Police Station,Patna,Bihar,Assault,IPC 384,SYN_P_1008,Fictional demo FIR describing reported assault activity involving Simran Pandey.,0.966
+FIR_0345,2025,Dehradun City Police Station,Kanpur,Uttar Pradesh,Robbery,IT Act 66C,SYN_P_0142,Fictional demo FIR describing reported robbery activity involving Ankit Agarwal.,0.973
+FIR_0346,2023,Dehradun City Police Station,Patna,Bihar,Illegal Arms,IPC 384,SYN_P_0228,Fictional demo FIR describing reported illegal arms activity involving Swati Shukla.,0.854
+FIR_0347,2025,Ahmedabad Navrangpura Police Station,Delhi,Delhi,Assault,IPC 392,SYN_P_1014,Fictional demo FIR describing reported assault activity involving Riya Sethi.,0.857
+FIR_0348,2023,Chennai Anna Nagar Police Station,Jaipur,Rajasthan,Smuggling,IPC 420,SYN_P_0518,Fictional demo FIR describing reported smuggling activity involving Rahul Mishra.,0.883
+FIR_0349,2023,Jaipur Sanganer Police Station,Noida,Uttar Pradesh,Illegal Arms,IT Act 66D,SYN_P_0342,Fictional demo FIR describing reported illegal arms activity involving Yash Iyer.,0.989
+FIR_0350,2024,Saket Police Station,Noida,Uttar Pradesh,Cyber Fraud,IPC 506,SYN_P_0692,Fictional demo FIR describing reported cyber fraud activity involving Sameer Gill.,0.896
+FIR_0351,2025,Connaught Place Police Station,Bhopal,Madhya Pradesh,Fraud,IPC 471,SYN_P_0268,Fictional demo FIR describing reported fraud activity involving Sakshi Joshi.,0.86
+FIR_0352,2021,Jaipur Sanganer Police Station,Nagpur,Maharashtra,Theft,IT Act 66C,SYN_P_0963,Fictional demo FIR describing reported theft activity involving Pranav Bansal.,0.85
+FIR_0353,2022,Mumbai Colaba Police Station,Ahmedabad,Gujarat,Money Laundering,IPC 471,SYN_P_0870,Fictional demo FIR describing reported money laundering activity involving Sameer Jadhav.,0.896
+FIR_0354,2021,Bengaluru Cubbon Park Police Station,Haridwar,Uttarakhand,Cyber Fraud,IPC 384,SYN_P_1002,Fictional demo FIR describing reported cyber fraud activity involving Yash Sarkar.,0.949
+FIR_0355,2021,Ghaziabad Kotwali Police Station,Hyderabad,Telangana,Extortion,IPC 384,SYN_P_0653,Fictional demo FIR describing reported extortion activity involving Kavya Joshi.,0.831
+FIR_0356,2022,Kanpur Kotwali Police Station,Pune,Maharashtra,Extortion,IPC 384,SYN_P_0363,Fictional demo FIR describing reported extortion activity involving Ananya Verma.,0.961
+FIR_0357,2023,Saket Police Station,Bhubaneswar,Odisha,Fraud,IPC 392,SYN_P_0020,Fictional demo FIR describing reported fraud activity involving Divya Shukla.,0.902
+FIR_0358,2021,Noida Sector 20 Police Station,Indore,Madhya Pradesh,Money Laundering,IPC 420,SYN_P_0944,Fictional demo FIR describing reported money laundering activity involving Muskan Chatterjee.,0.928
+FIR_0359,2022,Saket Police Station,Bhubaneswar,Odisha,Extortion,IPC 384,SYN_P_0409,Fictional demo FIR describing reported extortion activity involving Gaurav Dutta.,0.781
+FIR_0360,2021,Pune Shivajinagar Police Station,Jaipur,Rajasthan,Fraud,IPC 506,SYN_P_0478,Fictional demo FIR describing reported fraud activity involving Raj Jain.,0.911
+FIR_0361,2024,Meerut Civil Lines Police Station,Bengaluru,Karnataka,Illegal Arms,IT Act 66D,SYN_P_0395,Fictional demo FIR describing reported illegal arms activity involving Nikhil Rana.,0.84
+FIR_0362,2025,Connaught Place Police Station,Surat,Gujarat,Robbery,IPC 384,SYN_P_0126,Fictional demo FIR describing reported robbery activity involving Vivaan Naidu.,0.817
+FIR_0363,2025,Lucknow Hazratganj Police Station,Dehradun,Uttarakhand,Robbery,IPC 384,SYN_P_0405,Fictional demo FIR describing reported robbery activity involving Pranav Chatterjee.,0.928
+FIR_0364,2023,Kanpur Kotwali Police Station,Jaipur,Rajasthan,Robbery,IPC 392,SYN_P_0156,Fictional demo FIR describing reported robbery activity involving Rohan Dubey.,0.863
+FIR_0365,2025,Dehradun City Police Station,Bhopal,Madhya Pradesh,Theft,IPC 468,SYN_P_0608,Fictional demo FIR describing reported theft activity involving Rahul Mukherjee.,0.87
+FIR_0366,2025,Connaught Place Police Station,Bhubaneswar,Odisha,Illegal Arms,IPC 471,SYN_P_0707,Fictional demo FIR describing reported illegal arms activity involving Kavya Sarkar.,0.839
+FIR_0367,2021,Hyderabad Central Crime Police Station,Ghaziabad,Uttar Pradesh,Fraud,IPC 506,SYN_P_0331,Fictional demo FIR describing reported fraud activity involving Sameer Bansal.,0.97
+FIR_0368,2021,Bengaluru Cubbon Park Police Station,Bhopal,Madhya Pradesh,Theft,IPC 420,SYN_P_0124,Fictional demo FIR describing reported theft activity involving Raj Mishra.,0.985
+FIR_0369,2023,Saket Police Station,Mumbai,Maharashtra,Assault,PMLA 3,SYN_P_0181,Fictional demo FIR describing reported assault activity involving Karan Rao.,0.835
+FIR_0370,2024,Mumbai Colaba Police Station,Surat,Gujarat,Money Laundering,IT Act 66D,SYN_P_0654,Fictional demo FIR describing reported money laundering activity involving Simran Mishra.,0.843
+FIR_0371,2022,Kanpur Kotwali Police Station,Mumbai,Maharashtra,Smuggling,PMLA 3,SYN_P_1002,Fictional demo FIR describing reported smuggling activity involving Yash Sarkar.,0.816
+FIR_0372,2024,Haridwar Kotwali Police Station,Ahmedabad,Gujarat,Forgery,IT Act 66C,SYN_P_0723,Fictional demo FIR describing reported forgery activity involving Manish Chatterjee.,0.877
+FIR_0373,2022,Pune Shivajinagar Police Station,Surat,Gujarat,Robbery,IT Act 66C,SYN_P_0952,Fictional demo FIR describing reported robbery activity involving Ayush Joshi.,0.979
+FIR_0374,2022,Pune Shivajinagar Police Station,Mumbai,Maharashtra,Theft,IPC 506,SYN_P_0286,Fictional demo FIR describing reported theft activity involving Deepak Reddy.,0.783
+FIR_0375,2022,Lucknow Hazratganj Police Station,Lucknow,Uttar Pradesh,Assault,IPC 384,SYN_P_0354,Fictional demo FIR describing reported assault activity involving Pallavi Rao.,0.783
+FIR_0376,2023,Lucknow Hazratganj Police Station,Lucknow,Uttar Pradesh,Cyber Fraud,IPC 420,SYN_P_0968,Fictional demo FIR describing reported cyber fraud activity involving Rishabh Reddy.,0.884
+FIR_0377,2023,Kanpur Kotwali Police Station,Haridwar,Uttarakhand,Smuggling,IPC 468,SYN_P_0325,Fictional demo FIR describing reported smuggling activity involving Meera Menon.,0.882
+FIR_0378,2022,Hyderabad Central Crime Police Station,Ahmedabad,Gujarat,Theft,IPC 420,SYN_P_1023,Fictional demo FIR describing reported theft activity involving Arjun Rao.,0.854
+FIR_0379,2024,Dehradun City Police Station,Ghaziabad,Uttar Pradesh,Money Laundering,IPC 392,SYN_P_0218,Fictional demo FIR describing reported money laundering activity involving Rajat Nair.,0.829
+FIR_0380,2024,Connaught Place Police Station,Jaipur,Rajasthan,Theft,IPC 471,SYN_P_1013,Fictional demo FIR describing reported theft activity involving Raj Srivastava.,0.913
+FIR_0381,2025,Ahmedabad Navrangpura Police Station,Indore,Madhya Pradesh,Cyber Fraud,PMLA 3,SYN_P_0694,Fictional demo FIR describing reported cyber fraud activity involving Riya Agarwal.,0.806
+FIR_0382,2023,Mumbai Colaba Police Station,Hyderabad,Telangana,Cyber Fraud,IPC 392,SYN_P_0266,Fictional demo FIR describing reported cyber fraud activity involving Ankit Das.,0.858
+FIR_0383,2024,Mumbai Colaba Police Station,Ghaziabad,Uttar Pradesh,Fraud,IT Act 66C,SYN_P_0970,Fictional demo FIR describing reported fraud activity involving Naveen Reddy.,0.832
+FIR_0384,2023,Hyderabad Central Crime Police Station,Ranchi,Jharkhand,Illegal Arms,IPC 471,SYN_P_0669,Fictional demo FIR describing reported illegal arms activity involving Raj Arora.,0.897
+FIR_0385,2022,Haridwar Kotwali Police Station,Ranchi,Jharkhand,Illegal Arms,PMLA 3,SYN_P_0679,Fictional demo FIR describing reported illegal arms activity involving Harsh Gill.,0.984
+FIR_0386,2025,Kanpur Kotwali Police Station,Ranchi,Jharkhand,Assault,IPC 468,SYN_P_0469,Fictional demo FIR describing reported assault activity involving Priya Patil.,0.883
+FIR_0387,2025,Noida Sector 20 Police Station,Delhi,Delhi,Money Laundering,IT Act 66C,SYN_P_0963,Fictional demo FIR describing reported money laundering activity involving Pranav Bansal.,0.938
+FIR_0388,2024,Bengaluru Cubbon Park Police Station,Ghaziabad,Uttar Pradesh,Smuggling,PMLA 3,SYN_P_0659,Fictional demo FIR describing reported smuggling activity involving Aditya Singh.,0.969
+FIR_0389,2024,Lucknow Hazratganj Police Station,Ghaziabad,Uttar Pradesh,Forgery,IPC 471,SYN_P_0545,Fictional demo FIR describing reported forgery activity involving Nisha Dubey.,0.93
+FIR_0390,2022,Kanpur Kotwali Police Station,Noida,Uttar Pradesh,Forgery,IPC 420,SYN_P_0746,Fictional demo FIR describing reported forgery activity involving Aarav Chopra.,0.849
+FIR_0391,2023,Haridwar Kotwali Police Station,Chennai,Tamil Nadu,Robbery,IT Act 66D,SYN_P_0989,Fictional demo FIR describing reported robbery activity involving Shreya Bansal.,0.987
+FIR_0392,2025,Noida Sector 20 Police Station,Indore,Madhya Pradesh,Illegal Arms,IPC 471,SYN_P_0410,Fictional demo FIR describing reported illegal arms activity involving Rishabh Gupta.,0.934
+FIR_0393,2023,Kanpur Kotwali Police Station,Hyderabad,Telangana,Smuggling,IT Act 66C,SYN_P_0400,Fictional demo FIR describing reported smuggling activity involving Swati Saxena.,0.869
+FIR_0394,2022,Ghaziabad Kotwali Police Station,Haridwar,Uttarakhand,Cyber Fraud,IPC 471,SYN_P_0023,Fictional demo FIR describing reported cyber fraud activity involving Pallavi Bhatia.,0.785
+FIR_0395,2024,Ghaziabad Kotwali Police Station,Ghaziabad,Uttar Pradesh,Money Laundering,IT Act 66D,SYN_P_0864,Fictional demo FIR describing reported money laundering activity involving Simran Chauhan.,0.911
+FIR_0396,2023,Noida Sector 20 Police Station,Bhopal,Madhya Pradesh,Forgery,IPC 471,SYN_P_0322,Fictional demo FIR describing reported forgery activity involving Kavya Tiwari.,0.876
+FIR_0397,2024,Dehradun City Police Station,Ranchi,Jharkhand,Assault,IPC 392,SYN_P_0406,Fictional demo FIR describing reported assault activity involving Isha Jain.,0.903
+FIR_0398,2021,Haridwar Kotwali Police Station,Delhi,Delhi,Extortion,Arms Act 25,SYN_P_0662,Fictional demo FIR describing reported extortion activity involving Vikram Khanna.,0.88
+FIR_0399,2025,Connaught Place Police Station,Mumbai,Maharashtra,Theft,IT Act 66C,SYN_P_0291,Fictional demo FIR describing reported theft activity involving Pranav Chauhan.,0.916
+FIR_0400,2025,Lajpat Nagar Police Station,Kanpur,Uttar Pradesh,Money Laundering,IPC 471,SYN_P_0811,Fictional demo FIR describing reported money laundering activity involving Pranav Yadav.,0.848
+FIR_0401,2022,Hyderabad Central Crime Police Station,Hyderabad,Telangana,Fraud,IPC 384,SYN_P_0081,Fictional demo FIR describing reported fraud activity involving Rajat Reddy.,0.975
+FIR_0402,2025,Meerut Civil Lines Police Station,Lucknow,Uttar Pradesh,Extortion,IPC 468,SYN_P_0287,Fictional demo FIR describing reported extortion activity involving Vikram Saxena.,0.799
+FIR_0403,2021,Ahmedabad Navrangpura Police Station,Pune,Maharashtra,Money Laundering,IPC 506,SYN_P_0738,Fictional demo FIR describing reported money laundering activity involving Ankit Sethi.,0.938
+FIR_0404,2021,Chennai Anna Nagar Police Station,Nagpur,Maharashtra,Smuggling,IT Act 66C,SYN_P_1009,Fictional demo FIR describing reported smuggling activity involving Mohit Wadhwa.,0.915
+FIR_0405,2025,Saket Police Station,Ranchi,Jharkhand,Robbery,IPC 468,SYN_P_0811,Fictional demo FIR describing reported robbery activity involving Pranav Yadav.,0.874
+FIR_0406,2022,Lajpat Nagar Police Station,Dehradun,Uttarakhand,Illegal Arms,Arms Act 25,SYN_P_0237,Fictional demo FIR describing reported illegal arms activity involving Rishabh Singh.,0.785
+FIR_0407,2021,Kanpur Kotwali Police Station,Bengaluru,Karnataka,Fraud,IPC 468,SYN_P_0462,Fictional demo FIR describing reported fraud activity involving Aarav Sarkar.,0.979
+FIR_0408,2023,Pune Shivajinagar Police Station,Hyderabad,Telangana,Money Laundering,IT Act 66C,SYN_P_0282,Fictional demo FIR describing reported money laundering activity involving Pranav Nair.,0.784
+FIR_0409,2024,Kolkata Park Street Police Station,Bengaluru,Karnataka,Fraud,IPC 384,SYN_P_0594,Fictional demo FIR describing reported fraud activity involving Raj Banerjee.,0.788
+FIR_0410,2025,Hyderabad Central Crime Police Station,Jaipur,Rajasthan,Illegal Arms,IPC 420,SYN_P_0074,Fictional demo FIR describing reported illegal arms activity involving Arjun Jain.,0.853
+FIR_0411,2025,Meerut Civil Lines Police Station,Kolkata,West Bengal,Money Laundering,IT Act 66C,SYN_P_0166,Fictional demo FIR describing reported money laundering activity involving Divya Kohli.,0.825
+FIR_0412,2023,Jaipur Sanganer Police Station,Indore,Madhya Pradesh,Assault,Arms Act 25,SYN_P_0016,Fictional demo FIR describing reported assault activity involving Anurag Mishra.,0.859
+FIR_0413,2025,Jaipur Sanganer Police Station,Kanpur,Uttar Pradesh,Illegal Arms,IPC 506,SYN_P_0796,Fictional demo FIR describing reported illegal arms activity involving Karan Menon.,0.821
+FIR_0414,2023,Bengaluru Cubbon Park Police Station,Nagpur,Maharashtra,Extortion,IPC 420,SYN_P_0534,Fictional demo FIR describing reported extortion activity involving Ananya Chauhan.,0.874
+FIR_0415,2021,Lajpat Nagar Police Station,Jaipur,Rajasthan,Robbery,IT Act 66C,SYN_P_0831,Fictional demo FIR describing reported robbery activity involving Ankit Reddy.,0.949
+FIR_0416,2023,Lucknow Hazratganj Police Station,Jaipur,Rajasthan,Assault,PMLA 3,SYN_P_0422,Fictional demo FIR describing reported assault activity involving Riya Yadav.,0.952
+FIR_0417,2022,Jaipur Sanganer Police Station,Surat,Gujarat,Fraud,IPC 468,SYN_P_0740,Fictional demo FIR describing reported fraud activity involving Amit Shukla.,0.887
+FIR_0418,2022,Haridwar Kotwali Police Station,Delhi,Delhi,Illegal Arms,IPC 468,SYN_P_0635,Fictional demo FIR describing reported illegal arms activity involving Vikram Iyer.,0.885
+FIR_0419,2024,Pune Shivajinagar Police Station,Bhubaneswar,Odisha,Money Laundering,PMLA 3,SYN_P_0796,Fictional demo FIR describing reported money laundering activity involving Karan Menon.,0.938
+FIR_0420,2025,Dehradun City Police Station,Bengaluru,Karnataka,Smuggling,IPC 468,SYN_P_1007,Fictional demo FIR describing reported smuggling activity involving Deepak Khanna.,0.796
+FIR_0421,2025,Lajpat Nagar Police Station,Delhi,Delhi,Fraud,IPC 420,SYN_P_0220,Fictional demo FIR describing reported fraud activity involving Arjun Mehta.,0.979
+FIR_0422,2024,Meerut Civil Lines Police Station,Haridwar,Uttarakhand,Forgery,IPC 384,SYN_P_0001,Fictional demo FIR describing reported forgery activity involving Nisha Jain.,0.791
+FIR_0423,2024,Mumbai Colaba Police Station,Indore,Madhya Pradesh,Illegal Arms,IPC 384,SYN_P_0441,Fictional demo FIR describing reported illegal arms activity involving Deepak Mishra.,0.839
+FIR_0424,2021,Dehradun City Police Station,Haridwar,Uttarakhand,Fraud,IPC 392,SYN_P_0046,Fictional demo FIR describing reported fraud activity involving Tanvi Ghosh.,0.835
+FIR_0425,2024,Meerut Civil Lines Police Station,Meerut,Uttar Pradesh,Fraud,IPC 420,SYN_P_0420,Fictional demo FIR describing reported fraud activity involving Priya Jadhav.,0.804
+FIR_0426,2025,Jaipur Sanganer Police Station,Surat,Gujarat,Assault,IPC 471,SYN_P_0481,Fictional demo FIR describing reported assault activity involving Isha Mukherjee.,0.785
+FIR_0427,2022,Saket Police Station,Ghaziabad,Uttar Pradesh,Robbery,IT Act 66C,SYN_P_0983,Fictional demo FIR describing reported robbery activity involving Abhishek Menon.,0.922
+FIR_0428,2024,Bengaluru Cubbon Park Police Station,Noida,Uttar Pradesh,Forgery,IT Act 66C,SYN_P_0062,Fictional demo FIR describing reported forgery activity involving Varun Ghosh.,0.817
+FIR_0429,2021,Jaipur Sanganer Police Station,Kolkata,West Bengal,Fraud,IPC 471,SYN_P_0028,Fictional demo FIR describing reported fraud activity involving Aditya Kohli.,0.931
+FIR_0430,2023,Lucknow Hazratganj Police Station,Dehradun,Uttarakhand,Fraud,IPC 468,SYN_P_0416,Fictional demo FIR describing reported fraud activity involving Manish Shukla.,0.925
+FIR_0431,2025,Ahmedabad Navrangpura Police Station,Indore,Madhya Pradesh,Fraud,Arms Act 25,SYN_P_0004,Fictional demo FIR describing reported fraud activity involving Amit Malhotra.,0.98
+FIR_0432,2023,Mumbai Colaba Police Station,Chandigarh,Chandigarh,Fraud,IPC 384,SYN_P_1001,Fictional demo FIR describing reported fraud activity involving Rohan Bose.,0.906
+FIR_0433,2022,Mumbai Colaba Police Station,Bengaluru,Karnataka,Smuggling,IPC 506,SYN_P_0935,Fictional demo FIR describing reported smuggling activity involving Pooja Chauhan.,0.933
+FIR_0434,2024,Meerut Civil Lines Police Station,Mumbai,Maharashtra,Money Laundering,PMLA 3,SYN_P_0299,Fictional demo FIR describing reported money laundering activity involving Nikhil Dutta.,0.864
+FIR_0435,2022,Hyderabad Central Crime Police Station,Pune,Maharashtra,Cyber Fraud,Arms Act 25,SYN_P_0958,Fictional demo FIR describing reported cyber fraud activity involving Vikram Gupta.,0.866
+FIR_0436,2023,Ghaziabad Kotwali Police Station,Ghaziabad,Uttar Pradesh,Assault,IPC 506,SYN_P_0885,Fictional demo FIR describing reported assault activity involving Harsh Kapoor.,0.974
+FIR_0437,2022,Lajpat Nagar Police Station,Surat,Gujarat,Smuggling,IPC 506,SYN_P_0956,Fictional demo FIR describing reported smuggling activity involving Sameer Srivastava.,0.886
+FIR_0438,2025,Meerut Civil Lines Police Station,Bhopal,Madhya Pradesh,Money Laundering,PMLA 3,SYN_P_0298,Fictional demo FIR describing reported money laundering activity involving Priya Ahuja.,0.809
+FIR_0439,2021,Ahmedabad Navrangpura Police Station,Ranchi,Jharkhand,Theft,IPC 384,SYN_P_0422,Fictional demo FIR describing reported theft activity involving Riya Yadav.,0.988
+FIR_0440,2025,Connaught Place Police Station,Hyderabad,Telangana,Extortion,IPC 471,SYN_P_0086,Fictional demo FIR describing reported extortion activity involving Komal Ghosh.,0.976
+FIR_0441,2023,Hyderabad Central Crime Police Station,Bhubaneswar,Odisha,Illegal Arms,IPC 384,SYN_P_0338,Fictional demo FIR describing reported illegal arms activity involving Akash Dubey.,0.848
+FIR_0442,2025,Pune Shivajinagar Police Station,Chennai,Tamil Nadu,Theft,IPC 468,SYN_P_0765,Fictional demo FIR describing reported theft activity involving Ayush Das.,0.901
+FIR_0443,2022,Bengaluru Cubbon Park Police Station,Ranchi,Jharkhand,Extortion,IPC 392,SYN_P_0836,Fictional demo FIR describing reported extortion activity involving Pranav Ghosh.,0.955
+FIR_0444,2025,Noida Sector 20 Police Station,Ranchi,Jharkhand,Fraud,IT Act 66D,SYN_P_0386,Fictional demo FIR describing reported fraud activity involving Vivaan Mukherjee.,0.81
+FIR_0445,2022,Pune Shivajinagar Police Station,Ranchi,Jharkhand,Cyber Fraud,IPC 471,SYN_P_0148,Fictional demo FIR describing reported cyber fraud activity involving Arjun Sinha.,0.953
+FIR_0446,2021,Connaught Place Police Station,Jaipur,Rajasthan,Fraud,IPC 471,SYN_P_0198,Fictional demo FIR describing reported fraud activity involving Ankit Gupta.,0.805
+FIR_0447,2021,Jaipur Sanganer Police Station,Patna,Bihar,Extortion,IT Act 66D,SYN_P_0381,Fictional demo FIR describing reported extortion activity involving Amit Ghosh.,0.98
+FIR_0448,2021,Dehradun City Police Station,Pune,Maharashtra,Theft,IPC 506,SYN_P_0865,Fictional demo FIR describing reported theft activity involving Pallavi Ahuja.,0.861
+FIR_0449,2025,Hyderabad Central Crime Police Station,Haridwar,Uttarakhand,Theft,PMLA 3,SYN_P_0427,Fictional demo FIR describing reported theft activity involving Meera Khanna.,0.905
+FIR_0450,2023,Mumbai Colaba Police Station,Noida,Uttar Pradesh,Forgery,IPC 420,SYN_P_1007,Fictional demo FIR describing reported forgery activity involving Deepak Khanna.,0.834
+FIR_0451,2021,Ahmedabad Navrangpura Police Station,Nagpur,Maharashtra,Smuggling,PMLA 3,SYN_P_0970,Fictional demo FIR describing reported smuggling activity involving Naveen Reddy.,0.91
+FIR_0452,2021,Pune Shivajinagar Police Station,Patna,Bihar,Forgery,IPC 420,SYN_P_0719,Fictional demo FIR describing reported forgery activity involving Ayush Pandey.,0.982
+FIR_0453,2025,Saket Police Station,Bengaluru,Karnataka,Cyber Fraud,IPC 384,SYN_P_0178,Fictional demo FIR describing reported cyber fraud activity involving Rahul Chopra.,0.832
+FIR_0454,2023,Kanpur Kotwali Police Station,Surat,Gujarat,Theft,PMLA 3,SYN_P_0193,Fictional demo FIR describing reported theft activity involving Shreya Rana.,0.987
+FIR_0455,2025,Bengaluru Cubbon Park Police Station,Mumbai,Maharashtra,Cyber Fraud,IPC 468,SYN_P_0071,Fictional demo FIR describing reported cyber fraud activity involving Ayush Arora.,0.909
+FIR_0456,2025,Connaught Place Police Station,Delhi,Delhi,Robbery,Arms Act 25,SYN_P_0195,Fictional demo FIR describing reported robbery activity involving Pallavi Gupta.,0.873
+FIR_0457,2023,Pune Shivajinagar Police Station,Kanpur,Uttar Pradesh,Forgery,Arms Act 25,SYN_P_1029,Fictional demo FIR describing reported forgery activity involving Simran Jain.,0.917
+FIR_0458,2021,Chennai Anna Nagar Police Station,Dehradun,Uttarakhand,Assault,IT Act 66D,SYN_P_0100,Fictional demo FIR describing reported assault activity involving Komal Menon.,0.817
+FIR_0459,2021,Dehradun City Police Station,Haridwar,Uttarakhand,Robbery,PMLA 3,SYN_P_0926,Fictional demo FIR describing reported robbery activity involving Yash Rana.,0.85
+FIR_0460,2021,Lucknow Hazratganj Police Station,Patna,Bihar,Robbery,IT Act 66D,SYN_P_0225,Fictional demo FIR describing reported robbery activity involving Nisha Tripathi.,0.882
+FIR_0461,2024,Lajpat Nagar Police Station,Nagpur,Maharashtra,Robbery,IPC 471,SYN_P_0012,Fictional demo FIR describing reported robbery activity involving Isha Verma.,0.818
+FIR_0462,2024,Kanpur Kotwali Police Station,Patna,Bihar,Assault,IT Act 66D,SYN_P_0697,Fictional demo FIR describing reported assault activity involving Pranav Jadhav.,0.95
+FIR_0463,2022,Ghaziabad Kotwali Police Station,Meerut,Uttar Pradesh,Robbery,PMLA 3,SYN_P_0238,Fictional demo FIR describing reported robbery activity involving Abhishek Srivastava.,0.898
+FIR_0464,2024,Connaught Place Police Station,Bengaluru,Karnataka,Money Laundering,Arms Act 25,SYN_P_0898,Fictional demo FIR describing reported money laundering activity involving Anurag Banerjee.,0.969
+FIR_0465,2021,Ahmedabad Navrangpura Police Station,Indore,Madhya Pradesh,Smuggling,IT Act 66D,SYN_P_0755,Fictional demo FIR describing reported smuggling activity involving Tanvi Mehta.,0.787
+FIR_0466,2021,Saket Police Station,Chennai,Tamil Nadu,Theft,IPC 384,SYN_P_0894,Fictional demo FIR describing reported theft activity involving Sakshi Das.,0.835
+FIR_0467,2025,Kanpur Kotwali Police Station,Bengaluru,Karnataka,Theft,IPC 392,SYN_P_0733,Fictional demo FIR describing reported theft activity involving Pranav Sethi.,0.805
+FIR_0468,2022,Lucknow Hazratganj Police Station,Ghaziabad,Uttar Pradesh,Assault,IT Act 66D,SYN_P_0332,Fictional demo FIR describing reported assault activity involving Muskan Patil.,0.919
+FIR_0469,2024,Saket Police Station,Chennai,Tamil Nadu,Cyber Fraud,IPC 392,SYN_P_0765,Fictional demo FIR describing reported cyber fraud activity involving Ayush Das.,0.902
+FIR_0470,2022,Lucknow Hazratganj Police Station,Chennai,Tamil Nadu,Fraud,IPC 392,SYN_P_0238,Fictional demo FIR describing reported fraud activity involving Abhishek Srivastava.,0.843
+FIR_0471,2021,Chennai Anna Nagar Police Station,Delhi,Delhi,Money Laundering,IPC 420,SYN_P_0801,Fictional demo FIR describing reported money laundering activity involving Pallavi Wadhwa.,0.804
+FIR_0472,2021,Dehradun City Police Station,Kolkata,West Bengal,Smuggling,IPC 392,SYN_P_0545,Fictional demo FIR describing reported smuggling activity involving Nisha Dubey.,0.847
+FIR_0473,2022,Hyderabad Central Crime Police Station,Bengaluru,Karnataka,Illegal Arms,IT Act 66D,SYN_P_0500,Fictional demo FIR describing reported illegal arms activity involving Tanvi Mishra.,0.881
+FIR_0474,2025,Kolkata Park Street Police Station,Kanpur,Uttar Pradesh,Theft,IPC 384,SYN_P_0203,Fictional demo FIR describing reported theft activity involving Rishabh Chauhan.,0.811
+FIR_0475,2021,Hyderabad Central Crime Police Station,Hyderabad,Telangana,Robbery,Arms Act 25,SYN_P_0261,Fictional demo FIR describing reported robbery activity involving Aditi Sinha.,0.988
+FIR_0476,2022,Ahmedabad Navrangpura Police Station,Kolkata,West Bengal,Robbery,IPC 506,SYN_P_0149,Fictional demo FIR describing reported robbery activity involving Sakshi Bhatia.,0.977
+FIR_0477,2024,Lajpat Nagar Police Station,Ahmedabad,Gujarat,Fraud,IPC 506,SYN_P_0538,Fictional demo FIR describing reported fraud activity involving Rahul Joshi.,0.944
+FIR_0478,2024,Bengaluru Cubbon Park Police Station,Jaipur,Rajasthan,Money Laundering,PMLA 3,SYN_P_0057,Fictional demo FIR describing reported money laundering activity involving Amit Singh.,0.956
+FIR_0479,2024,Chennai Anna Nagar Police Station,Bhubaneswar,Odisha,Robbery,IT Act 66C,SYN_P_0461,Fictional demo FIR describing reported robbery activity involving Saurabh Rana.,0.916
+FIR_0480,2025,Dehradun City Police Station,Chandigarh,Chandigarh,Assault,IT Act 66D,SYN_P_0323,Fictional demo FIR describing reported assault activity involving Karan Jadhav.,0.942
+FIR_0481,2024,Saket Police Station,Bhopal,Madhya Pradesh,Fraud,Arms Act 25,SYN_P_0887,Fictional demo FIR describing reported fraud activity involving Deepak Patil.,0.798
+FIR_0482,2023,Jaipur Sanganer Police Station,Indore,Madhya Pradesh,Fraud,IT Act 66C,SYN_P_0299,Fictional demo FIR describing reported fraud activity involving Nikhil Dutta.,0.839
+FIR_0483,2025,Haridwar Kotwali Police Station,Haridwar,Uttarakhand,Smuggling,IPC 471,SYN_P_0700,Fictional demo FIR describing reported smuggling activity involving Ayush Shukla.,0.96
+FIR_0484,2024,Kolkata Park Street Police Station,Hyderabad,Telangana,Forgery,PMLA 3,SYN_P_0963,Fictional demo FIR describing reported forgery activity involving Pranav Bansal.,0.906
+FIR_0485,2021,Hyderabad Central Crime Police Station,Bengaluru,Karnataka,Money Laundering,IPC 506,SYN_P_0282,Fictional demo FIR describing reported money laundering activity involving Pranav Nair.,0.892
+FIR_0486,2023,Dehradun City Police Station,Dehradun,Uttarakhand,Cyber Fraud,PMLA 3,SYN_P_0129,Fictional demo FIR describing reported cyber fraud activity involving Aarav Gupta.,0.888
+FIR_0487,2025,Lucknow Hazratganj Police Station,Mumbai,Maharashtra,Illegal Arms,IPC 506,SYN_P_0642,Fictional demo FIR describing reported illegal arms activity involving Tanvi Sinha.,0.984
+FIR_0488,2024,Jaipur Sanganer Police Station,Mumbai,Maharashtra,Smuggling,IPC 471,SYN_P_0393,Fictional demo FIR describing reported smuggling activity involving Muskan Sarkar.,0.906
+FIR_0489,2023,Lucknow Hazratganj Police Station,Bhopal,Madhya Pradesh,Robbery,IPC 506,SYN_P_0386,Fictional demo FIR describing reported robbery activity involving Vivaan Mukherjee.,0.93
+FIR_0490,2025,Chennai Anna Nagar Police Station,Jaipur,Rajasthan,Forgery,IPC 392,SYN_P_0658,Fictional demo FIR describing reported forgery activity involving Karan Malhotra.,0.805
+FIR_0491,2022,Haridwar Kotwali Police Station,Indore,Madhya Pradesh,Illegal Arms,IPC 392,SYN_P_0597,Fictional demo FIR describing reported illegal arms activity involving Rahul Shukla.,0.966
+FIR_0492,2024,Hyderabad Central Crime Police Station,Pune,Maharashtra,Illegal Arms,IPC 471,SYN_P_1018,Fictional demo FIR describing reported illegal arms activity involving Tanvi Patil.,0.976
+FIR_0493,2022,Jaipur Sanganer Police Station,Chennai,Tamil Nadu,Money Laundering,PMLA 3,SYN_P_0941,Fictional demo FIR describing reported money laundering activity involving Gaurav Yadav.,0.795
+FIR_0494,2024,Connaught Place Police Station,Nagpur,Maharashtra,Smuggling,IPC 384,SYN_P_0255,Fictional demo FIR describing reported smuggling activity involving Pranav Mishra.,0.82
+FIR_0495,2025,Jaipur Sanganer Police Station,Bengaluru,Karnataka,Forgery,Arms Act 25,SYN_P_0522,Fictional demo FIR describing reported forgery activity involving Akash Rao.,0.899
+FIR_0496,2024,Hyderabad Central Crime Police Station,Dehradun,Uttarakhand,Fraud,PMLA 3,SYN_P_0408,Fictional demo FIR describing reported fraud activity involving Abhishek Iyer.,0.803

@@ -1,0 +1,85 @@
+location_id,location_name,city,state,country,source
+LOC_0001,Pune Industrial Area,Pune,Maharashtra,India,synthetic
+LOC_0002,Bhubaneswar Market,Bhubaneswar,Odisha,India,synthetic
+LOC_0003,Jaipur Railway Road,Jaipur,Rajasthan,India,synthetic
+LOC_0004,Indore Market,Indore,Madhya Pradesh,India,synthetic
+LOC_0005,Dehradun Main Road,Dehradun,Uttarakhand,India,synthetic
+LOC_0006,Patna Tech Park,Patna,Bihar,India,synthetic
+LOC_0007,Surat Tech Park,Surat,Gujarat,India,synthetic
+LOC_0008,Kanpur Bus Stand,Kanpur,Uttar Pradesh,India,synthetic
+LOC_0009,Patna Bus Stand,Patna,Bihar,India,synthetic
+LOC_0010,Mumbai Railway Road,Mumbai,Maharashtra,India,synthetic
+LOC_0011,Kolkata Railway Road,Kolkata,West Bengal,India,synthetic
+LOC_0012,Dehradun Bus Stand,Dehradun,Uttarakhand,India,synthetic
+LOC_0013,Jaipur Market,Jaipur,Rajasthan,India,synthetic
+LOC_0014,Kolkata Tech Park,Kolkata,West Bengal,India,synthetic
+LOC_0015,Ranchi Bus Stand,Ranchi,Jharkhand,India,synthetic
+LOC_0016,Bhopal Market,Bhopal,Madhya Pradesh,India,synthetic
+LOC_0017,Ahmedabad Sector,Ahmedabad,Gujarat,India,synthetic
+LOC_0018,Surat Tech Park,Surat,Gujarat,India,synthetic
+LOC_0019,Pune Bus Stand,Pune,Maharashtra,India,synthetic
+LOC_0020,Meerut Market,Meerut,Uttar Pradesh,India,synthetic
+LOC_0021,Bengaluru Main Road,Bengaluru,Karnataka,India,synthetic
+LOC_0022,Lucknow Railway Road,Lucknow,Uttar Pradesh,India,synthetic
+LOC_0023,Patna Industrial Area,Patna,Bihar,India,synthetic
+LOC_0024,Hyderabad Bus Stand,Hyderabad,Telangana,India,synthetic
+LOC_0025,Bhopal Tech Park,Bhopal,Madhya Pradesh,India,synthetic
+LOC_0026,Patna Industrial Area,Patna,Bihar,India,synthetic
+LOC_0027,Haridwar Railway Road,Haridwar,Uttarakhand,India,synthetic
+LOC_0028,Haridwar Market,Haridwar,Uttarakhand,India,synthetic
+LOC_0029,Haridwar Market,Haridwar,Uttarakhand,India,synthetic
+LOC_0030,Surat Market,Surat,Gujarat,India,synthetic
+LOC_0031,Jaipur Bus Stand,Jaipur,Rajasthan,India,synthetic
+LOC_0032,Kolkata Market,Kolkata,West Bengal,India,synthetic
+LOC_0033,Noida Railway Road,Noida,Uttar Pradesh,India,synthetic
+LOC_0034,Haridwar Market,Haridwar,Uttarakhand,India,synthetic
+LOC_0035,Ahmedabad Bus Stand,Ahmedabad,Gujarat,India,synthetic
+LOC_0036,Patna Sector,Patna,Bihar,India,synthetic
+LOC_0037,Delhi Market,Delhi,Delhi,India,synthetic
+LOC_0038,Dehradun Industrial Area,Dehradun,Uttarakhand,India,synthetic
+LOC_0039,Pune Bus Stand,Pune,Maharashtra,India,synthetic
+LOC_0040,Hyderabad Main Road,Hyderabad,Telangana,India,synthetic
+LOC_0041,Chennai Industrial Area,Chennai,Tamil Nadu,India,synthetic
+LOC_0042,Ghaziabad Main Road,Ghaziabad,Uttar Pradesh,India,synthetic
+LOC_0043,Dehradun Industrial Area,Dehradun,Uttarakhand,India,synthetic
+LOC_0044,Bhubaneswar Industrial Area,Bhubaneswar,Odisha,India,synthetic
+LOC_0045,Ahmedabad Tech Park,Ahmedabad,Gujarat,India,synthetic
+LOC_0046,Ghaziabad Bus Stand,Ghaziabad,Uttar Pradesh,India,synthetic
+LOC_0047,Chandigarh Market,Chandigarh,Chandigarh,India,synthetic
+LOC_0048,Bengaluru Bus Stand,Bengaluru,Karnataka,India,synthetic
+LOC_0049,Chandigarh Sector,Chandigarh,Chandigarh,India,synthetic
+LOC_0050,Patna Main Road,Patna,Bihar,India,synthetic
+LOC_0051,Nagpur Railway Road,Nagpur,Maharashtra,India,synthetic
+LOC_0052,Nagpur Market,Nagpur,Maharashtra,India,synthetic
+LOC_0053,Dehradun Bus Stand,Dehradun,Uttarakhand,India,synthetic
+LOC_0054,Bhopal Bus Stand,Bhopal,Madhya Pradesh,India,synthetic
+LOC_0055,Kanpur Tech Park,Kanpur,Uttar Pradesh,India,synthetic
+LOC_0056,Ahmedabad Main Road,Ahmedabad,Gujarat,India,synthetic
+LOC_0057,Mumbai Sector,Mumbai,Maharashtra,India,synthetic
+LOC_0058,Kolkata Industrial Area,Kolkata,West Bengal,India,synthetic
+LOC_0059,Patna Sector,Patna,Bihar,India,synthetic
+LOC_0060,Jaipur Bus Stand,Jaipur,Rajasthan,India,synthetic
+LOC_0061,Lucknow Railway Road,Lucknow,Uttar Pradesh,India,synthetic
+LOC_0062,Chennai Industrial Area,Chennai,Tamil Nadu,India,synthetic
+LOC_0063,Haridwar Bus Stand,Haridwar,Uttarakhand,India,synthetic
+LOC_0064,Ghaziabad Bus Stand,Ghaziabad,Uttar Pradesh,India,synthetic
+LOC_0065,Kolkata Main Road,Kolkata,West Bengal,India,synthetic
+LOC_0066,Surat Tech Park,Surat,Gujarat,India,synthetic
+LOC_0067,Kanpur Railway Road,Kanpur,Uttar Pradesh,India,synthetic
+LOC_0068,Ahmedabad Market,Ahmedabad,Gujarat,India,synthetic
+LOC_0069,Lucknow Tech Park,Lucknow,Uttar Pradesh,India,synthetic
+LOC_0070,Surat Main Road,Surat,Gujarat,India,synthetic
+LOC_0071,Mumbai Tech Park,Mumbai,Maharashtra,India,synthetic
+LOC_0072,Patna Main Road,Patna,Bihar,India,synthetic
+LOC_0073,Pune Railway Road,Pune,Maharashtra,India,synthetic
+LOC_0074,Pune Railway Road,Pune,Maharashtra,India,synthetic
+LOC_0075,Surat Railway Road,Surat,Gujarat,India,synthetic
+LOC_0076,Ahmedabad Railway Road,Ahmedabad,Gujarat,India,synthetic
+LOC_0077,Delhi Tech Park,Delhi,Delhi,India,synthetic
+LOC_0078,Delhi Sector,Delhi,Delhi,India,synthetic
+LOC_0079,Ahmedabad Market,Ahmedabad,Gujarat,India,synthetic
+LOC_0080,Lucknow Tech Park,Lucknow,Uttar Pradesh,India,synthetic
+LOC_0081,Haridwar Sector,Haridwar,Uttarakhand,India,synthetic
+LOC_0082,Chandigarh Tech Park,Chandigarh,Chandigarh,India,synthetic
+LOC_0083,Hyderabad Bus Stand,Hyderabad,Telangana,India,synthetic
+LOC_0084,Lucknow Tech Park,Lucknow,Uttar Pradesh,India,synthetic

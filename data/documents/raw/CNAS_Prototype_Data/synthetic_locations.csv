@@ -1,0 +1,85 @@
+location_id,location_name,city,state,country
+LOC_0001,Pune Industrial Area,Pune,Maharashtra,India
+LOC_0002,Bhubaneswar Market,Bhubaneswar,Odisha,India
+LOC_0003,Jaipur Railway Road,Jaipur,Rajasthan,India
+LOC_0004,Indore Market,Indore,Madhya Pradesh,India
+LOC_0005,Dehradun Main Road,Dehradun,Uttarakhand,India
+LOC_0006,Patna Tech Park,Patna,Bihar,India
+LOC_0007,Surat Tech Park,Surat,Gujarat,India
+LOC_0008,Kanpur Bus Stand,Kanpur,Uttar Pradesh,India
+LOC_0009,Patna Bus Stand,Patna,Bihar,India
+LOC_0010,Mumbai Railway Road,Mumbai,Maharashtra,India
+LOC_0011,Kolkata Railway Road,Kolkata,West Bengal,India
+LOC_0012,Dehradun Bus Stand,Dehradun,Uttarakhand,India
+LOC_0013,Jaipur Market,Jaipur,Rajasthan,India
+LOC_0014,Kolkata Tech Park,Kolkata,West Bengal,India
+LOC_0015,Ranchi Bus Stand,Ranchi,Jharkhand,India
+LOC_0016,Bhopal Market,Bhopal,Madhya Pradesh,India
+LOC_0017,Ahmedabad Sector,Ahmedabad,Gujarat,India
+LOC_0018,Surat Tech Park,Surat,Gujarat,India
+LOC_0019,Pune Bus Stand,Pune,Maharashtra,India
+LOC_0020,Meerut Market,Meerut,Uttar Pradesh,India
+LOC_0021,Bengaluru Main Road,Bengaluru,Karnataka,India
+LOC_0022,Lucknow Railway Road,Lucknow,Uttar Pradesh,India
+LOC_0023,Patna Industrial Area,Patna,Bihar,India
+LOC_0024,Hyderabad Bus Stand,Hyderabad,Telangana,India
+LOC_0025,Bhopal Tech Park,Bhopal,Madhya Pradesh,India
+LOC_0026,Patna Industrial Area,Patna,Bihar,India
+LOC_0027,Haridwar Railway Road,Haridwar,Uttarakhand,India
+LOC_0028,Haridwar Market,Haridwar,Uttarakhand,India
+LOC_0029,Haridwar Market,Haridwar,Uttarakhand,India
+LOC_0030,Surat Market,Surat,Gujarat,India
+LOC_0031,Jaipur Bus Stand,Jaipur,Rajasthan,India
+LOC_0032,Kolkata Market,Kolkata,West Bengal,India
+LOC_0033,Noida Railway Road,Noida,Uttar Pradesh,India
+LOC_0034,Haridwar Market,Haridwar,Uttarakhand,India
+LOC_0035,Ahmedabad Bus Stand,Ahmedabad,Gujarat,India
+LOC_0036,Patna Sector,Patna,Bihar,India
+LOC_0037,Delhi Market,Delhi,Delhi,India
+LOC_0038,Dehradun Industrial Area,Dehradun,Uttarakhand,India
+LOC_0039,Pune Bus Stand,Pune,Maharashtra,India
+LOC_0040,Hyderabad Main Road,Hyderabad,Telangana,India
+LOC_0041,Chennai Industrial Area,Chennai,Tamil Nadu,India
+LOC_0042,Ghaziabad Main Road,Ghaziabad,Uttar Pradesh,India
+LOC_0043,Dehradun Industrial Area,Dehradun,Uttarakhand,India
+LOC_0044,Bhubaneswar Industrial Area,Bhubaneswar,Odisha,India
+LOC_0045,Ahmedabad Tech Park,Ahmedabad,Gujarat,India
+LOC_0046,Ghaziabad Bus Stand,Ghaziabad,Uttar Pradesh,India
+LOC_0047,Chandigarh Market,Chandigarh,Chandigarh,India
+LOC_0048,Bengaluru Bus Stand,Bengaluru,Karnataka,India
+LOC_0049,Chandigarh Sector,Chandigarh,Chandigarh,India
+LOC_0050,Patna Main Road,Patna,Bihar,India
+LOC_0051,Nagpur Railway Road,Nagpur,Maharashtra,India
+LOC_0052,Nagpur Market,Nagpur,Maharashtra,India
+LOC_0053,Dehradun Bus Stand,Dehradun,Uttarakhand,India
+LOC_0054,Bhopal Bus Stand,Bhopal,Madhya Pradesh,India
+LOC_0055,Kanpur Tech Park,Kanpur,Uttar Pradesh,India
+LOC_0056,Ahmedabad Main Road,Ahmedabad,Gujarat,India
+LOC_0057,Mumbai Sector,Mumbai,Maharashtra,India
+LOC_0058,Kolkata Industrial Area,Kolkata,West Bengal,India
+LOC_0059,Patna Sector,Patna,Bihar,India
+LOC_0060,Jaipur Bus Stand,Jaipur,Rajasthan,India
+LOC_0061,Lucknow Railway Road,Lucknow,Uttar Pradesh,India
+LOC_0062,Chennai Industrial Area,Chennai,Tamil Nadu,India
+LOC_0063,Haridwar Bus Stand,Haridwar,Uttarakhand,India
+LOC_0064,Ghaziabad Bus Stand,Ghaziabad,Uttar Pradesh,India
+LOC_0065,Kolkata Main Road,Kolkata,West Bengal,India
+LOC_0066,Surat Tech Park,Surat,Gujarat,India
+LOC_0067,Kanpur Railway Road,Kanpur,Uttar Pradesh,India
+LOC_0068,Ahmedabad Market,Ahmedabad,Gujarat,India
+LOC_0069,Lucknow Tech Park,Lucknow,Uttar Pradesh,India
+LOC_0070,Surat Main Road,Surat,Gujarat,India
+LOC_0071,Mumbai Tech Park,Mumbai,Maharashtra,India
+LOC_0072,Patna Main Road,Patna,Bihar,India
+LOC_0073,Pune Railway Road,Pune,Maharashtra,India
+LOC_0074,Pune Railway Road,Pune,Maharashtra,India
+LOC_0075,Surat Railway Road,Surat,Gujarat,India
+LOC_0076,Ahmedabad Railway Road,Ahmedabad,Gujarat,India
+LOC_0077,Delhi Tech Park,Delhi,Delhi,India
+LOC_0078,Delhi Sector,Delhi,Delhi,India
+LOC_0079,Ahmedabad Market,Ahmedabad,Gujarat,India
+LOC_0080,Lucknow Tech Park,Lucknow,Uttar Pradesh,India
+LOC_0081,Haridwar Sector,Haridwar,Uttarakhand,India
+LOC_0082,Chandigarh Tech Park,Chandigarh,Chandigarh,India
+LOC_0083,Hyderabad Bus Stand,Hyderabad,Telangana,India
+LOC_0084,Lucknow Tech Park,Lucknow,Uttar Pradesh,India

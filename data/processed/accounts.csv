@@ -1,0 +1,1041 @@
+account_id,account_number_masked,bank_name,person_id,city,currency,source
+ACC_0001,XX000001,Bank of Baroda,SYN_P_0001,Bengaluru,INR,synthetic
+ACC_0002,XX000002,HDFC Bank,SYN_P_0002,Dehradun,INR,synthetic
+ACC_0003,XX000003,HDFC Bank,SYN_P_0003,Indore,INR,synthetic
+ACC_0004,XX000004,State Bank of India,SYN_P_0004,Kolkata,INR,synthetic
+ACC_0005,XX000005,Bank of Baroda,SYN_P_0005,Kolkata,INR,synthetic
+ACC_0006,XX000006,State Bank of India,SYN_P_0006,Chandigarh,INR,synthetic
+ACC_0007,XX000007,Axis Bank,SYN_P_0007,Bhubaneswar,INR,synthetic
+ACC_0008,XX000008,Bank of Baroda,SYN_P_0008,Noida,INR,synthetic
+ACC_0009,XX000009,Axis Bank,SYN_P_0009,Kolkata,INR,synthetic
+ACC_0010,XX000010,ICICI Bank,SYN_P_0010,Bengaluru,INR,synthetic
+ACC_0011,XX000011,HDFC Bank,SYN_P_0011,Kanpur,INR,synthetic
+ACC_0012,XX000012,Bank of Baroda,SYN_P_0012,Hyderabad,INR,synthetic
+ACC_0013,XX000013,HDFC Bank,SYN_P_0013,Indore,INR,synthetic
+ACC_0014,XX000014,State Bank of India,SYN_P_0014,Bhubaneswar,INR,synthetic
+ACC_0015,XX000015,HDFC Bank,SYN_P_0015,Bhopal,INR,synthetic
+ACC_0016,XX000016,Bank of Baroda,SYN_P_0016,Nagpur,INR,synthetic
+ACC_0017,XX000017,Axis Bank,SYN_P_0017,Lucknow,INR,synthetic
+ACC_0018,XX000018,Axis Bank,SYN_P_0018,Patna,INR,synthetic
+ACC_0019,XX000019,State Bank of India,SYN_P_0019,Chandigarh,INR,synthetic
+ACC_0020,XX000020,State Bank of India,SYN_P_0020,Noida,INR,synthetic
+ACC_0021,XX000021,Punjab National Bank,SYN_P_0021,Kolkata,INR,synthetic
+ACC_0022,XX000022,ICICI Bank,SYN_P_0022,Ranchi,INR,synthetic
+ACC_0023,XX000023,State Bank of India,SYN_P_0023,Meerut,INR,synthetic
+ACC_0024,XX000024,State Bank of India,SYN_P_0024,Jaipur,INR,synthetic
+ACC_0025,XX000025,Bank of Baroda,SYN_P_0025,Delhi,INR,synthetic
+ACC_0026,XX000026,State Bank of India,SYN_P_0026,Surat,INR,synthetic
+ACC_0027,XX000027,Axis Bank,SYN_P_0027,Mumbai,INR,synthetic
+ACC_0028,XX000028,ICICI Bank,SYN_P_0028,Ahmedabad,INR,synthetic
+ACC_0029,XX000029,Punjab National Bank,SYN_P_0029,Lucknow,INR,synthetic
+ACC_0030,XX000030,Bank of Baroda,SYN_P_0030,Ahmedabad,INR,synthetic
+ACC_0031,XX000031,State Bank of India,SYN_P_0031,Ranchi,INR,synthetic
+ACC_0032,XX000032,HDFC Bank,SYN_P_0032,Jaipur,INR,synthetic
+ACC_0033,XX000033,ICICI Bank,SYN_P_0033,Ahmedabad,INR,synthetic
+ACC_0034,XX000034,State Bank of India,SYN_P_0034,Hyderabad,INR,synthetic
+ACC_0035,XX000035,Bank of Baroda,SYN_P_0035,Bhopal,INR,synthetic
+ACC_0036,XX000036,Axis Bank,SYN_P_0036,Bengaluru,INR,synthetic
+ACC_0037,XX000037,Axis Bank,SYN_P_0037,Bhubaneswar,INR,synthetic
+ACC_0038,XX000038,HDFC Bank,SYN_P_0038,Bhubaneswar,INR,synthetic
+ACC_0039,XX000039,Bank of Baroda,SYN_P_0039,Noida,INR,synthetic
+ACC_0040,XX000040,Punjab National Bank,SYN_P_0040,Ranchi,INR,synthetic
+ACC_0041,XX000041,Punjab National Bank,SYN_P_0041,Lucknow,INR,synthetic
+ACC_0042,XX000042,HDFC Bank,SYN_P_0042,Hyderabad,INR,synthetic
+ACC_0043,XX000043,HDFC Bank,SYN_P_0043,Jaipur,INR,synthetic
+ACC_0044,XX000044,ICICI Bank,SYN_P_0044,Chennai,INR,synthetic
+ACC_0045,XX000045,Axis Bank,SYN_P_0045,Mumbai,INR,synthetic
+ACC_0046,XX000046,Axis Bank,SYN_P_0046,Patna,INR,synthetic
+ACC_0047,XX000047,Bank of Baroda,SYN_P_0047,Bengaluru,INR,synthetic
+ACC_0048,XX000048,ICICI Bank,SYN_P_0048,Hyderabad,INR,synthetic
+ACC_0049,XX000049,HDFC Bank,SYN_P_0049,Nagpur,INR,synthetic
+ACC_0050,XX000050,HDFC Bank,SYN_P_0050,Mumbai,INR,synthetic
+ACC_0051,XX000051,Bank of Baroda,SYN_P_0051,Kanpur,INR,synthetic
+ACC_0052,XX000052,HDFC Bank,SYN_P_0052,Surat,INR,synthetic
+ACC_0053,XX000053,Axis Bank,SYN_P_0053,Chennai,INR,synthetic
+ACC_0054,XX000054,Punjab National Bank,SYN_P_0054,Mumbai,INR,synthetic
+ACC_0055,XX000055,HDFC Bank,SYN_P_0055,Chennai,INR,synthetic
+ACC_0056,XX000056,State Bank of India,SYN_P_0056,Pune,INR,synthetic
+ACC_0057,XX000057,Punjab National Bank,SYN_P_0057,Patna,INR,synthetic
+ACC_0058,XX000058,State Bank of India,SYN_P_0058,Bhubaneswar,INR,synthetic
+ACC_0059,XX000059,Bank of Baroda,SYN_P_0059,Patna,INR,synthetic
+ACC_0060,XX000060,Bank of Baroda,SYN_P_0060,Indore,INR,synthetic
+ACC_0061,XX000061,State Bank of India,SYN_P_0061,Ranchi,INR,synthetic
+ACC_0062,XX000062,HDFC Bank,SYN_P_0062,Dehradun,INR,synthetic
+ACC_0063,XX000063,State Bank of India,SYN_P_0063,Bhopal,INR,synthetic
+ACC_0064,XX000064,HDFC Bank,SYN_P_0064,Bengaluru,INR,synthetic
+ACC_0065,XX000065,State Bank of India,SYN_P_0065,Jaipur,INR,synthetic
+ACC_0066,XX000066,ICICI Bank,SYN_P_0066,Chandigarh,INR,synthetic
+ACC_0067,XX000067,Axis Bank,SYN_P_0067,Dehradun,INR,synthetic
+ACC_0068,XX000068,Punjab National Bank,SYN_P_0068,Chennai,INR,synthetic
+ACC_0069,XX000069,Punjab National Bank,SYN_P_0069,Haridwar,INR,synthetic
+ACC_0070,XX000070,State Bank of India,SYN_P_0070,Chandigarh,INR,synthetic
+ACC_0071,XX000071,ICICI Bank,SYN_P_0071,Haridwar,INR,synthetic
+ACC_0072,XX000072,HDFC Bank,SYN_P_0072,Haridwar,INR,synthetic
+ACC_0073,XX000073,Bank of Baroda,SYN_P_0073,Ranchi,INR,synthetic
+ACC_0074,XX000074,Bank of Baroda,SYN_P_0074,Jaipur,INR,synthetic
+ACC_0075,XX000075,Bank of Baroda,SYN_P_0075,Ranchi,INR,synthetic
+ACC_0076,XX000076,Bank of Baroda,SYN_P_0076,Ranchi,INR,synthetic
+ACC_0077,XX000077,Punjab National Bank,SYN_P_0077,Bengaluru,INR,synthetic
+ACC_0078,XX000078,Axis Bank,SYN_P_0078,Mumbai,INR,synthetic
+ACC_0079,XX000079,HDFC Bank,SYN_P_0079,Bengaluru,INR,synthetic
+ACC_0080,XX000080,HDFC Bank,SYN_P_0080,Pune,INR,synthetic
+ACC_0081,XX000081,Punjab National Bank,SYN_P_0081,Chennai,INR,synthetic
+ACC_0082,XX000082,Axis Bank,SYN_P_0082,Bhubaneswar,INR,synthetic
+ACC_0083,XX000083,Punjab National Bank,SYN_P_0083,Dehradun,INR,synthetic
+ACC_0084,XX000084,ICICI Bank,SYN_P_0084,Haridwar,INR,synthetic
+ACC_0085,XX000085,ICICI Bank,SYN_P_0085,Meerut,INR,synthetic
+ACC_0086,XX000086,Punjab National Bank,SYN_P_0086,Kolkata,INR,synthetic
+ACC_0087,XX000087,Punjab National Bank,SYN_P_0087,Patna,INR,synthetic
+ACC_0088,XX000088,HDFC Bank,SYN_P_0088,Chennai,INR,synthetic
+ACC_0089,XX000089,State Bank of India,SYN_P_0089,Nagpur,INR,synthetic
+ACC_0090,XX000090,Axis Bank,SYN_P_0090,Nagpur,INR,synthetic
+ACC_0091,XX000091,Axis Bank,SYN_P_0091,Pune,INR,synthetic
+ACC_0092,XX000092,Bank of Baroda,SYN_P_0092,Lucknow,INR,synthetic
+ACC_0093,XX000093,Axis Bank,SYN_P_0093,Haridwar,INR,synthetic
+ACC_0094,XX000094,State Bank of India,SYN_P_0094,Noida,INR,synthetic
+ACC_0095,XX000095,Punjab National Bank,SYN_P_0095,Haridwar,INR,synthetic
+ACC_0096,XX000096,State Bank of India,SYN_P_0096,Ranchi,INR,synthetic
+ACC_0097,XX000097,HDFC Bank,SYN_P_0097,Ghaziabad,INR,synthetic
+ACC_0098,XX000098,Punjab National Bank,SYN_P_0098,Pune,INR,synthetic
+ACC_0099,XX000099,ICICI Bank,SYN_P_0099,Surat,INR,synthetic
+ACC_0100,XX000100,State Bank of India,SYN_P_0100,Indore,INR,synthetic
+ACC_0101,XX000101,State Bank of India,SYN_P_0101,Dehradun,INR,synthetic
+ACC_0102,XX000102,Axis Bank,SYN_P_0102,Bhubaneswar,INR,synthetic
+ACC_0103,XX000103,HDFC Bank,SYN_P_0103,Bengaluru,INR,synthetic
+ACC_0104,XX000104,State Bank of India,SYN_P_0104,Jaipur,INR,synthetic
+ACC_0105,XX000105,Punjab National Bank,SYN_P_0105,Jaipur,INR,synthetic
+ACC_0106,XX000106,Punjab National Bank,SYN_P_0106,Chennai,INR,synthetic
+ACC_0107,XX000107,ICICI Bank,SYN_P_0107,Dehradun,INR,synthetic
+ACC_0108,XX000108,State Bank of India,SYN_P_0108,Chennai,INR,synthetic
+ACC_0109,XX000109,HDFC Bank,SYN_P_0109,Ranchi,INR,synthetic
+ACC_0110,XX000110,ICICI Bank,SYN_P_0110,Dehradun,INR,synthetic
+ACC_0111,XX000111,ICICI Bank,SYN_P_0111,Lucknow,INR,synthetic
+ACC_0112,XX000112,Axis Bank,SYN_P_0112,Meerut,INR,synthetic
+ACC_0113,XX000113,Bank of Baroda,SYN_P_0113,Bhopal,INR,synthetic
+ACC_0114,XX000114,ICICI Bank,SYN_P_0114,Bhubaneswar,INR,synthetic
+ACC_0115,XX000115,State Bank of India,SYN_P_0115,Kolkata,INR,synthetic
+ACC_0116,XX000116,HDFC Bank,SYN_P_0116,Chandigarh,INR,synthetic
+ACC_0117,XX000117,ICICI Bank,SYN_P_0117,Chandigarh,INR,synthetic
+ACC_0118,XX000118,State Bank of India,SYN_P_0118,Noida,INR,synthetic
+ACC_0119,XX000119,Punjab National Bank,SYN_P_0119,Patna,INR,synthetic
+ACC_0120,XX000120,Punjab National Bank,SYN_P_0120,Hyderabad,INR,synthetic
+ACC_0121,XX000121,HDFC Bank,SYN_P_0121,Chandigarh,INR,synthetic
+ACC_0122,XX000122,Punjab National Bank,SYN_P_0122,Indore,INR,synthetic
+ACC_0123,XX000123,Punjab National Bank,SYN_P_0123,Chandigarh,INR,synthetic
+ACC_0124,XX000124,Punjab National Bank,SYN_P_0124,Noida,INR,synthetic
+ACC_0125,XX000125,ICICI Bank,SYN_P_0125,Meerut,INR,synthetic
+ACC_0126,XX000126,Axis Bank,SYN_P_0126,Ahmedabad,INR,synthetic
+ACC_0127,XX000127,Punjab National Bank,SYN_P_0127,Mumbai,INR,synthetic
+ACC_0128,XX000128,State Bank of India,SYN_P_0128,Ranchi,INR,synthetic
+ACC_0129,XX000129,Punjab National Bank,SYN_P_0129,Bengaluru,INR,synthetic
+ACC_0130,XX000130,Bank of Baroda,SYN_P_0130,Meerut,INR,synthetic
+ACC_0131,XX000131,State Bank of India,SYN_P_0131,Patna,INR,synthetic
+ACC_0132,XX000132,Punjab National Bank,SYN_P_0132,Lucknow,INR,synthetic
+ACC_0133,XX000133,Axis Bank,SYN_P_0133,Delhi,INR,synthetic
+ACC_0134,XX000134,ICICI Bank,SYN_P_0134,Chennai,INR,synthetic
+ACC_0135,XX000135,Bank of Baroda,SYN_P_0135,Kanpur,INR,synthetic
+ACC_0136,XX000136,State Bank of India,SYN_P_0136,Ahmedabad,INR,synthetic
+ACC_0137,XX000137,State Bank of India,SYN_P_0137,Indore,INR,synthetic
+ACC_0138,XX000138,ICICI Bank,SYN_P_0138,Bengaluru,INR,synthetic
+ACC_0139,XX000139,Axis Bank,SYN_P_0139,Bengaluru,INR,synthetic
+ACC_0140,XX000140,ICICI Bank,SYN_P_0140,Indore,INR,synthetic
+ACC_0141,XX000141,HDFC Bank,SYN_P_0141,Jaipur,INR,synthetic
+ACC_0142,XX000142,ICICI Bank,SYN_P_0142,Haridwar,INR,synthetic
+ACC_0143,XX000143,State Bank of India,SYN_P_0143,Mumbai,INR,synthetic
+ACC_0144,XX000144,HDFC Bank,SYN_P_0144,Haridwar,INR,synthetic
+ACC_0145,XX000145,HDFC Bank,SYN_P_0145,Indore,INR,synthetic
+ACC_0146,XX000146,Punjab National Bank,SYN_P_0146,Noida,INR,synthetic
+ACC_0147,XX000147,Bank of Baroda,SYN_P_0147,Ghaziabad,INR,synthetic
+ACC_0148,XX000148,ICICI Bank,SYN_P_0148,Indore,INR,synthetic
+ACC_0149,XX000149,Bank of Baroda,SYN_P_0149,Kolkata,INR,synthetic
+ACC_0150,XX000150,State Bank of India,SYN_P_0150,Chandigarh,INR,synthetic
+ACC_0151,XX000151,HDFC Bank,SYN_P_0151,Chennai,INR,synthetic
+ACC_0152,XX000152,Axis Bank,SYN_P_0152,Bhubaneswar,INR,synthetic
+ACC_0153,XX000153,State Bank of India,SYN_P_0153,Bhubaneswar,INR,synthetic
+ACC_0154,XX000154,Punjab National Bank,SYN_P_0154,Noida,INR,synthetic
+ACC_0155,XX000155,Punjab National Bank,SYN_P_0155,Kanpur,INR,synthetic
+ACC_0156,XX000156,Bank of Baroda,SYN_P_0156,Ahmedabad,INR,synthetic
+ACC_0157,XX000157,State Bank of India,SYN_P_0157,Kanpur,INR,synthetic
+ACC_0158,XX000158,ICICI Bank,SYN_P_0158,Noida,INR,synthetic
+ACC_0159,XX000159,State Bank of India,SYN_P_0159,Nagpur,INR,synthetic
+ACC_0160,XX000160,Axis Bank,SYN_P_0160,Bengaluru,INR,synthetic
+ACC_0161,XX000161,Punjab National Bank,SYN_P_0161,Kanpur,INR,synthetic
+ACC_0162,XX000162,Bank of Baroda,SYN_P_0162,Bhubaneswar,INR,synthetic
+ACC_0163,XX000163,Punjab National Bank,SYN_P_0163,Haridwar,INR,synthetic
+ACC_0164,XX000164,State Bank of India,SYN_P_0164,Noida,INR,synthetic
+ACC_0165,XX000165,Punjab National Bank,SYN_P_0165,Delhi,INR,synthetic
+ACC_0166,XX000166,Axis Bank,SYN_P_0166,Haridwar,INR,synthetic
+ACC_0167,XX000167,HDFC Bank,SYN_P_0167,Kolkata,INR,synthetic
+ACC_0168,XX000168,ICICI Bank,SYN_P_0168,Bhopal,INR,synthetic
+ACC_0169,XX000169,Bank of Baroda,SYN_P_0169,Meerut,INR,synthetic
+ACC_0170,XX000170,State Bank of India,SYN_P_0170,Mumbai,INR,synthetic
+ACC_0171,XX000171,State Bank of India,SYN_P_0171,Haridwar,INR,synthetic
+ACC_0172,XX000172,State Bank of India,SYN_P_0172,Surat,INR,synthetic
+ACC_0173,XX000173,Axis Bank,SYN_P_0173,Indore,INR,synthetic
+ACC_0174,XX000174,Punjab National Bank,SYN_P_0174,Chennai,INR,synthetic
+ACC_0175,XX000175,HDFC Bank,SYN_P_0175,Hyderabad,INR,synthetic
+ACC_0176,XX000176,Bank of Baroda,SYN_P_0176,Bengaluru,INR,synthetic
+ACC_0177,XX000177,ICICI Bank,SYN_P_0177,Lucknow,INR,synthetic
+ACC_0178,XX000178,Axis Bank,SYN_P_0178,Hyderabad,INR,synthetic
+ACC_0179,XX000179,Axis Bank,SYN_P_0179,Surat,INR,synthetic
+ACC_0180,XX000180,ICICI Bank,SYN_P_0180,Dehradun,INR,synthetic
+ACC_0181,XX000181,HDFC Bank,SYN_P_0181,Jaipur,INR,synthetic
+ACC_0182,XX000182,State Bank of India,SYN_P_0182,Meerut,INR,synthetic
+ACC_0183,XX000183,State Bank of India,SYN_P_0183,Mumbai,INR,synthetic
+ACC_0184,XX000184,State Bank of India,SYN_P_0184,Kanpur,INR,synthetic
+ACC_0185,XX000185,HDFC Bank,SYN_P_0185,Bhubaneswar,INR,synthetic
+ACC_0186,XX000186,Punjab National Bank,SYN_P_0186,Surat,INR,synthetic
+ACC_0187,XX000187,Punjab National Bank,SYN_P_0187,Indore,INR,synthetic
+ACC_0188,XX000188,Axis Bank,SYN_P_0188,Dehradun,INR,synthetic
+ACC_0189,XX000189,Bank of Baroda,SYN_P_0189,Ranchi,INR,synthetic
+ACC_0190,XX000190,Bank of Baroda,SYN_P_0190,Kanpur,INR,synthetic
+ACC_0191,XX000191,Bank of Baroda,SYN_P_0191,Delhi,INR,synthetic
+ACC_0192,XX000192,State Bank of India,SYN_P_0192,Bhubaneswar,INR,synthetic
+ACC_0193,XX000193,Punjab National Bank,SYN_P_0193,Mumbai,INR,synthetic
+ACC_0194,XX000194,Axis Bank,SYN_P_0194,Haridwar,INR,synthetic
+ACC_0195,XX000195,State Bank of India,SYN_P_0195,Kolkata,INR,synthetic
+ACC_0196,XX000196,Axis Bank,SYN_P_0196,Patna,INR,synthetic
+ACC_0197,XX000197,Axis Bank,SYN_P_0197,Jaipur,INR,synthetic
+ACC_0198,XX000198,Bank of Baroda,SYN_P_0198,Kanpur,INR,synthetic
+ACC_0199,XX000199,HDFC Bank,SYN_P_0199,Bhopal,INR,synthetic
+ACC_0200,XX000200,Axis Bank,SYN_P_0200,Indore,INR,synthetic
+ACC_0201,XX000201,Bank of Baroda,SYN_P_0201,Nagpur,INR,synthetic
+ACC_0202,XX000202,Axis Bank,SYN_P_0202,Ahmedabad,INR,synthetic
+ACC_0203,XX000203,Punjab National Bank,SYN_P_0203,Hyderabad,INR,synthetic
+ACC_0204,XX000204,HDFC Bank,SYN_P_0204,Mumbai,INR,synthetic
+ACC_0205,XX000205,State Bank of India,SYN_P_0205,Ghaziabad,INR,synthetic
+ACC_0206,XX000206,Axis Bank,SYN_P_0206,Nagpur,INR,synthetic
+ACC_0207,XX000207,State Bank of India,SYN_P_0207,Patna,INR,synthetic
+ACC_0208,XX000208,Punjab National Bank,SYN_P_0208,Meerut,INR,synthetic
+ACC_0209,XX000209,ICICI Bank,SYN_P_0209,Kanpur,INR,synthetic
+ACC_0210,XX000210,ICICI Bank,SYN_P_0210,Lucknow,INR,synthetic
+ACC_0211,XX000211,HDFC Bank,SYN_P_0211,Bengaluru,INR,synthetic
+ACC_0212,XX000212,ICICI Bank,SYN_P_0212,Mumbai,INR,synthetic
+ACC_0213,XX000213,Axis Bank,SYN_P_0213,Chandigarh,INR,synthetic
+ACC_0214,XX000214,State Bank of India,SYN_P_0214,Delhi,INR,synthetic
+ACC_0215,XX000215,HDFC Bank,SYN_P_0215,Dehradun,INR,synthetic
+ACC_0216,XX000216,HDFC Bank,SYN_P_0216,Nagpur,INR,synthetic
+ACC_0217,XX000217,State Bank of India,SYN_P_0217,Chandigarh,INR,synthetic
+ACC_0218,XX000218,Punjab National Bank,SYN_P_0218,Surat,INR,synthetic
+ACC_0219,XX000219,State Bank of India,SYN_P_0219,Dehradun,INR,synthetic
+ACC_0220,XX000220,HDFC Bank,SYN_P_0220,Mumbai,INR,synthetic
+ACC_0221,XX000221,Axis Bank,SYN_P_0221,Haridwar,INR,synthetic
+ACC_0222,XX000222,Bank of Baroda,SYN_P_0222,Kolkata,INR,synthetic
+ACC_0223,XX000223,Punjab National Bank,SYN_P_0223,Bhubaneswar,INR,synthetic
+ACC_0224,XX000224,Punjab National Bank,SYN_P_0224,Kolkata,INR,synthetic
+ACC_0225,XX000225,State Bank of India,SYN_P_0225,Delhi,INR,synthetic
+ACC_0226,XX000226,State Bank of India,SYN_P_0226,Dehradun,INR,synthetic
+ACC_0227,XX000227,Bank of Baroda,SYN_P_0227,Indore,INR,synthetic
+ACC_0228,XX000228,HDFC Bank,SYN_P_0228,Pune,INR,synthetic
+ACC_0229,XX000229,State Bank of India,SYN_P_0229,Ranchi,INR,synthetic
+ACC_0230,XX000230,State Bank of India,SYN_P_0230,Chandigarh,INR,synthetic
+ACC_0231,XX000231,State Bank of India,SYN_P_0231,Noida,INR,synthetic
+ACC_0232,XX000232,HDFC Bank,SYN_P_0232,Patna,INR,synthetic
+ACC_0233,XX000233,Axis Bank,SYN_P_0233,Meerut,INR,synthetic
+ACC_0234,XX000234,HDFC Bank,SYN_P_0234,Surat,INR,synthetic
+ACC_0235,XX000235,ICICI Bank,SYN_P_0235,Haridwar,INR,synthetic
+ACC_0236,XX000236,State Bank of India,SYN_P_0236,Kanpur,INR,synthetic
+ACC_0237,XX000237,ICICI Bank,SYN_P_0237,Nagpur,INR,synthetic
+ACC_0238,XX000238,ICICI Bank,SYN_P_0238,Patna,INR,synthetic
+ACC_0239,XX000239,Punjab National Bank,SYN_P_0239,Hyderabad,INR,synthetic
+ACC_0240,XX000240,Bank of Baroda,SYN_P_0240,Ranchi,INR,synthetic
+ACC_0241,XX000241,HDFC Bank,SYN_P_0241,Haridwar,INR,synthetic
+ACC_0242,XX000242,ICICI Bank,SYN_P_0242,Ranchi,INR,synthetic
+ACC_0243,XX000243,HDFC Bank,SYN_P_0243,Meerut,INR,synthetic
+ACC_0244,XX000244,Punjab National Bank,SYN_P_0244,Indore,INR,synthetic
+ACC_0245,XX000245,Axis Bank,SYN_P_0245,Haridwar,INR,synthetic
+ACC_0246,XX000246,Axis Bank,SYN_P_0246,Pune,INR,synthetic
+ACC_0247,XX000247,Bank of Baroda,SYN_P_0247,Bhopal,INR,synthetic
+ACC_0248,XX000248,State Bank of India,SYN_P_0248,Chandigarh,INR,synthetic
+ACC_0249,XX000249,Bank of Baroda,SYN_P_0249,Chandigarh,INR,synthetic
+ACC_0250,XX000250,State Bank of India,SYN_P_0250,Lucknow,INR,synthetic
+ACC_0251,XX000251,State Bank of India,SYN_P_0251,Bengaluru,INR,synthetic
+ACC_0252,XX000252,ICICI Bank,SYN_P_0252,Lucknow,INR,synthetic
+ACC_0253,XX000253,Punjab National Bank,SYN_P_0253,Surat,INR,synthetic
+ACC_0254,XX000254,HDFC Bank,SYN_P_0254,Bhubaneswar,INR,synthetic
+ACC_0255,XX000255,Axis Bank,SYN_P_0255,Bhopal,INR,synthetic
+ACC_0256,XX000256,Bank of Baroda,SYN_P_0256,Pune,INR,synthetic
+ACC_0257,XX000257,Bank of Baroda,SYN_P_0257,Ahmedabad,INR,synthetic
+ACC_0258,XX000258,ICICI Bank,SYN_P_0258,Ranchi,INR,synthetic
+ACC_0259,XX000259,HDFC Bank,SYN_P_0259,Chennai,INR,synthetic
+ACC_0260,XX000260,Axis Bank,SYN_P_0260,Bengaluru,INR,synthetic
+ACC_0261,XX000261,Bank of Baroda,SYN_P_0261,Chennai,INR,synthetic
+ACC_0262,XX000262,ICICI Bank,SYN_P_0262,Patna,INR,synthetic
+ACC_0263,XX000263,ICICI Bank,SYN_P_0263,Jaipur,INR,synthetic
+ACC_0264,XX000264,Punjab National Bank,SYN_P_0264,Chandigarh,INR,synthetic
+ACC_0265,XX000265,ICICI Bank,SYN_P_0265,Patna,INR,synthetic
+ACC_0266,XX000266,Bank of Baroda,SYN_P_0266,Bhopal,INR,synthetic
+ACC_0267,XX000267,HDFC Bank,SYN_P_0267,Ghaziabad,INR,synthetic
+ACC_0268,XX000268,Punjab National Bank,SYN_P_0268,Hyderabad,INR,synthetic
+ACC_0269,XX000269,ICICI Bank,SYN_P_0269,Surat,INR,synthetic
+ACC_0270,XX000270,ICICI Bank,SYN_P_0270,Hyderabad,INR,synthetic
+ACC_0271,XX000271,Bank of Baroda,SYN_P_0271,Ranchi,INR,synthetic
+ACC_0272,XX000272,Punjab National Bank,SYN_P_0272,Pune,INR,synthetic
+ACC_0273,XX000273,Punjab National Bank,SYN_P_0273,Ghaziabad,INR,synthetic
+ACC_0274,XX000274,State Bank of India,SYN_P_0274,Kolkata,INR,synthetic
+ACC_0275,XX000275,State Bank of India,SYN_P_0275,Meerut,INR,synthetic
+ACC_0276,XX000276,ICICI Bank,SYN_P_0276,Noida,INR,synthetic
+ACC_0277,XX000277,Axis Bank,SYN_P_0277,Chennai,INR,synthetic
+ACC_0278,XX000278,Bank of Baroda,SYN_P_0278,Hyderabad,INR,synthetic
+ACC_0279,XX000279,Punjab National Bank,SYN_P_0279,Jaipur,INR,synthetic
+ACC_0280,XX000280,Axis Bank,SYN_P_0280,Kolkata,INR,synthetic
+ACC_0281,XX000281,ICICI Bank,SYN_P_0281,Chennai,INR,synthetic
+ACC_0282,XX000282,State Bank of India,SYN_P_0282,Lucknow,INR,synthetic
+ACC_0283,XX000283,HDFC Bank,SYN_P_0283,Kanpur,INR,synthetic
+ACC_0284,XX000284,HDFC Bank,SYN_P_0284,Mumbai,INR,synthetic
+ACC_0285,XX000285,Punjab National Bank,SYN_P_0285,Hyderabad,INR,synthetic
+ACC_0286,XX000286,HDFC Bank,SYN_P_0286,Surat,INR,synthetic
+ACC_0287,XX000287,ICICI Bank,SYN_P_0287,Meerut,INR,synthetic
+ACC_0288,XX000288,Bank of Baroda,SYN_P_0288,Patna,INR,synthetic
+ACC_0289,XX000289,Punjab National Bank,SYN_P_0289,Jaipur,INR,synthetic
+ACC_0290,XX000290,HDFC Bank,SYN_P_0290,Ranchi,INR,synthetic
+ACC_0291,XX000291,State Bank of India,SYN_P_0291,Kolkata,INR,synthetic
+ACC_0292,XX000292,ICICI Bank,SYN_P_0292,Bengaluru,INR,synthetic
+ACC_0293,XX000293,Bank of Baroda,SYN_P_0293,Ghaziabad,INR,synthetic
+ACC_0294,XX000294,HDFC Bank,SYN_P_0294,Hyderabad,INR,synthetic
+ACC_0295,XX000295,State Bank of India,SYN_P_0295,Surat,INR,synthetic
+ACC_0296,XX000296,HDFC Bank,SYN_P_0296,Noida,INR,synthetic
+ACC_0297,XX000297,Bank of Baroda,SYN_P_0297,Surat,INR,synthetic
+ACC_0298,XX000298,Axis Bank,SYN_P_0298,Lucknow,INR,synthetic
+ACC_0299,XX000299,Bank of Baroda,SYN_P_0299,Hyderabad,INR,synthetic
+ACC_0300,XX000300,Axis Bank,SYN_P_0300,Ahmedabad,INR,synthetic
+ACC_0301,XX000301,State Bank of India,SYN_P_0301,Surat,INR,synthetic
+ACC_0302,XX000302,State Bank of India,SYN_P_0302,Kolkata,INR,synthetic
+ACC_0303,XX000303,Axis Bank,SYN_P_0303,Noida,INR,synthetic
+ACC_0304,XX000304,State Bank of India,SYN_P_0304,Chennai,INR,synthetic
+ACC_0305,XX000305,ICICI Bank,SYN_P_0305,Surat,INR,synthetic
+ACC_0306,XX000306,ICICI Bank,SYN_P_0306,Patna,INR,synthetic
+ACC_0307,XX000307,Punjab National Bank,SYN_P_0307,Haridwar,INR,synthetic
+ACC_0308,XX000308,Axis Bank,SYN_P_0308,Bhubaneswar,INR,synthetic
+ACC_0309,XX000309,ICICI Bank,SYN_P_0309,Delhi,INR,synthetic
+ACC_0310,XX000310,State Bank of India,SYN_P_0310,Nagpur,INR,synthetic
+ACC_0311,XX000311,State Bank of India,SYN_P_0311,Dehradun,INR,synthetic
+ACC_0312,XX000312,ICICI Bank,SYN_P_0312,Delhi,INR,synthetic
+ACC_0313,XX000313,Punjab National Bank,SYN_P_0313,Bhubaneswar,INR,synthetic
+ACC_0314,XX000314,Axis Bank,SYN_P_0314,Jaipur,INR,synthetic
+ACC_0315,XX000315,Axis Bank,SYN_P_0315,Kolkata,INR,synthetic
+ACC_0316,XX000316,State Bank of India,SYN_P_0316,Ghaziabad,INR,synthetic
+ACC_0317,XX000317,Axis Bank,SYN_P_0317,Noida,INR,synthetic
+ACC_0318,XX000318,Axis Bank,SYN_P_0318,Ahmedabad,INR,synthetic
+ACC_0319,XX000319,Axis Bank,SYN_P_0319,Pune,INR,synthetic
+ACC_0320,XX000320,State Bank of India,SYN_P_0320,Ranchi,INR,synthetic
+ACC_0321,XX000321,HDFC Bank,SYN_P_0321,Ghaziabad,INR,synthetic
+ACC_0322,XX000322,HDFC Bank,SYN_P_0322,Chennai,INR,synthetic
+ACC_0323,XX000323,Axis Bank,SYN_P_0323,Noida,INR,synthetic
+ACC_0324,XX000324,HDFC Bank,SYN_P_0324,Ghaziabad,INR,synthetic
+ACC_0325,XX000325,Bank of Baroda,SYN_P_0325,Bengaluru,INR,synthetic
+ACC_0326,XX000326,Axis Bank,SYN_P_0326,Noida,INR,synthetic
+ACC_0327,XX000327,Punjab National Bank,SYN_P_0327,Haridwar,INR,synthetic
+ACC_0328,XX000328,State Bank of India,SYN_P_0328,Ahmedabad,INR,synthetic
+ACC_0329,XX000329,Bank of Baroda,SYN_P_0329,Kanpur,INR,synthetic
+ACC_0330,XX000330,ICICI Bank,SYN_P_0330,Lucknow,INR,synthetic
+ACC_0331,XX000331,State Bank of India,SYN_P_0331,Indore,INR,synthetic
+ACC_0332,XX000332,Punjab National Bank,SYN_P_0332,Bhubaneswar,INR,synthetic
+ACC_0333,XX000333,ICICI Bank,SYN_P_0333,Indore,INR,synthetic
+ACC_0334,XX000334,State Bank of India,SYN_P_0334,Ahmedabad,INR,synthetic
+ACC_0335,XX000335,Punjab National Bank,SYN_P_0335,Pune,INR,synthetic
+ACC_0336,XX000336,ICICI Bank,SYN_P_0336,Nagpur,INR,synthetic
+ACC_0337,XX000337,ICICI Bank,SYN_P_0337,Surat,INR,synthetic
+ACC_0338,XX000338,Punjab National Bank,SYN_P_0338,Nagpur,INR,synthetic
+ACC_0339,XX000339,HDFC Bank,SYN_P_0339,Nagpur,INR,synthetic
+ACC_0340,XX000340,State Bank of India,SYN_P_0340,Ghaziabad,INR,synthetic
+ACC_0341,XX000341,ICICI Bank,SYN_P_0341,Patna,INR,synthetic
+ACC_0342,XX000342,Bank of Baroda,SYN_P_0342,Patna,INR,synthetic
+ACC_0343,XX000343,Punjab National Bank,SYN_P_0343,Chennai,INR,synthetic
+ACC_0344,XX000344,Axis Bank,SYN_P_0344,Lucknow,INR,synthetic
+ACC_0345,XX000345,Axis Bank,SYN_P_0345,Indore,INR,synthetic
+ACC_0346,XX000346,Bank of Baroda,SYN_P_0346,Pune,INR,synthetic
+ACC_0347,XX000347,Bank of Baroda,SYN_P_0347,Meerut,INR,synthetic
+ACC_0348,XX000348,State Bank of India,SYN_P_0348,Kanpur,INR,synthetic
+ACC_0349,XX000349,State Bank of India,SYN_P_0349,Chennai,INR,synthetic
+ACC_0350,XX000350,Punjab National Bank,SYN_P_0350,Nagpur,INR,synthetic
+ACC_0351,XX000351,Axis Bank,SYN_P_0351,Hyderabad,INR,synthetic
+ACC_0352,XX000352,Bank of Baroda,SYN_P_0352,Lucknow,INR,synthetic
+ACC_0353,XX000353,Bank of Baroda,SYN_P_0353,Bhubaneswar,INR,synthetic
+ACC_0354,XX000354,ICICI Bank,SYN_P_0354,Chandigarh,INR,synthetic
+ACC_0355,XX000355,Punjab National Bank,SYN_P_0355,Delhi,INR,synthetic
+ACC_0356,XX000356,Axis Bank,SYN_P_0356,Delhi,INR,synthetic
+ACC_0357,XX000357,Axis Bank,SYN_P_0357,Haridwar,INR,synthetic
+ACC_0358,XX000358,Punjab National Bank,SYN_P_0358,Surat,INR,synthetic
+ACC_0359,XX000359,Bank of Baroda,SYN_P_0359,Patna,INR,synthetic
+ACC_0360,XX000360,Punjab National Bank,SYN_P_0360,Bhubaneswar,INR,synthetic
+ACC_0361,XX000361,Punjab National Bank,SYN_P_0361,Chennai,INR,synthetic
+ACC_0362,XX000362,ICICI Bank,SYN_P_0362,Ahmedabad,INR,synthetic
+ACC_0363,XX000363,HDFC Bank,SYN_P_0363,Chennai,INR,synthetic
+ACC_0364,XX000364,Axis Bank,SYN_P_0364,Nagpur,INR,synthetic
+ACC_0365,XX000365,Axis Bank,SYN_P_0365,Chandigarh,INR,synthetic
+ACC_0366,XX000366,Bank of Baroda,SYN_P_0366,Chandigarh,INR,synthetic
+ACC_0367,XX000367,HDFC Bank,SYN_P_0367,Surat,INR,synthetic
+ACC_0368,XX000368,HDFC Bank,SYN_P_0368,Pune,INR,synthetic
+ACC_0369,XX000369,State Bank of India,SYN_P_0369,Lucknow,INR,synthetic
+ACC_0370,XX000370,ICICI Bank,SYN_P_0370,Dehradun,INR,synthetic
+ACC_0371,XX000371,Bank of Baroda,SYN_P_0371,Jaipur,INR,synthetic
+ACC_0372,XX000372,ICICI Bank,SYN_P_0372,Bhubaneswar,INR,synthetic
+ACC_0373,XX000373,State Bank of India,SYN_P_0373,Meerut,INR,synthetic
+ACC_0374,XX000374,HDFC Bank,SYN_P_0374,Noida,INR,synthetic
+ACC_0375,XX000375,Punjab National Bank,SYN_P_0375,Patna,INR,synthetic
+ACC_0376,XX000376,ICICI Bank,SYN_P_0376,Ahmedabad,INR,synthetic
+ACC_0377,XX000377,ICICI Bank,SYN_P_0377,Bhopal,INR,synthetic
+ACC_0378,XX000378,Punjab National Bank,SYN_P_0378,Delhi,INR,synthetic
+ACC_0379,XX000379,Axis Bank,SYN_P_0379,Chandigarh,INR,synthetic
+ACC_0380,XX000380,State Bank of India,SYN_P_0380,Jaipur,INR,synthetic
+ACC_0381,XX000381,Punjab National Bank,SYN_P_0381,Ghaziabad,INR,synthetic
+ACC_0382,XX000382,ICICI Bank,SYN_P_0382,Meerut,INR,synthetic
+ACC_0383,XX000383,ICICI Bank,SYN_P_0383,Bhopal,INR,synthetic
+ACC_0384,XX000384,ICICI Bank,SYN_P_0384,Noida,INR,synthetic
+ACC_0385,XX000385,Bank of Baroda,SYN_P_0385,Surat,INR,synthetic
+ACC_0386,XX000386,ICICI Bank,SYN_P_0386,Bhopal,INR,synthetic
+ACC_0387,XX000387,Bank of Baroda,SYN_P_0387,Patna,INR,synthetic
+ACC_0388,XX000388,Punjab National Bank,SYN_P_0388,Ranchi,INR,synthetic
+ACC_0389,XX000389,State Bank of India,SYN_P_0389,Noida,INR,synthetic
+ACC_0390,XX000390,State Bank of India,SYN_P_0390,Chandigarh,INR,synthetic
+ACC_0391,XX000391,ICICI Bank,SYN_P_0391,Bhubaneswar,INR,synthetic
+ACC_0392,XX000392,Punjab National Bank,SYN_P_0392,Noida,INR,synthetic
+ACC_0393,XX000393,Bank of Baroda,SYN_P_0393,Nagpur,INR,synthetic
+ACC_0394,XX000394,ICICI Bank,SYN_P_0394,Surat,INR,synthetic
+ACC_0395,XX000395,ICICI Bank,SYN_P_0395,Chandigarh,INR,synthetic
+ACC_0396,XX000396,HDFC Bank,SYN_P_0396,Chennai,INR,synthetic
+ACC_0397,XX000397,Axis Bank,SYN_P_0397,Jaipur,INR,synthetic
+ACC_0398,XX000398,Axis Bank,SYN_P_0398,Noida,INR,synthetic
+ACC_0399,XX000399,State Bank of India,SYN_P_0399,Lucknow,INR,synthetic
+ACC_0400,XX000400,Axis Bank,SYN_P_0400,Hyderabad,INR,synthetic
+ACC_0401,XX000401,State Bank of India,SYN_P_0401,Haridwar,INR,synthetic
+ACC_0402,XX000402,Axis Bank,SYN_P_0402,Chandigarh,INR,synthetic
+ACC_0403,XX000403,State Bank of India,SYN_P_0403,Bhubaneswar,INR,synthetic
+ACC_0404,XX000404,ICICI Bank,SYN_P_0404,Kolkata,INR,synthetic
+ACC_0405,XX000405,Axis Bank,SYN_P_0405,Mumbai,INR,synthetic
+ACC_0406,XX000406,Bank of Baroda,SYN_P_0406,Kolkata,INR,synthetic
+ACC_0407,XX000407,Punjab National Bank,SYN_P_0407,Bhopal,INR,synthetic
+ACC_0408,XX000408,HDFC Bank,SYN_P_0408,Patna,INR,synthetic
+ACC_0409,XX000409,Axis Bank,SYN_P_0409,Mumbai,INR,synthetic
+ACC_0410,XX000410,State Bank of India,SYN_P_0410,Chandigarh,INR,synthetic
+ACC_0411,XX000411,Punjab National Bank,SYN_P_0411,Haridwar,INR,synthetic
+ACC_0412,XX000412,State Bank of India,SYN_P_0412,Lucknow,INR,synthetic
+ACC_0413,XX000413,ICICI Bank,SYN_P_0413,Patna,INR,synthetic
+ACC_0414,XX000414,Punjab National Bank,SYN_P_0414,Hyderabad,INR,synthetic
+ACC_0415,XX000415,Punjab National Bank,SYN_P_0415,Chandigarh,INR,synthetic
+ACC_0416,XX000416,ICICI Bank,SYN_P_0416,Ahmedabad,INR,synthetic
+ACC_0417,XX000417,State Bank of India,SYN_P_0417,Haridwar,INR,synthetic
+ACC_0418,XX000418,Axis Bank,SYN_P_0418,Dehradun,INR,synthetic
+ACC_0419,XX000419,HDFC Bank,SYN_P_0419,Noida,INR,synthetic
+ACC_0420,XX000420,ICICI Bank,SYN_P_0420,Chennai,INR,synthetic
+ACC_0421,XX000421,ICICI Bank,SYN_P_0421,Kolkata,INR,synthetic
+ACC_0422,XX000422,ICICI Bank,SYN_P_0422,Bhubaneswar,INR,synthetic
+ACC_0423,XX000423,Axis Bank,SYN_P_0423,Kanpur,INR,synthetic
+ACC_0424,XX000424,HDFC Bank,SYN_P_0424,Indore,INR,synthetic
+ACC_0425,XX000425,HDFC Bank,SYN_P_0425,Patna,INR,synthetic
+ACC_0426,XX000426,Bank of Baroda,SYN_P_0426,Ahmedabad,INR,synthetic
+ACC_0427,XX000427,HDFC Bank,SYN_P_0427,Chennai,INR,synthetic
+ACC_0428,XX000428,HDFC Bank,SYN_P_0428,Bengaluru,INR,synthetic
+ACC_0429,XX000429,Punjab National Bank,SYN_P_0429,Noida,INR,synthetic
+ACC_0430,XX000430,Bank of Baroda,SYN_P_0430,Pune,INR,synthetic
+ACC_0431,XX000431,State Bank of India,SYN_P_0431,Indore,INR,synthetic
+ACC_0432,XX000432,HDFC Bank,SYN_P_0432,Patna,INR,synthetic
+ACC_0433,XX000433,State Bank of India,SYN_P_0433,Nagpur,INR,synthetic
+ACC_0434,XX000434,Bank of Baroda,SYN_P_0434,Hyderabad,INR,synthetic
+ACC_0435,XX000435,State Bank of India,SYN_P_0435,Mumbai,INR,synthetic
+ACC_0436,XX000436,HDFC Bank,SYN_P_0436,Ranchi,INR,synthetic
+ACC_0437,XX000437,Bank of Baroda,SYN_P_0437,Ahmedabad,INR,synthetic
+ACC_0438,XX000438,Punjab National Bank,SYN_P_0438,Ahmedabad,INR,synthetic
+ACC_0439,XX000439,Axis Bank,SYN_P_0439,Lucknow,INR,synthetic
+ACC_0440,XX000440,Punjab National Bank,SYN_P_0440,Haridwar,INR,synthetic
+ACC_0441,XX000441,ICICI Bank,SYN_P_0441,Nagpur,INR,synthetic
+ACC_0442,XX000442,State Bank of India,SYN_P_0442,Kanpur,INR,synthetic
+ACC_0443,XX000443,Punjab National Bank,SYN_P_0443,Chennai,INR,synthetic
+ACC_0444,XX000444,Bank of Baroda,SYN_P_0444,Bengaluru,INR,synthetic
+ACC_0445,XX000445,HDFC Bank,SYN_P_0445,Chandigarh,INR,synthetic
+ACC_0446,XX000446,State Bank of India,SYN_P_0446,Chandigarh,INR,synthetic
+ACC_0447,XX000447,Bank of Baroda,SYN_P_0447,Haridwar,INR,synthetic
+ACC_0448,XX000448,ICICI Bank,SYN_P_0448,Ranchi,INR,synthetic
+ACC_0449,XX000449,ICICI Bank,SYN_P_0449,Lucknow,INR,synthetic
+ACC_0450,XX000450,State Bank of India,SYN_P_0450,Surat,INR,synthetic
+ACC_0451,XX000451,Bank of Baroda,SYN_P_0451,Noida,INR,synthetic
+ACC_0452,XX000452,ICICI Bank,SYN_P_0452,Chennai,INR,synthetic
+ACC_0453,XX000453,Punjab National Bank,SYN_P_0453,Ahmedabad,INR,synthetic
+ACC_0454,XX000454,Bank of Baroda,SYN_P_0454,Ahmedabad,INR,synthetic
+ACC_0455,XX000455,State Bank of India,SYN_P_0455,Chennai,INR,synthetic
+ACC_0456,XX000456,Punjab National Bank,SYN_P_0456,Hyderabad,INR,synthetic
+ACC_0457,XX000457,HDFC Bank,SYN_P_0457,Lucknow,INR,synthetic
+ACC_0458,XX000458,ICICI Bank,SYN_P_0458,Nagpur,INR,synthetic
+ACC_0459,XX000459,State Bank of India,SYN_P_0459,Chandigarh,INR,synthetic
+ACC_0460,XX000460,State Bank of India,SYN_P_0460,Dehradun,INR,synthetic
+ACC_0461,XX000461,Punjab National Bank,SYN_P_0461,Jaipur,INR,synthetic
+ACC_0462,XX000462,Axis Bank,SYN_P_0462,Mumbai,INR,synthetic
+ACC_0463,XX000463,State Bank of India,SYN_P_0463,Indore,INR,synthetic
+ACC_0464,XX000464,Punjab National Bank,SYN_P_0464,Ghaziabad,INR,synthetic
+ACC_0465,XX000465,State Bank of India,SYN_P_0465,Surat,INR,synthetic
+ACC_0466,XX000466,HDFC Bank,SYN_P_0466,Pune,INR,synthetic
+ACC_0467,XX000467,HDFC Bank,SYN_P_0467,Ghaziabad,INR,synthetic
+ACC_0468,XX000468,ICICI Bank,SYN_P_0468,Chennai,INR,synthetic
+ACC_0469,XX000469,Punjab National Bank,SYN_P_0469,Bhubaneswar,INR,synthetic
+ACC_0470,XX000470,ICICI Bank,SYN_P_0470,Jaipur,INR,synthetic
+ACC_0471,XX000471,Bank of Baroda,SYN_P_0471,Noida,INR,synthetic
+ACC_0472,XX000472,Axis Bank,SYN_P_0472,Dehradun,INR,synthetic
+ACC_0473,XX000473,State Bank of India,SYN_P_0473,Nagpur,INR,synthetic
+ACC_0474,XX000474,Bank of Baroda,SYN_P_0474,Patna,INR,synthetic
+ACC_0475,XX000475,Axis Bank,SYN_P_0475,Bhopal,INR,synthetic
+ACC_0476,XX000476,ICICI Bank,SYN_P_0476,Bhopal,INR,synthetic
+ACC_0477,XX000477,HDFC Bank,SYN_P_0477,Noida,INR,synthetic
+ACC_0478,XX000478,State Bank of India,SYN_P_0478,Ghaziabad,INR,synthetic
+ACC_0479,XX000479,ICICI Bank,SYN_P_0479,Jaipur,INR,synthetic
+ACC_0480,XX000480,Punjab National Bank,SYN_P_0480,Kolkata,INR,synthetic
+ACC_0481,XX000481,ICICI Bank,SYN_P_0481,Bhubaneswar,INR,synthetic
+ACC_0482,XX000482,ICICI Bank,SYN_P_0482,Patna,INR,synthetic
+ACC_0483,XX000483,Axis Bank,SYN_P_0483,Chennai,INR,synthetic
+ACC_0484,XX000484,Bank of Baroda,SYN_P_0484,Jaipur,INR,synthetic
+ACC_0485,XX000485,ICICI Bank,SYN_P_0485,Bengaluru,INR,synthetic
+ACC_0486,XX000486,Axis Bank,SYN_P_0486,Jaipur,INR,synthetic
+ACC_0487,XX000487,ICICI Bank,SYN_P_0487,Mumbai,INR,synthetic
+ACC_0488,XX000488,Punjab National Bank,SYN_P_0488,Haridwar,INR,synthetic
+ACC_0489,XX000489,State Bank of India,SYN_P_0489,Delhi,INR,synthetic
+ACC_0490,XX000490,HDFC Bank,SYN_P_0490,Jaipur,INR,synthetic
+ACC_0491,XX000491,ICICI Bank,SYN_P_0491,Jaipur,INR,synthetic
+ACC_0492,XX000492,State Bank of India,SYN_P_0492,Bhubaneswar,INR,synthetic
+ACC_0493,XX000493,ICICI Bank,SYN_P_0493,Meerut,INR,synthetic
+ACC_0494,XX000494,HDFC Bank,SYN_P_0494,Bhubaneswar,INR,synthetic
+ACC_0495,XX000495,Punjab National Bank,SYN_P_0495,Bengaluru,INR,synthetic
+ACC_0496,XX000496,State Bank of India,SYN_P_0496,Chandigarh,INR,synthetic
+ACC_0497,XX000497,State Bank of India,SYN_P_0497,Ranchi,INR,synthetic
+ACC_0498,XX000498,Punjab National Bank,SYN_P_0498,Bhopal,INR,synthetic
+ACC_0499,XX000499,HDFC Bank,SYN_P_0499,Ranchi,INR,synthetic
+ACC_0500,XX000500,ICICI Bank,SYN_P_0500,Jaipur,INR,synthetic
+ACC_0501,XX000501,Punjab National Bank,SYN_P_0501,Nagpur,INR,synthetic
+ACC_0502,XX000502,Bank of Baroda,SYN_P_0502,Chandigarh,INR,synthetic
+ACC_0503,XX000503,Bank of Baroda,SYN_P_0503,Chennai,INR,synthetic
+ACC_0504,XX000504,Punjab National Bank,SYN_P_0504,Mumbai,INR,synthetic
+ACC_0505,XX000505,Punjab National Bank,SYN_P_0505,Haridwar,INR,synthetic
+ACC_0506,XX000506,Bank of Baroda,SYN_P_0506,Nagpur,INR,synthetic
+ACC_0507,XX000507,ICICI Bank,SYN_P_0507,Surat,INR,synthetic
+ACC_0508,XX000508,HDFC Bank,SYN_P_0508,Chennai,INR,synthetic
+ACC_0509,XX000509,Axis Bank,SYN_P_0509,Indore,INR,synthetic
+ACC_0510,XX000510,Punjab National Bank,SYN_P_0510,Pune,INR,synthetic
+ACC_0511,XX000511,State Bank of India,SYN_P_0511,Haridwar,INR,synthetic
+ACC_0512,XX000512,Bank of Baroda,SYN_P_0512,Dehradun,INR,synthetic
+ACC_0513,XX000513,Bank of Baroda,SYN_P_0513,Pune,INR,synthetic
+ACC_0514,XX000514,HDFC Bank,SYN_P_0514,Hyderabad,INR,synthetic
+ACC_0515,XX000515,Axis Bank,SYN_P_0515,Bengaluru,INR,synthetic
+ACC_0516,XX000516,Bank of Baroda,SYN_P_0516,Surat,INR,synthetic
+ACC_0517,XX000517,State Bank of India,SYN_P_0517,Meerut,INR,synthetic
+ACC_0518,XX000518,State Bank of India,SYN_P_0518,Bhubaneswar,INR,synthetic
+ACC_0519,XX000519,HDFC Bank,SYN_P_0519,Bengaluru,INR,synthetic
+ACC_0520,XX000520,Punjab National Bank,SYN_P_0520,Mumbai,INR,synthetic
+ACC_0521,XX000521,Punjab National Bank,SYN_P_0521,Jaipur,INR,synthetic
+ACC_0522,XX000522,Punjab National Bank,SYN_P_0522,Pune,INR,synthetic
+ACC_0523,XX000523,Bank of Baroda,SYN_P_0523,Mumbai,INR,synthetic
+ACC_0524,XX000524,Punjab National Bank,SYN_P_0524,Ahmedabad,INR,synthetic
+ACC_0525,XX000525,Bank of Baroda,SYN_P_0525,Noida,INR,synthetic
+ACC_0526,XX000526,Axis Bank,SYN_P_0526,Kolkata,INR,synthetic
+ACC_0527,XX000527,Punjab National Bank,SYN_P_0527,Chandigarh,INR,synthetic
+ACC_0528,XX000528,Bank of Baroda,SYN_P_0528,Bhubaneswar,INR,synthetic
+ACC_0529,XX000529,State Bank of India,SYN_P_0529,Lucknow,INR,synthetic
+ACC_0530,XX000530,Punjab National Bank,SYN_P_0530,Delhi,INR,synthetic
+ACC_0531,XX000531,State Bank of India,SYN_P_0531,Dehradun,INR,synthetic
+ACC_0532,XX000532,Punjab National Bank,SYN_P_0532,Chennai,INR,synthetic
+ACC_0533,XX000533,Axis Bank,SYN_P_0533,Kolkata,INR,synthetic
+ACC_0534,XX000534,Bank of Baroda,SYN_P_0534,Kolkata,INR,synthetic
+ACC_0535,XX000535,Punjab National Bank,SYN_P_0535,Bhubaneswar,INR,synthetic
+ACC_0536,XX000536,Punjab National Bank,SYN_P_0536,Ahmedabad,INR,synthetic
+ACC_0537,XX000537,Axis Bank,SYN_P_0537,Haridwar,INR,synthetic
+ACC_0538,XX000538,ICICI Bank,SYN_P_0538,Lucknow,INR,synthetic
+ACC_0539,XX000539,ICICI Bank,SYN_P_0539,Jaipur,INR,synthetic
+ACC_0540,XX000540,HDFC Bank,SYN_P_0540,Mumbai,INR,synthetic
+ACC_0541,XX000541,Punjab National Bank,SYN_P_0541,Chandigarh,INR,synthetic
+ACC_0542,XX000542,ICICI Bank,SYN_P_0542,Nagpur,INR,synthetic
+ACC_0543,XX000543,HDFC Bank,SYN_P_0543,Kolkata,INR,synthetic
+ACC_0544,XX000544,ICICI Bank,SYN_P_0544,Chandigarh,INR,synthetic
+ACC_0545,XX000545,HDFC Bank,SYN_P_0545,Bengaluru,INR,synthetic
+ACC_0546,XX000546,ICICI Bank,SYN_P_0546,Chennai,INR,synthetic
+ACC_0547,XX000547,HDFC Bank,SYN_P_0547,Indore,INR,synthetic
+ACC_0548,XX000548,Axis Bank,SYN_P_0548,Patna,INR,synthetic
+ACC_0549,XX000549,ICICI Bank,SYN_P_0549,Mumbai,INR,synthetic
+ACC_0550,XX000550,Bank of Baroda,SYN_P_0550,Dehradun,INR,synthetic
+ACC_0551,XX000551,State Bank of India,SYN_P_0551,Bengaluru,INR,synthetic
+ACC_0552,XX000552,Bank of Baroda,SYN_P_0552,Bhubaneswar,INR,synthetic
+ACC_0553,XX000553,HDFC Bank,SYN_P_0553,Indore,INR,synthetic
+ACC_0554,XX000554,Axis Bank,SYN_P_0554,Bhubaneswar,INR,synthetic
+ACC_0555,XX000555,Bank of Baroda,SYN_P_0555,Bengaluru,INR,synthetic
+ACC_0556,XX000556,Axis Bank,SYN_P_0556,Surat,INR,synthetic
+ACC_0557,XX000557,ICICI Bank,SYN_P_0557,Kanpur,INR,synthetic
+ACC_0558,XX000558,State Bank of India,SYN_P_0558,Bhubaneswar,INR,synthetic
+ACC_0559,XX000559,ICICI Bank,SYN_P_0559,Pune,INR,synthetic
+ACC_0560,XX000560,Punjab National Bank,SYN_P_0560,Kanpur,INR,synthetic
+ACC_0561,XX000561,Punjab National Bank,SYN_P_0561,Lucknow,INR,synthetic
+ACC_0562,XX000562,State Bank of India,SYN_P_0562,Bhubaneswar,INR,synthetic
+ACC_0563,XX000563,ICICI Bank,SYN_P_0563,Chennai,INR,synthetic
+ACC_0564,XX000564,Bank of Baroda,SYN_P_0564,Bengaluru,INR,synthetic
+ACC_0565,XX000565,Axis Bank,SYN_P_0565,Kanpur,INR,synthetic
+ACC_0566,XX000566,Punjab National Bank,SYN_P_0566,Chennai,INR,synthetic
+ACC_0567,XX000567,HDFC Bank,SYN_P_0567,Indore,INR,synthetic
+ACC_0568,XX000568,Axis Bank,SYN_P_0568,Noida,INR,synthetic
+ACC_0569,XX000569,Axis Bank,SYN_P_0569,Hyderabad,INR,synthetic
+ACC_0570,XX000570,HDFC Bank,SYN_P_0570,Noida,INR,synthetic
+ACC_0571,XX000571,Punjab National Bank,SYN_P_0571,Ghaziabad,INR,synthetic
+ACC_0572,XX000572,HDFC Bank,SYN_P_0572,Patna,INR,synthetic
+ACC_0573,XX000573,Punjab National Bank,SYN_P_0573,Noida,INR,synthetic
+ACC_0574,XX000574,HDFC Bank,SYN_P_0574,Delhi,INR,synthetic
+ACC_0575,XX000575,Axis Bank,SYN_P_0575,Ahmedabad,INR,synthetic
+ACC_0576,XX000576,Bank of Baroda,SYN_P_0576,Lucknow,INR,synthetic
+ACC_0577,XX000577,Punjab National Bank,SYN_P_0577,Indore,INR,synthetic
+ACC_0578,XX000578,Bank of Baroda,SYN_P_0578,Chandigarh,INR,synthetic
+ACC_0579,XX000579,HDFC Bank,SYN_P_0579,Ghaziabad,INR,synthetic
+ACC_0580,XX000580,Punjab National Bank,SYN_P_0580,Ranchi,INR,synthetic
+ACC_0581,XX000581,ICICI Bank,SYN_P_0581,Lucknow,INR,synthetic
+ACC_0582,XX000582,ICICI Bank,SYN_P_0582,Delhi,INR,synthetic
+ACC_0583,XX000583,ICICI Bank,SYN_P_0583,Jaipur,INR,synthetic
+ACC_0584,XX000584,ICICI Bank,SYN_P_0584,Hyderabad,INR,synthetic
+ACC_0585,XX000585,State Bank of India,SYN_P_0585,Surat,INR,synthetic
+ACC_0586,XX000586,State Bank of India,SYN_P_0586,Pune,INR,synthetic
+ACC_0587,XX000587,Axis Bank,SYN_P_0587,Noida,INR,synthetic
+ACC_0588,XX000588,Axis Bank,SYN_P_0588,Bhopal,INR,synthetic
+ACC_0589,XX000589,Punjab National Bank,SYN_P_0589,Indore,INR,synthetic
+ACC_0590,XX000590,HDFC Bank,SYN_P_0590,Patna,INR,synthetic
+ACC_0591,XX000591,Punjab National Bank,SYN_P_0591,Bhopal,INR,synthetic
+ACC_0592,XX000592,Axis Bank,SYN_P_0592,Bengaluru,INR,synthetic
+ACC_0593,XX000593,Bank of Baroda,SYN_P_0593,Patna,INR,synthetic
+ACC_0594,XX000594,HDFC Bank,SYN_P_0594,Bengaluru,INR,synthetic
+ACC_0595,XX000595,HDFC Bank,SYN_P_0595,Delhi,INR,synthetic
+ACC_0596,XX000596,Axis Bank,SYN_P_0596,Delhi,INR,synthetic
+ACC_0597,XX000597,State Bank of India,SYN_P_0597,Chennai,INR,synthetic
+ACC_0598,XX000598,HDFC Bank,SYN_P_0598,Chennai,INR,synthetic
+ACC_0599,XX000599,State Bank of India,SYN_P_0599,Ahmedabad,INR,synthetic
+ACC_0600,XX000600,Axis Bank,SYN_P_0600,Delhi,INR,synthetic
+ACC_0601,XX000601,ICICI Bank,SYN_P_0601,Delhi,INR,synthetic
+ACC_0602,XX000602,Punjab National Bank,SYN_P_0602,Hyderabad,INR,synthetic
+ACC_0603,XX000603,Bank of Baroda,SYN_P_0603,Bhubaneswar,INR,synthetic
+ACC_0604,XX000604,Axis Bank,SYN_P_0604,Dehradun,INR,synthetic
+ACC_0605,XX000605,Bank of Baroda,SYN_P_0605,Chennai,INR,synthetic
+ACC_0606,XX000606,State Bank of India,SYN_P_0606,Haridwar,INR,synthetic
+ACC_0607,XX000607,HDFC Bank,SYN_P_0607,Delhi,INR,synthetic
+ACC_0608,XX000608,State Bank of India,SYN_P_0608,Hyderabad,INR,synthetic
+ACC_0609,XX000609,Axis Bank,SYN_P_0609,Ranchi,INR,synthetic
+ACC_0610,XX000610,State Bank of India,SYN_P_0610,Patna,INR,synthetic
+ACC_0611,XX000611,Bank of Baroda,SYN_P_0611,Ahmedabad,INR,synthetic
+ACC_0612,XX000612,HDFC Bank,SYN_P_0612,Kanpur,INR,synthetic
+ACC_0613,XX000613,State Bank of India,SYN_P_0613,Meerut,INR,synthetic
+ACC_0614,XX000614,HDFC Bank,SYN_P_0614,Meerut,INR,synthetic
+ACC_0615,XX000615,Punjab National Bank,SYN_P_0615,Hyderabad,INR,synthetic
+ACC_0616,XX000616,Punjab National Bank,SYN_P_0616,Lucknow,INR,synthetic
+ACC_0617,XX000617,Axis Bank,SYN_P_0617,Chandigarh,INR,synthetic
+ACC_0618,XX000618,Axis Bank,SYN_P_0618,Jaipur,INR,synthetic
+ACC_0619,XX000619,ICICI Bank,SYN_P_0619,Bhopal,INR,synthetic
+ACC_0620,XX000620,HDFC Bank,SYN_P_0620,Hyderabad,INR,synthetic
+ACC_0621,XX000621,Axis Bank,SYN_P_0621,Dehradun,INR,synthetic
+ACC_0622,XX000622,Bank of Baroda,SYN_P_0622,Pune,INR,synthetic
+ACC_0623,XX000623,Punjab National Bank,SYN_P_0623,Dehradun,INR,synthetic
+ACC_0624,XX000624,HDFC Bank,SYN_P_0624,Nagpur,INR,synthetic
+ACC_0625,XX000625,Bank of Baroda,SYN_P_0625,Ghaziabad,INR,synthetic
+ACC_0626,XX000626,ICICI Bank,SYN_P_0626,Pune,INR,synthetic
+ACC_0627,XX000627,State Bank of India,SYN_P_0627,Nagpur,INR,synthetic
+ACC_0628,XX000628,ICICI Bank,SYN_P_0628,Surat,INR,synthetic
+ACC_0629,XX000629,ICICI Bank,SYN_P_0629,Kolkata,INR,synthetic
+ACC_0630,XX000630,Punjab National Bank,SYN_P_0630,Chandigarh,INR,synthetic
+ACC_0631,XX000631,Punjab National Bank,SYN_P_0631,Ranchi,INR,synthetic
+ACC_0632,XX000632,Punjab National Bank,SYN_P_0632,Chandigarh,INR,synthetic
+ACC_0633,XX000633,State Bank of India,SYN_P_0633,Haridwar,INR,synthetic
+ACC_0634,XX000634,Bank of Baroda,SYN_P_0634,Patna,INR,synthetic
+ACC_0635,XX000635,State Bank of India,SYN_P_0635,Ghaziabad,INR,synthetic
+ACC_0636,XX000636,State Bank of India,SYN_P_0636,Indore,INR,synthetic
+ACC_0637,XX000637,Bank of Baroda,SYN_P_0637,Indore,INR,synthetic
+ACC_0638,XX000638,ICICI Bank,SYN_P_0638,Noida,INR,synthetic
+ACC_0639,XX000639,Axis Bank,SYN_P_0639,Ghaziabad,INR,synthetic
+ACC_0640,XX000640,Axis Bank,SYN_P_0640,Nagpur,INR,synthetic
+ACC_0641,XX000641,Bank of Baroda,SYN_P_0641,Nagpur,INR,synthetic
+ACC_0642,XX000642,Axis Bank,SYN_P_0642,Nagpur,INR,synthetic
+ACC_0643,XX000643,Bank of Baroda,SYN_P_0643,Chennai,INR,synthetic
+ACC_0644,XX000644,Axis Bank,SYN_P_0644,Bengaluru,INR,synthetic
+ACC_0645,XX000645,ICICI Bank,SYN_P_0645,Noida,INR,synthetic
+ACC_0646,XX000646,Axis Bank,SYN_P_0646,Indore,INR,synthetic
+ACC_0647,XX000647,Bank of Baroda,SYN_P_0647,Delhi,INR,synthetic
+ACC_0648,XX000648,HDFC Bank,SYN_P_0648,Ranchi,INR,synthetic
+ACC_0649,XX000649,Bank of Baroda,SYN_P_0649,Kanpur,INR,synthetic
+ACC_0650,XX000650,HDFC Bank,SYN_P_0650,Ghaziabad,INR,synthetic
+ACC_0651,XX000651,Bank of Baroda,SYN_P_0651,Bengaluru,INR,synthetic
+ACC_0652,XX000652,Punjab National Bank,SYN_P_0652,Ahmedabad,INR,synthetic
+ACC_0653,XX000653,Punjab National Bank,SYN_P_0653,Indore,INR,synthetic
+ACC_0654,XX000654,State Bank of India,SYN_P_0654,Mumbai,INR,synthetic
+ACC_0655,XX000655,HDFC Bank,SYN_P_0655,Kolkata,INR,synthetic
+ACC_0656,XX000656,State Bank of India,SYN_P_0656,Meerut,INR,synthetic
+ACC_0657,XX000657,Punjab National Bank,SYN_P_0657,Hyderabad,INR,synthetic
+ACC_0658,XX000658,Punjab National Bank,SYN_P_0658,Noida,INR,synthetic
+ACC_0659,XX000659,ICICI Bank,SYN_P_0659,Chandigarh,INR,synthetic
+ACC_0660,XX000660,Bank of Baroda,SYN_P_0660,Jaipur,INR,synthetic
+ACC_0661,XX000661,Bank of Baroda,SYN_P_0661,Ranchi,INR,synthetic
+ACC_0662,XX000662,Axis Bank,SYN_P_0662,Kolkata,INR,synthetic
+ACC_0663,XX000663,Axis Bank,SYN_P_0663,Bengaluru,INR,synthetic
+ACC_0664,XX000664,ICICI Bank,SYN_P_0664,Dehradun,INR,synthetic
+ACC_0665,XX000665,Axis Bank,SYN_P_0665,Noida,INR,synthetic
+ACC_0666,XX000666,HDFC Bank,SYN_P_0666,Ghaziabad,INR,synthetic
+ACC_0667,XX000667,Punjab National Bank,SYN_P_0667,Patna,INR,synthetic
+ACC_0668,XX000668,Bank of Baroda,SYN_P_0668,Dehradun,INR,synthetic
+ACC_0669,XX000669,Punjab National Bank,SYN_P_0669,Chennai,INR,synthetic
+ACC_0670,XX000670,ICICI Bank,SYN_P_0670,Kolkata,INR,synthetic
+ACC_0671,XX000671,State Bank of India,SYN_P_0671,Patna,INR,synthetic
+ACC_0672,XX000672,HDFC Bank,SYN_P_0672,Noida,INR,synthetic
+ACC_0673,XX000673,ICICI Bank,SYN_P_0673,Kanpur,INR,synthetic
+ACC_0674,XX000674,Axis Bank,SYN_P_0674,Mumbai,INR,synthetic
+ACC_0675,XX000675,ICICI Bank,SYN_P_0675,Delhi,INR,synthetic
+ACC_0676,XX000676,State Bank of India,SYN_P_0676,Jaipur,INR,synthetic
+ACC_0677,XX000677,Punjab National Bank,SYN_P_0677,Kolkata,INR,synthetic
+ACC_0678,XX000678,Punjab National Bank,SYN_P_0678,Lucknow,INR,synthetic
+ACC_0679,XX000679,Punjab National Bank,SYN_P_0679,Ranchi,INR,synthetic
+ACC_0680,XX000680,Punjab National Bank,SYN_P_0680,Nagpur,INR,synthetic
+ACC_0681,XX000681,Punjab National Bank,SYN_P_0681,Ghaziabad,INR,synthetic
+ACC_0682,XX000682,Axis Bank,SYN_P_0682,Haridwar,INR,synthetic
+ACC_0683,XX000683,ICICI Bank,SYN_P_0683,Kanpur,INR,synthetic
+ACC_0684,XX000684,ICICI Bank,SYN_P_0684,Kolkata,INR,synthetic
+ACC_0685,XX000685,Axis Bank,SYN_P_0685,Chandigarh,INR,synthetic
+ACC_0686,XX000686,ICICI Bank,SYN_P_0686,Kolkata,INR,synthetic
+ACC_0687,XX000687,HDFC Bank,SYN_P_0687,Nagpur,INR,synthetic
+ACC_0688,XX000688,HDFC Bank,SYN_P_0688,Patna,INR,synthetic
+ACC_0689,XX000689,State Bank of India,SYN_P_0689,Chennai,INR,synthetic
+ACC_0690,XX000690,Bank of Baroda,SYN_P_0690,Mumbai,INR,synthetic
+ACC_0691,XX000691,Bank of Baroda,SYN_P_0691,Nagpur,INR,synthetic
+ACC_0692,XX000692,HDFC Bank,SYN_P_0692,Bhubaneswar,INR,synthetic
+ACC_0693,XX000693,Axis Bank,SYN_P_0693,Lucknow,INR,synthetic
+ACC_0694,XX000694,Punjab National Bank,SYN_P_0694,Ranchi,INR,synthetic
+ACC_0695,XX000695,ICICI Bank,SYN_P_0695,Bhubaneswar,INR,synthetic
+ACC_0696,XX000696,Punjab National Bank,SYN_P_0696,Ghaziabad,INR,synthetic
+ACC_0697,XX000697,Punjab National Bank,SYN_P_0697,Hyderabad,INR,synthetic
+ACC_0698,XX000698,ICICI Bank,SYN_P_0698,Bhubaneswar,INR,synthetic
+ACC_0699,XX000699,State Bank of India,SYN_P_0699,Pune,INR,synthetic
+ACC_0700,XX000700,ICICI Bank,SYN_P_0700,Noida,INR,synthetic
+ACC_0701,XX000701,ICICI Bank,SYN_P_0701,Meerut,INR,synthetic
+ACC_0702,XX000702,HDFC Bank,SYN_P_0702,Ahmedabad,INR,synthetic
+ACC_0703,XX000703,State Bank of India,SYN_P_0703,Chandigarh,INR,synthetic
+ACC_0704,XX000704,ICICI Bank,SYN_P_0704,Ghaziabad,INR,synthetic
+ACC_0705,XX000705,ICICI Bank,SYN_P_0705,Mumbai,INR,synthetic
+ACC_0706,XX000706,Axis Bank,SYN_P_0706,Bhopal,INR,synthetic
+ACC_0707,XX000707,Axis Bank,SYN_P_0707,Bhopal,INR,synthetic
+ACC_0708,XX000708,HDFC Bank,SYN_P_0708,Bhopal,INR,synthetic
+ACC_0709,XX000709,HDFC Bank,SYN_P_0709,Nagpur,INR,synthetic
+ACC_0710,XX000710,ICICI Bank,SYN_P_0710,Mumbai,INR,synthetic
+ACC_0711,XX000711,ICICI Bank,SYN_P_0711,Delhi,INR,synthetic
+ACC_0712,XX000712,Punjab National Bank,SYN_P_0712,Indore,INR,synthetic
+ACC_0713,XX000713,State Bank of India,SYN_P_0713,Dehradun,INR,synthetic
+ACC_0714,XX000714,HDFC Bank,SYN_P_0714,Surat,INR,synthetic
+ACC_0715,XX000715,Bank of Baroda,SYN_P_0715,Bengaluru,INR,synthetic
+ACC_0716,XX000716,ICICI Bank,SYN_P_0716,Chandigarh,INR,synthetic
+ACC_0717,XX000717,HDFC Bank,SYN_P_0717,Pune,INR,synthetic
+ACC_0718,XX000718,State Bank of India,SYN_P_0718,Chennai,INR,synthetic
+ACC_0719,XX000719,HDFC Bank,SYN_P_0719,Nagpur,INR,synthetic
+ACC_0720,XX000720,Punjab National Bank,SYN_P_0720,Ahmedabad,INR,synthetic
+ACC_0721,XX000721,Punjab National Bank,SYN_P_0721,Kanpur,INR,synthetic
+ACC_0722,XX000722,HDFC Bank,SYN_P_0722,Patna,INR,synthetic
+ACC_0723,XX000723,State Bank of India,SYN_P_0723,Kolkata,INR,synthetic
+ACC_0724,XX000724,Punjab National Bank,SYN_P_0724,Patna,INR,synthetic
+ACC_0725,XX000725,State Bank of India,SYN_P_0725,Nagpur,INR,synthetic
+ACC_0726,XX000726,Punjab National Bank,SYN_P_0726,Ghaziabad,INR,synthetic
+ACC_0727,XX000727,Punjab National Bank,SYN_P_0727,Bhopal,INR,synthetic
+ACC_0728,XX000728,HDFC Bank,SYN_P_0728,Haridwar,INR,synthetic
+ACC_0729,XX000729,State Bank of India,SYN_P_0729,Chandigarh,INR,synthetic
+ACC_0730,XX000730,Axis Bank,SYN_P_0730,Ranchi,INR,synthetic
+ACC_0731,XX000731,State Bank of India,SYN_P_0731,Ghaziabad,INR,synthetic
+ACC_0732,XX000732,ICICI Bank,SYN_P_0732,Ghaziabad,INR,synthetic
+ACC_0733,XX000733,HDFC Bank,SYN_P_0733,Dehradun,INR,synthetic
+ACC_0734,XX000734,ICICI Bank,SYN_P_0734,Lucknow,INR,synthetic
+ACC_0735,XX000735,Punjab National Bank,SYN_P_0735,Nagpur,INR,synthetic
+ACC_0736,XX000736,Axis Bank,SYN_P_0736,Ranchi,INR,synthetic
+ACC_0737,XX000737,Bank of Baroda,SYN_P_0737,Indore,INR,synthetic
+ACC_0738,XX000738,Axis Bank,SYN_P_0738,Lucknow,INR,synthetic
+ACC_0739,XX000739,Punjab National Bank,SYN_P_0739,Bhubaneswar,INR,synthetic
+ACC_0740,XX000740,HDFC Bank,SYN_P_0740,Nagpur,INR,synthetic
+ACC_0741,XX000741,Axis Bank,SYN_P_0741,Mumbai,INR,synthetic
+ACC_0742,XX000742,ICICI Bank,SYN_P_0742,Pune,INR,synthetic
+ACC_0743,XX000743,State Bank of India,SYN_P_0743,Meerut,INR,synthetic
+ACC_0744,XX000744,Bank of Baroda,SYN_P_0744,Ghaziabad,INR,synthetic
+ACC_0745,XX000745,Bank of Baroda,SYN_P_0745,Delhi,INR,synthetic
+ACC_0746,XX000746,State Bank of India,SYN_P_0746,Haridwar,INR,synthetic
+ACC_0747,XX000747,Axis Bank,SYN_P_0747,Surat,INR,synthetic
+ACC_0748,XX000748,Axis Bank,SYN_P_0748,Pune,INR,synthetic
+ACC_0749,XX000749,Axis Bank,SYN_P_0749,Dehradun,INR,synthetic
+ACC_0750,XX000750,ICICI Bank,SYN_P_0750,Meerut,INR,synthetic
+ACC_0751,XX000751,State Bank of India,SYN_P_0751,Lucknow,INR,synthetic
+ACC_0752,XX000752,HDFC Bank,SYN_P_0752,Ghaziabad,INR,synthetic
+ACC_0753,XX000753,ICICI Bank,SYN_P_0753,Kanpur,INR,synthetic
+ACC_0754,XX000754,Bank of Baroda,SYN_P_0754,Ahmedabad,INR,synthetic
+ACC_0755,XX000755,Bank of Baroda,SYN_P_0755,Surat,INR,synthetic
+ACC_0756,XX000756,State Bank of India,SYN_P_0756,Chennai,INR,synthetic
+ACC_0757,XX000757,ICICI Bank,SYN_P_0757,Chennai,INR,synthetic
+ACC_0758,XX000758,State Bank of India,SYN_P_0758,Hyderabad,INR,synthetic
+ACC_0759,XX000759,Bank of Baroda,SYN_P_0759,Ahmedabad,INR,synthetic
+ACC_0760,XX000760,HDFC Bank,SYN_P_0760,Meerut,INR,synthetic
+ACC_0761,XX000761,Bank of Baroda,SYN_P_0761,Delhi,INR,synthetic
+ACC_0762,XX000762,State Bank of India,SYN_P_0762,Ghaziabad,INR,synthetic
+ACC_0763,XX000763,ICICI Bank,SYN_P_0763,Pune,INR,synthetic
+ACC_0764,XX000764,HDFC Bank,SYN_P_0764,Chennai,INR,synthetic
+ACC_0765,XX000765,Punjab National Bank,SYN_P_0765,Ghaziabad,INR,synthetic
+ACC_0766,XX000766,ICICI Bank,SYN_P_0766,Bhopal,INR,synthetic
+ACC_0767,XX000767,ICICI Bank,SYN_P_0767,Bhopal,INR,synthetic
+ACC_0768,XX000768,Axis Bank,SYN_P_0768,Mumbai,INR,synthetic
+ACC_0769,XX000769,Bank of Baroda,SYN_P_0769,Nagpur,INR,synthetic
+ACC_0770,XX000770,Bank of Baroda,SYN_P_0770,Delhi,INR,synthetic
+ACC_0771,XX000771,Punjab National Bank,SYN_P_0771,Haridwar,INR,synthetic
+ACC_0772,XX000772,Bank of Baroda,SYN_P_0772,Ahmedabad,INR,synthetic
+ACC_0773,XX000773,State Bank of India,SYN_P_0773,Nagpur,INR,synthetic
+ACC_0774,XX000774,Bank of Baroda,SYN_P_0774,Ghaziabad,INR,synthetic
+ACC_0775,XX000775,Bank of Baroda,SYN_P_0775,Bhubaneswar,INR,synthetic
+ACC_0776,XX000776,ICICI Bank,SYN_P_0776,Chennai,INR,synthetic
+ACC_0777,XX000777,State Bank of India,SYN_P_0777,Chandigarh,INR,synthetic
+ACC_0778,XX000778,Axis Bank,SYN_P_0778,Kolkata,INR,synthetic
+ACC_0779,XX000779,State Bank of India,SYN_P_0779,Hyderabad,INR,synthetic
+ACC_0780,XX000780,Bank of Baroda,SYN_P_0780,Kanpur,INR,synthetic
+ACC_0781,XX000781,Punjab National Bank,SYN_P_0781,Patna,INR,synthetic
+ACC_0782,XX000782,ICICI Bank,SYN_P_0782,Nagpur,INR,synthetic
+ACC_0783,XX000783,HDFC Bank,SYN_P_0783,Kanpur,INR,synthetic
+ACC_0784,XX000784,Punjab National Bank,SYN_P_0784,Lucknow,INR,synthetic
+ACC_0785,XX000785,Bank of Baroda,SYN_P_0785,Dehradun,INR,synthetic
+ACC_0786,XX000786,Bank of Baroda,SYN_P_0786,Haridwar,INR,synthetic
+ACC_0787,XX000787,State Bank of India,SYN_P_0787,Dehradun,INR,synthetic
+ACC_0788,XX000788,Bank of Baroda,SYN_P_0788,Bengaluru,INR,synthetic
+ACC_0789,XX000789,Bank of Baroda,SYN_P_0789,Lucknow,INR,synthetic
+ACC_0790,XX000790,State Bank of India,SYN_P_0790,Ghaziabad,INR,synthetic
+ACC_0791,XX000791,HDFC Bank,SYN_P_0791,Kanpur,INR,synthetic
+ACC_0792,XX000792,HDFC Bank,SYN_P_0792,Ahmedabad,INR,synthetic
+ACC_0793,XX000793,Punjab National Bank,SYN_P_0793,Dehradun,INR,synthetic
+ACC_0794,XX000794,Axis Bank,SYN_P_0794,Ahmedabad,INR,synthetic
+ACC_0795,XX000795,HDFC Bank,SYN_P_0795,Haridwar,INR,synthetic
+ACC_0796,XX000796,Bank of Baroda,SYN_P_0796,Bengaluru,INR,synthetic
+ACC_0797,XX000797,HDFC Bank,SYN_P_0797,Ghaziabad,INR,synthetic
+ACC_0798,XX000798,ICICI Bank,SYN_P_0798,Pune,INR,synthetic
+ACC_0799,XX000799,Axis Bank,SYN_P_0799,Dehradun,INR,synthetic
+ACC_0800,XX000800,HDFC Bank,SYN_P_0800,Chandigarh,INR,synthetic
+ACC_0801,XX000801,Axis Bank,SYN_P_0801,Bhubaneswar,INR,synthetic
+ACC_0802,XX000802,HDFC Bank,SYN_P_0802,Indore,INR,synthetic
+ACC_0803,XX000803,Bank of Baroda,SYN_P_0803,Bengaluru,INR,synthetic
+ACC_0804,XX000804,Axis Bank,SYN_P_0804,Bhopal,INR,synthetic
+ACC_0805,XX000805,ICICI Bank,SYN_P_0805,Bhopal,INR,synthetic
+ACC_0806,XX000806,HDFC Bank,SYN_P_0806,Jaipur,INR,synthetic
+ACC_0807,XX000807,HDFC Bank,SYN_P_0807,Surat,INR,synthetic
+ACC_0808,XX000808,Bank of Baroda,SYN_P_0808,Meerut,INR,synthetic
+ACC_0809,XX000809,State Bank of India,SYN_P_0809,Lucknow,INR,synthetic
+ACC_0810,XX000810,Punjab National Bank,SYN_P_0810,Haridwar,INR,synthetic
+ACC_0811,XX000811,Bank of Baroda,SYN_P_0811,Delhi,INR,synthetic
+ACC_0812,XX000812,Bank of Baroda,SYN_P_0812,Nagpur,INR,synthetic
+ACC_0813,XX000813,HDFC Bank,SYN_P_0813,Mumbai,INR,synthetic
+ACC_0814,XX000814,State Bank of India,SYN_P_0814,Bhopal,INR,synthetic
+ACC_0815,XX000815,Axis Bank,SYN_P_0815,Nagpur,INR,synthetic
+ACC_0816,XX000816,State Bank of India,SYN_P_0816,Mumbai,INR,synthetic
+ACC_0817,XX000817,Axis Bank,SYN_P_0817,Surat,INR,synthetic
+ACC_0818,XX000818,Punjab National Bank,SYN_P_0818,Mumbai,INR,synthetic
+ACC_0819,XX000819,Punjab National Bank,SYN_P_0819,Ahmedabad,INR,synthetic
+ACC_0820,XX000820,HDFC Bank,SYN_P_0820,Indore,INR,synthetic
+ACC_0821,XX000821,Bank of Baroda,SYN_P_0821,Bhopal,INR,synthetic
+ACC_0822,XX000822,HDFC Bank,SYN_P_0822,Lucknow,INR,synthetic
+ACC_0823,XX000823,State Bank of India,SYN_P_0823,Haridwar,INR,synthetic
+ACC_0824,XX000824,Axis Bank,SYN_P_0824,Mumbai,INR,synthetic
+ACC_0825,XX000825,Bank of Baroda,SYN_P_0825,Bhopal,INR,synthetic
+ACC_0826,XX000826,ICICI Bank,SYN_P_0826,Ranchi,INR,synthetic
+ACC_0827,XX000827,Punjab National Bank,SYN_P_0827,Jaipur,INR,synthetic
+ACC_0828,XX000828,Axis Bank,SYN_P_0828,Bengaluru,INR,synthetic
+ACC_0829,XX000829,Bank of Baroda,SYN_P_0829,Mumbai,INR,synthetic
+ACC_0830,XX000830,Punjab National Bank,SYN_P_0830,Kanpur,INR,synthetic
+ACC_0831,XX000831,HDFC Bank,SYN_P_0831,Nagpur,INR,synthetic
+ACC_0832,XX000832,Bank of Baroda,SYN_P_0832,Mumbai,INR,synthetic
+ACC_0833,XX000833,ICICI Bank,SYN_P_0833,Haridwar,INR,synthetic
+ACC_0834,XX000834,Axis Bank,SYN_P_0834,Bhubaneswar,INR,synthetic
+ACC_0835,XX000835,Punjab National Bank,SYN_P_0835,Ranchi,INR,synthetic
+ACC_0836,XX000836,Bank of Baroda,SYN_P_0836,Indore,INR,synthetic
+ACC_0837,XX000837,HDFC Bank,SYN_P_0837,Bengaluru,INR,synthetic
+ACC_0838,XX000838,ICICI Bank,SYN_P_0838,Kolkata,INR,synthetic
+ACC_0839,XX000839,HDFC Bank,SYN_P_0839,Chandigarh,INR,synthetic
+ACC_0840,XX000840,ICICI Bank,SYN_P_0840,Mumbai,INR,synthetic
+ACC_0841,XX000841,Bank of Baroda,SYN_P_0841,Nagpur,INR,synthetic
+ACC_0842,XX000842,Axis Bank,SYN_P_0842,Dehradun,INR,synthetic
+ACC_0843,XX000843,Axis Bank,SYN_P_0843,Nagpur,INR,synthetic
+ACC_0844,XX000844,Bank of Baroda,SYN_P_0844,Pune,INR,synthetic
+ACC_0845,XX000845,Axis Bank,SYN_P_0845,Meerut,INR,synthetic
+ACC_0846,XX000846,Punjab National Bank,SYN_P_0846,Kolkata,INR,synthetic
+ACC_0847,XX000847,ICICI Bank,SYN_P_0847,Jaipur,INR,synthetic
+ACC_0848,XX000848,Punjab National Bank,SYN_P_0848,Kolkata,INR,synthetic
+ACC_0849,XX000849,Axis Bank,SYN_P_0849,Chennai,INR,synthetic
+ACC_0850,XX000850,ICICI Bank,SYN_P_0850,Kanpur,INR,synthetic
+ACC_0851,XX000851,State Bank of India,SYN_P_0851,Patna,INR,synthetic
+ACC_0852,XX000852,HDFC Bank,SYN_P_0852,Chennai,INR,synthetic
+ACC_0853,XX000853,State Bank of India,SYN_P_0853,Delhi,INR,synthetic
+ACC_0854,XX000854,ICICI Bank,SYN_P_0854,Bhubaneswar,INR,synthetic
+ACC_0855,XX000855,Axis Bank,SYN_P_0855,Surat,INR,synthetic
+ACC_0856,XX000856,Axis Bank,SYN_P_0856,Ranchi,INR,synthetic
+ACC_0857,XX000857,ICICI Bank,SYN_P_0857,Jaipur,INR,synthetic
+ACC_0858,XX000858,HDFC Bank,SYN_P_0858,Surat,INR,synthetic
+ACC_0859,XX000859,Bank of Baroda,SYN_P_0859,Haridwar,INR,synthetic
+ACC_0860,XX000860,Axis Bank,SYN_P_0860,Ranchi,INR,synthetic
+ACC_0861,XX000861,State Bank of India,SYN_P_0861,Ghaziabad,INR,synthetic
+ACC_0862,XX000862,HDFC Bank,SYN_P_0862,Ahmedabad,INR,synthetic
+ACC_0863,XX000863,Axis Bank,SYN_P_0863,Patna,INR,synthetic
+ACC_0864,XX000864,ICICI Bank,SYN_P_0864,Bengaluru,INR,synthetic
+ACC_0865,XX000865,Bank of Baroda,SYN_P_0865,Lucknow,INR,synthetic
+ACC_0866,XX000866,State Bank of India,SYN_P_0866,Indore,INR,synthetic
+ACC_0867,XX000867,ICICI Bank,SYN_P_0867,Haridwar,INR,synthetic
+ACC_0868,XX000868,Bank of Baroda,SYN_P_0868,Chandigarh,INR,synthetic
+ACC_0869,XX000869,Axis Bank,SYN_P_0869,Dehradun,INR,synthetic
+ACC_0870,XX000870,Bank of Baroda,SYN_P_0870,Patna,INR,synthetic
+ACC_0871,XX000871,HDFC Bank,SYN_P_0871,Lucknow,INR,synthetic
+ACC_0872,XX000872,Axis Bank,SYN_P_0872,Ranchi,INR,synthetic
+ACC_0873,XX000873,Axis Bank,SYN_P_0873,Ahmedabad,INR,synthetic
+ACC_0874,XX000874,Punjab National Bank,SYN_P_0874,Nagpur,INR,synthetic
+ACC_0875,XX000875,Axis Bank,SYN_P_0875,Ghaziabad,INR,synthetic
+ACC_0876,XX000876,Bank of Baroda,SYN_P_0876,Surat,INR,synthetic
+ACC_0877,XX000877,HDFC Bank,SYN_P_0877,Bhopal,INR,synthetic
+ACC_0878,XX000878,State Bank of India,SYN_P_0878,Bengaluru,INR,synthetic
+ACC_0879,XX000879,ICICI Bank,SYN_P_0879,Kolkata,INR,synthetic
+ACC_0880,XX000880,ICICI Bank,SYN_P_0880,Nagpur,INR,synthetic
+ACC_0881,XX000881,Punjab National Bank,SYN_P_0881,Chennai,INR,synthetic
+ACC_0882,XX000882,HDFC Bank,SYN_P_0882,Hyderabad,INR,synthetic
+ACC_0883,XX000883,Axis Bank,SYN_P_0883,Ranchi,INR,synthetic
+ACC_0884,XX000884,State Bank of India,SYN_P_0884,Ahmedabad,INR,synthetic
+ACC_0885,XX000885,Punjab National Bank,SYN_P_0885,Chennai,INR,synthetic
+ACC_0886,XX000886,ICICI Bank,SYN_P_0886,Noida,INR,synthetic
+ACC_0887,XX000887,ICICI Bank,SYN_P_0887,Pune,INR,synthetic
+ACC_0888,XX000888,Bank of Baroda,SYN_P_0888,Ranchi,INR,synthetic
+ACC_0889,XX000889,ICICI Bank,SYN_P_0889,Chennai,INR,synthetic
+ACC_0890,XX000890,Axis Bank,SYN_P_0890,Bhopal,INR,synthetic
+ACC_0891,XX000891,Axis Bank,SYN_P_0891,Indore,INR,synthetic
+ACC_0892,XX000892,Axis Bank,SYN_P_0892,Ghaziabad,INR,synthetic
+ACC_0893,XX000893,Axis Bank,SYN_P_0893,Meerut,INR,synthetic
+ACC_0894,XX000894,Axis Bank,SYN_P_0894,Chandigarh,INR,synthetic
+ACC_0895,XX000895,ICICI Bank,SYN_P_0895,Patna,INR,synthetic
+ACC_0896,XX000896,State Bank of India,SYN_P_0896,Patna,INR,synthetic
+ACC_0897,XX000897,ICICI Bank,SYN_P_0897,Pune,INR,synthetic
+ACC_0898,XX000898,Axis Bank,SYN_P_0898,Kanpur,INR,synthetic
+ACC_0899,XX000899,Bank of Baroda,SYN_P_0899,Indore,INR,synthetic
+ACC_0900,XX000900,HDFC Bank,SYN_P_0900,Bhopal,INR,synthetic
+ACC_0901,XX000901,ICICI Bank,SYN_P_0901,Noida,INR,synthetic
+ACC_0902,XX000902,Bank of Baroda,SYN_P_0902,Kolkata,INR,synthetic
+ACC_0903,XX000903,State Bank of India,SYN_P_0903,Indore,INR,synthetic
+ACC_0904,XX000904,ICICI Bank,SYN_P_0904,Patna,INR,synthetic
+ACC_0905,XX000905,Axis Bank,SYN_P_0905,Indore,INR,synthetic
+ACC_0906,XX000906,Axis Bank,SYN_P_0906,Nagpur,INR,synthetic
+ACC_0907,XX000907,HDFC Bank,SYN_P_0907,Mumbai,INR,synthetic
+ACC_0908,XX000908,Punjab National Bank,SYN_P_0908,Ahmedabad,INR,synthetic
+ACC_0909,XX000909,HDFC Bank,SYN_P_0909,Meerut,INR,synthetic
+ACC_0910,XX000910,Punjab National Bank,SYN_P_0910,Delhi,INR,synthetic
+ACC_0911,XX000911,HDFC Bank,SYN_P_0911,Meerut,INR,synthetic
+ACC_0912,XX000912,Bank of Baroda,SYN_P_0912,Dehradun,INR,synthetic
+ACC_0913,XX000913,State Bank of India,SYN_P_0913,Chandigarh,INR,synthetic
+ACC_0914,XX000914,Punjab National Bank,SYN_P_0914,Hyderabad,INR,synthetic
+ACC_0915,XX000915,Punjab National Bank,SYN_P_0915,Bhubaneswar,INR,synthetic
+ACC_0916,XX000916,ICICI Bank,SYN_P_0916,Hyderabad,INR,synthetic
+ACC_0917,XX000917,HDFC Bank,SYN_P_0917,Chennai,INR,synthetic
+ACC_0918,XX000918,Punjab National Bank,SYN_P_0918,Kolkata,INR,synthetic
+ACC_0919,XX000919,Punjab National Bank,SYN_P_0919,Ranchi,INR,synthetic
+ACC_0920,XX000920,State Bank of India,SYN_P_0920,Kolkata,INR,synthetic
+ACC_0921,XX000921,Bank of Baroda,SYN_P_0921,Chandigarh,INR,synthetic
+ACC_0922,XX000922,State Bank of India,SYN_P_0922,Surat,INR,synthetic
+ACC_0923,XX000923,Axis Bank,SYN_P_0923,Pune,INR,synthetic
+ACC_0924,XX000924,State Bank of India,SYN_P_0924,Nagpur,INR,synthetic
+ACC_0925,XX000925,Bank of Baroda,SYN_P_0925,Surat,INR,synthetic
+ACC_0926,XX000926,ICICI Bank,SYN_P_0926,Patna,INR,synthetic
+ACC_0927,XX000927,ICICI Bank,SYN_P_0927,Kolkata,INR,synthetic
+ACC_0928,XX000928,Punjab National Bank,SYN_P_0928,Ranchi,INR,synthetic
+ACC_0929,XX000929,State Bank of India,SYN_P_0929,Hyderabad,INR,synthetic
+ACC_0930,XX000930,Bank of Baroda,SYN_P_0930,Lucknow,INR,synthetic
+ACC_0931,XX000931,State Bank of India,SYN_P_0931,Pune,INR,synthetic
+ACC_0932,XX000932,Punjab National Bank,SYN_P_0932,Delhi,INR,synthetic
+ACC_0933,XX000933,HDFC Bank,SYN_P_0933,Bengaluru,INR,synthetic
+ACC_0934,XX000934,ICICI Bank,SYN_P_0934,Meerut,INR,synthetic
+ACC_0935,XX000935,Punjab National Bank,SYN_P_0935,Haridwar,INR,synthetic
+ACC_0936,XX000936,HDFC Bank,SYN_P_0936,Ahmedabad,INR,synthetic
+ACC_0937,XX000937,HDFC Bank,SYN_P_0937,Ghaziabad,INR,synthetic
+ACC_0938,XX000938,Punjab National Bank,SYN_P_0938,Meerut,INR,synthetic
+ACC_0939,XX000939,Axis Bank,SYN_P_0939,Bhubaneswar,INR,synthetic
+ACC_0940,XX000940,Bank of Baroda,SYN_P_0940,Lucknow,INR,synthetic
+ACC_0941,XX000941,HDFC Bank,SYN_P_0941,Pune,INR,synthetic
+ACC_0942,XX000942,ICICI Bank,SYN_P_0942,Haridwar,INR,synthetic
+ACC_0943,XX000943,HDFC Bank,SYN_P_0943,Mumbai,INR,synthetic
+ACC_0944,XX000944,ICICI Bank,SYN_P_0944,Surat,INR,synthetic
+ACC_0945,XX000945,ICICI Bank,SYN_P_0945,Jaipur,INR,synthetic
+ACC_0946,XX000946,Axis Bank,SYN_P_0946,Hyderabad,INR,synthetic
+ACC_0947,XX000947,HDFC Bank,SYN_P_0947,Bengaluru,INR,synthetic
+ACC_0948,XX000948,Punjab National Bank,SYN_P_0948,Pune,INR,synthetic
+ACC_0949,XX000949,Bank of Baroda,SYN_P_0949,Bengaluru,INR,synthetic
+ACC_0950,XX000950,HDFC Bank,SYN_P_0950,Meerut,INR,synthetic
+ACC_0951,XX000951,State Bank of India,SYN_P_0951,Surat,INR,synthetic
+ACC_0952,XX000952,State Bank of India,SYN_P_0952,Bhubaneswar,INR,synthetic
+ACC_0953,XX000953,State Bank of India,SYN_P_0953,Ranchi,INR,synthetic
+ACC_0954,XX000954,Punjab National Bank,SYN_P_0954,Surat,INR,synthetic
+ACC_0955,XX000955,State Bank of India,SYN_P_0955,Mumbai,INR,synthetic
+ACC_0956,XX000956,Punjab National Bank,SYN_P_0956,Ghaziabad,INR,synthetic
+ACC_0957,XX000957,Axis Bank,SYN_P_0957,Haridwar,INR,synthetic
+ACC_0958,XX000958,Axis Bank,SYN_P_0958,Noida,INR,synthetic
+ACC_0959,XX000959,State Bank of India,SYN_P_0959,Ranchi,INR,synthetic
+ACC_0960,XX000960,HDFC Bank,SYN_P_0960,Meerut,INR,synthetic
+ACC_0961,XX000961,ICICI Bank,SYN_P_0961,Delhi,INR,synthetic
+ACC_0962,XX000962,ICICI Bank,SYN_P_0962,Mumbai,INR,synthetic
+ACC_0963,XX000963,State Bank of India,SYN_P_0963,Indore,INR,synthetic
+ACC_0964,XX000964,HDFC Bank,SYN_P_0964,Meerut,INR,synthetic
+ACC_0965,XX000965,Bank of Baroda,SYN_P_0965,Patna,INR,synthetic
+ACC_0966,XX000966,Bank of Baroda,SYN_P_0966,Kanpur,INR,synthetic
+ACC_0967,XX000967,HDFC Bank,SYN_P_0967,Bhubaneswar,INR,synthetic
+ACC_0968,XX000968,State Bank of India,SYN_P_0968,Chandigarh,INR,synthetic
+ACC_0969,XX000969,ICICI Bank,SYN_P_0969,Hyderabad,INR,synthetic
+ACC_0970,XX000970,Bank of Baroda,SYN_P_0970,Kanpur,INR,synthetic
+ACC_0971,XX000971,State Bank of India,SYN_P_0971,Chennai,INR,synthetic
+ACC_0972,XX000972,Axis Bank,SYN_P_0972,Kanpur,INR,synthetic
+ACC_0973,XX000973,Bank of Baroda,SYN_P_0973,Mumbai,INR,synthetic
+ACC_0974,XX000974,Axis Bank,SYN_P_0974,Chennai,INR,synthetic
+ACC_0975,XX000975,HDFC Bank,SYN_P_0975,Ahmedabad,INR,synthetic
+ACC_0976,XX000976,Bank of Baroda,SYN_P_0976,Surat,INR,synthetic
+ACC_0977,XX000977,ICICI Bank,SYN_P_0977,Chandigarh,INR,synthetic
+ACC_0978,XX000978,State Bank of India,SYN_P_0978,Nagpur,INR,synthetic
+ACC_0979,XX000979,State Bank of India,SYN_P_0979,Indore,INR,synthetic
+ACC_0980,XX000980,State Bank of India,SYN_P_0980,Kanpur,INR,synthetic
+ACC_0981,XX000981,Punjab National Bank,SYN_P_0981,Kanpur,INR,synthetic
+ACC_0982,XX000982,Bank of Baroda,SYN_P_0982,Indore,INR,synthetic
+ACC_0983,XX000983,Bank of Baroda,SYN_P_0983,Patna,INR,synthetic
+ACC_0984,XX000984,Bank of Baroda,SYN_P_0984,Ahmedabad,INR,synthetic
+ACC_0985,XX000985,Axis Bank,SYN_P_0985,Nagpur,INR,synthetic
+ACC_0986,XX000986,State Bank of India,SYN_P_0986,Delhi,INR,synthetic
+ACC_0987,XX000987,State Bank of India,SYN_P_0987,Bhubaneswar,INR,synthetic
+ACC_0988,XX000988,Bank of Baroda,SYN_P_0988,Bhopal,INR,synthetic
+ACC_0989,XX000989,Punjab National Bank,SYN_P_0989,Jaipur,INR,synthetic
+ACC_0990,XX000990,Punjab National Bank,SYN_P_0990,Surat,INR,synthetic
+ACC_0991,XX000991,HDFC Bank,SYN_P_0991,Kolkata,INR,synthetic
+ACC_0992,XX000992,State Bank of India,SYN_P_0992,Ahmedabad,INR,synthetic
+ACC_0993,XX000993,Bank of Baroda,SYN_P_0993,Nagpur,INR,synthetic
+ACC_0994,XX000994,Punjab National Bank,SYN_P_0994,Delhi,INR,synthetic
+ACC_0995,XX000995,Axis Bank,SYN_P_0995,Ranchi,INR,synthetic
+ACC_0996,XX000996,HDFC Bank,SYN_P_0996,Jaipur,INR,synthetic
+ACC_0997,XX000997,Punjab National Bank,SYN_P_0997,Jaipur,INR,synthetic
+ACC_0998,XX000998,ICICI Bank,SYN_P_0998,Dehradun,INR,synthetic
+ACC_0999,XX000999,ICICI Bank,SYN_P_0999,Ranchi,INR,synthetic
+ACC_1000,XX001000,Axis Bank,SYN_P_1000,Ghaziabad,INR,synthetic
+ACC_1001,XX001001,Punjab National Bank,SYN_P_1001,Kolkata,INR,synthetic
+ACC_1002,XX001002,Bank of Baroda,SYN_P_1002,Meerut,INR,synthetic
+ACC_1003,XX001003,State Bank of India,SYN_P_1003,Chennai,INR,synthetic
+ACC_1004,XX001004,ICICI Bank,SYN_P_1004,Kanpur,INR,synthetic
+ACC_1005,XX001005,ICICI Bank,SYN_P_1005,Pune,INR,synthetic
+ACC_1006,XX001006,Axis Bank,SYN_P_1006,Mumbai,INR,synthetic
+ACC_1007,XX001007,HDFC Bank,SYN_P_1007,Jaipur,INR,synthetic
+ACC_1008,XX001008,State Bank of India,SYN_P_1008,Surat,INR,synthetic
+ACC_1009,XX001009,ICICI Bank,SYN_P_1009,Meerut,INR,synthetic
+ACC_1010,XX001010,Bank of Baroda,SYN_P_1010,Dehradun,INR,synthetic
+ACC_1011,XX001011,Punjab National Bank,SYN_P_1011,Patna,INR,synthetic
+ACC_1012,XX001012,Axis Bank,SYN_P_1012,Bengaluru,INR,synthetic
+ACC_1013,XX001013,Axis Bank,SYN_P_1013,Hyderabad,INR,synthetic
+ACC_1014,XX001014,ICICI Bank,SYN_P_1014,Indore,INR,synthetic
+ACC_1015,XX001015,Axis Bank,SYN_P_1015,Mumbai,INR,synthetic
+ACC_1016,XX001016,State Bank of India,SYN_P_1016,Bhopal,INR,synthetic
+ACC_1017,XX001017,HDFC Bank,SYN_P_1017,Nagpur,INR,synthetic
+ACC_1018,XX001018,Axis Bank,SYN_P_1018,Bhopal,INR,synthetic
+ACC_1019,XX001019,Punjab National Bank,SYN_P_1019,Nagpur,INR,synthetic
+ACC_1020,XX001020,ICICI Bank,SYN_P_1020,Kolkata,INR,synthetic
+ACC_1021,XX001021,Axis Bank,SYN_P_1021,Meerut,INR,synthetic
+ACC_1022,XX001022,ICICI Bank,SYN_P_1022,Pune,INR,synthetic
+ACC_1023,XX001023,Bank of Baroda,SYN_P_1023,Pune,INR,synthetic
+ACC_1024,XX001024,Punjab National Bank,SYN_P_1024,Surat,INR,synthetic
+ACC_1025,XX001025,Punjab National Bank,SYN_P_1025,Bhopal,INR,synthetic
+ACC_1026,XX001026,HDFC Bank,SYN_P_1026,Kanpur,INR,synthetic
+ACC_1027,XX001027,Axis Bank,SYN_P_1027,Patna,INR,synthetic
+ACC_1028,XX001028,State Bank of India,SYN_P_1028,Ranchi,INR,synthetic
+ACC_1029,XX001029,Axis Bank,SYN_P_1029,Haridwar,INR,synthetic
+ACC_1030,XX001030,Bank of Baroda,SYN_P_1030,Bhopal,INR,synthetic
+ACC_1031,XX001031,Axis Bank,SYN_P_1031,Kolkata,INR,synthetic
+ACC_1032,XX001032,ICICI Bank,SYN_P_1032,Ghaziabad,INR,synthetic
+ACC_1033,XX001033,Punjab National Bank,SYN_P_1033,Patna,INR,synthetic
+ACC_1034,XX001034,Bank of Baroda,SYN_P_1034,Lucknow,INR,synthetic
+ACC_1035,XX001035,State Bank of India,SYN_P_1035,Mumbai,INR,synthetic
+ACC_1036,XX001036,Axis Bank,SYN_P_1036,Meerut,INR,synthetic
+ACC_1037,XX001037,HDFC Bank,SYN_P_1037,Chandigarh,INR,synthetic
+ACC_1038,XX001038,Punjab National Bank,SYN_P_1038,Haridwar,INR,synthetic
+ACC_1039,XX001039,State Bank of India,SYN_P_1039,Meerut,INR,synthetic
+ACC_1040,XX001040,Axis Bank,SYN_P_1040,Kanpur,INR,synthetic
