@@ -2,10 +2,8 @@ import { lazy, Suspense } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import AppLayout from "./components/layout/AppLayout";
-import { LanguageProvider } from "./i18n/LanguageContext";
-import { AuthProvider, useAuth } from "./auth/AuthContext";
-import Login from "./pages/Login";
-import { useLanguage } from "./i18n/LanguageContext";
+import { LanguageProvider, useLanguage } from "./i18n/LanguageContext";
+import { AuthProvider } from "./auth/AuthContext";
 import { MotionConfig } from "motion/react";
 import { PreferencesProvider } from "./preferences/PreferencesContext";
 
@@ -31,10 +29,7 @@ export default function App() {
 }
 
 function AuthenticatedApp() {
-  const { session, checking } = useAuth();
   const { t } = useLanguage();
-  if (checking) return <div className="auth-loading" role="status">{t("working")}</div>;
-  if (!session) return <Login />;
   return (
     <BrowserRouter>
       <Suspense fallback={<div className="state-panel" role="status">{t("working")}</div>}>

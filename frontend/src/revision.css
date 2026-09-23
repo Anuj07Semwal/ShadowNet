@@ -72,6 +72,15 @@
 .upload-dropzone strong {font-size:18px;}
 .upload-dropzone span {color:var(--color-muted-foreground);font-size:13px;}
 .upload-dropzone input {position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;clip-path:inset(50%);}
+[data-theme="dark"] .upload-dropzone, .dark .upload-dropzone {background:linear-gradient(135deg,#1c1e1f,#272a2c);border-color:#ba941a;color:var(--color-foreground);box-shadow:0 4px 16px rgba(0,0,0,0.25);}
+[data-theme="dark"] .upload-dropzone:hover, [data-theme="dark"] .upload-dropzone:focus-visible, [data-theme="dark"] .upload-dropzone.is-dragging, .dark .upload-dropzone:hover, .dark .upload-dropzone:focus-visible, .dark .upload-dropzone.is-dragging {background:#2b2e30;border-color:#f0cf68;box-shadow:0 8px 24px rgba(0,0,0,0.45);}
+[data-theme="dark"] .upload-dropzone svg, .dark .upload-dropzone svg {color:#f0cf68;}
+[data-theme="dark"] .upload-dropzone strong, .dark .upload-dropzone strong {color:var(--color-foreground);}
+[data-theme="dark"] .upload-dropzone span, .dark .upload-dropzone span {color:var(--color-muted-foreground);}
+[data-theme="dark"] .upload-progress-track, .dark .upload-progress-track {background:#3a3d3e;}
+[data-theme="dark"] .clear-upload:hover, .dark .clear-upload:hover {background:#3d361f;color:#f0cf68;}
+[data-theme="dark"] .upload-feedback.success, .dark .upload-feedback.success {background:#163628;color:#7fe0af;}
+[data-theme="dark"] .upload-feedback.error, .dark .upload-feedback.error {background:#3c1a19;color:#f59b97;}
 .selected-upload {display:flex;align-items:center;gap:11px;padding:12px;border:1px solid var(--color-border);background:var(--color-muted);}
 .selected-upload>div {display:grid;gap:3px;min-width:0;flex:1;}
 .selected-upload strong {overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}

@@ -26,10 +26,10 @@ class Neo4jClient:
     def verify_connection(self):
         try:
             self._get_driver().verify_connectivity()
-            print("✓ Neo4j connection successful")
+            print("[OK] Neo4j connection successful")
             return True
         except Exception as exc:  # pragma: no cover - defensive runtime handling
-            print(f"⚠ Neo4j unavailable: {exc}")
+            print(f"[WARN] Neo4j unavailable: {exc}")
             return False
 
     def execute(self, query, parameters=None):
@@ -43,7 +43,7 @@ class Neo4jClient:
                 result = session.run(query, parameters or {})
                 return result.consume()
         except Exception as exc:
-            print(f"⚠ Neo4j query failed: {exc}")
+            print(f"[WARN] Neo4j query failed: {exc}")
             return None
 
     def execute_read(self, query, parameters=None):
