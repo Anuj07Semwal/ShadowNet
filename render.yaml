@@ -1,0 +1,30 @@
+services:
+  - type: web
+    name: shadownet-api
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: APP_ENV
+        value: production
+      - key: NEO4J_URI
+        value: neo4j+s://f01a19fa.databases.neo4j.io
+      - key: NEO4J_USERNAME
+        value: f01a19fa
+      - key: NEO4J_PASSWORD
+        sync: false
+      - key: PINECONE_API_KEY
+        sync: false
+      - key: GOOGLE_API_KEY
+        sync: false
+      - key: SHADOWNET_AUTH_USERNAME
+        value: admin
+      - key: SHADOWNET_AUTH_PASSWORD
+        value: password123
+      - key: SHADOWNET_AUTH_ROLE
+        value: investigator
+      - key: ALLOW_RUNTIME_EMBEDDINGS
+        value: "false"
+      - key: ALLOWED_ORIGINS
+        value: "https://shadownet-ivory.vercel.app,https://shadownet-anuj07semwals-projects.vercel.app,http://localhost:5173"
