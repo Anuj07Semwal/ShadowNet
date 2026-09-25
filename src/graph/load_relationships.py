@@ -173,22 +173,25 @@ def load_relationship_file(
         SET r += row.properties
         """
 
-        summary = client.execute(
-            query,
-            {"rows": rows}
-        )
+        batch_size = 1000
+        batch_failed = False
+        for i in range(0, len(rows), batch_size):
+            chunk = rows[i:i + batch_size]
+            summary = client.execute(
+                query,
+                {"rows": chunk}
+            )
+            if summary is None:
+                batch_failed = True
+                skipped += len(chunk)
+                print(f"  ⚠ {relationship_type}: Neo4j rejected batch {i // batch_size + 1} ({len(chunk):,} rows)")
 
-        if summary is None:
-            skipped += len(rows)
-            print(f"  ⚠ {relationship_type}: Neo4j rejected {len(rows):,} rows")
-            continue
-
-        total += len(rows)
-
-        print(
-            f"  ✓ {relationship_type}: "
-            f"{len(rows):,}"
-        )
+        if not batch_failed:
+            total += len(rows)
+            print(
+                f"  ✓ {relationship_type}: "
+                f"{len(rows):,}"
+            )
 
     print(
         f"✓ {filename}: {total:,} relationships"

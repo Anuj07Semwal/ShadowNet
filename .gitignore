@@ -128,3 +128,4 @@ Thumbs.db
 *.temp
 *.swp
 *.swo
+.vercel
