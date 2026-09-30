@@ -18,7 +18,20 @@ export default function Header({ onSearch, onMenu }: HeaderProps) {
   const [message, setMessage] = useState("");
 
   useEffect(() => {
-    api.get("/health").then(() => setConnected(true)).catch(() => setConnected(false));
+    let attempts = 0;
+    const checkHealth = () => {
+      api.get("/health")
+        .then(() => setConnected(true))
+        .catch(() => {
+          attempts++;
+          if (attempts < 5) {
+            setTimeout(checkHealth, 5000); // Retry every 5 seconds
+          } else {
+            setConnected(false);
+          }
+        });
+    };
+    checkHealth();
   }, []);
 
   function submit(event: FormEvent) {
