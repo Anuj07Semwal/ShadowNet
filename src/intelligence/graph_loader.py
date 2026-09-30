@@ -74,12 +74,12 @@ def load_person_graph():
                 )
 
         print(
-            f"✓ NetworkX graph loaded: "
+            f"[OK] NetworkX graph loaded: "
             f"{graph.number_of_nodes():,} persons"
         )
 
         print(
-            f"✓ NetworkX edges: "
+            f"[OK] NetworkX edges: "
             f"{graph.number_of_edges():,}"
         )
 

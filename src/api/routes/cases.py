@@ -17,7 +17,7 @@ def list_cases():
                  count(r) AS evidence_count,
                  coalesce(p.community_id, 'Unassigned') AS community_id,
                  coalesce(p.pagerank, 0.0) AS pagerank,
-                 coalesce(p.degree, 0) AS degree
+                 coalesce(p.degree, COUNT { (p)--() }, 0) AS degree
             RETURN
                 p.person_id AS id,
                 coalesce(p.name, p.person_id) AS name,

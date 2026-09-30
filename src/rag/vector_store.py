@@ -1,6 +1,4 @@
-
 from pinecone import Pinecone
-from langchain_huggingface import HuggingFaceEmbeddings
 from src.config import settings
 
 
@@ -37,6 +35,7 @@ class CNASPineconeStore:
                 print("[WARNING] Loading embeddings for ingest; ensure this runs offline")
 
             print("[Embeddings] Loading model: BAAI/bge-m3")
+            from langchain_huggingface import HuggingFaceEmbeddings
             self.embeddings = HuggingFaceEmbeddings(
                 model_name="BAAI/bge-m3",
                 model_kwargs={"device": "cpu"},

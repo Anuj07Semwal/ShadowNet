@@ -38,7 +38,7 @@ def main():
 
     print()
     print(
-        "✓ CNAS graph intelligence "
+        "[OK] CNAS graph intelligence "
         "pipeline completed"
     )
 

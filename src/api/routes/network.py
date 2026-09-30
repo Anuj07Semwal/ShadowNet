@@ -80,7 +80,7 @@ def top_persons(
     RETURN
         p.person_id AS person_id,
         p.name AS name,
-        p.degree AS degree,
+        coalesce(p.degree, COUNT { (p)--() }, 0) AS degree,
         p.degree_centrality AS degree_centrality,
         p.betweenness AS betweenness,
         p.pagerank AS pagerank,

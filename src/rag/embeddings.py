@@ -1,5 +1,3 @@
-from langchain_huggingface import HuggingFaceEmbeddings
-
 from src.rag.config import EMBEDDING_MODEL
 
 
@@ -12,6 +10,7 @@ class CNASEmbeddings:
             f"{EMBEDDING_MODEL}"
         )
 
+        from langchain_huggingface import HuggingFaceEmbeddings
         self.model = HuggingFaceEmbeddings(
             model_name=EMBEDDING_MODEL,
             model_kwargs={

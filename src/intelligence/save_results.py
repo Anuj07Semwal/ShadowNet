@@ -21,7 +21,7 @@ def save_results(results):
         })
 
         SET
-            p.degree = row.degree,
+            p.degree = coalesce(p.degree, row.degree),
             p.degree_centrality =
                 row.degree_centrality,
             p.betweenness =
@@ -50,7 +50,7 @@ def save_results(results):
         )
 
         print(
-            f"✓ Intelligence saved "
+            f"[OK] Intelligence saved "
             f"for {updated:,} persons"
         )
 
