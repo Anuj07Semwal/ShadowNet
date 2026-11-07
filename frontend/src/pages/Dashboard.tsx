@@ -13,13 +13,48 @@ export default function Dashboard() {
   const [data, setData] = useState<WorkspaceDashboard | null>(null);
   const [error, setError] = useState("");
   const [retry, setRetry] = useState(0);
+  const [attempt, setAttempt] = useState(1);
 
   useEffect(() => {
-    getWorkspaceDashboard().then(setData).catch(() => setError(t("backendReason")));
+    let active = true;
+    let attempts = 0;
+    const maxAttempts = 6;
+
+    const fetchDashboard = () => {
+      getWorkspaceDashboard()
+        .then((res) => {
+          if (active) {
+            setData(res);
+            setError("");
+          }
+        })
+        .catch(() => {
+          if (!active) return;
+          attempts++;
+          setAttempt(attempts + 1);
+          if (attempts < maxAttempts) {
+            setTimeout(fetchDashboard, 4000);
+          } else {
+            setError(t("backendReason"));
+          }
+        });
+    };
+
+    fetchDashboard();
+    return () => {
+      active = false;
+    };
   }, [retry, t]);
 
-  if (error) return <div className="state-panel state-error" role="alert"><ShieldAlert size={30} /><div><h2>{t("backendError")}</h2><p>{error}</p></div><button type="button" onClick={() => { setError(""); setData(null); setRetry((v) => v + 1); }}><RefreshCw size={17} />{t("retry")}</button></div>;
-  if (!data) return <div className="state-panel" role="status">{t("loadingFir")}...</div>;
+  if (error) return <div className="state-panel state-error" role="alert"><ShieldAlert size={30} /><div><h2>{t("backendError")}</h2><p>{error}</p></div><button type="button" onClick={() => { setError(""); setData(null); setAttempt(1); setRetry((v) => v + 1); }}><RefreshCw size={17} />{t("retry")}</button></div>;
+  if (!data) return (
+    <div className="state-panel" role="status">
+      <div>
+        <h2>{t("loadingFir")}...</h2>
+        {attempt > 1 && <p>{t("checking")} (attempt {attempt}/6)...</p>}
+      </div>
+    </div>
+  );
 
   const cards = [
     { label: t("myInvestigations"), value: data.investigation_count, icon: FolderSearch2, color: "blue" },
